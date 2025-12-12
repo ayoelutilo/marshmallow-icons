@@ -14,3 +14,4 @@ packages/icons/src/generated/*
 !packages/icons/src/generated/index.ts
 
 
+.vercel
