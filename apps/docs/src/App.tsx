@@ -16,10 +16,28 @@ export function App() {
       return (
         m.id.toLowerCase().includes(q) ||
         m.componentName.toLowerCase().includes(q) ||
-        m.filePath.toLowerCase().includes(q)
+        m.filePath.toLowerCase().includes(q) ||
+        m.category.toLowerCase().includes(q) ||
+        m.tags.some(tag => tag.toLowerCase().includes(q))
       );
     });
   }, [query]);
+
+  const grouped = useMemo(() => {
+    const groups = new Map<string, typeof iconsMeta>();
+    
+    for (const icon of filtered) {
+      const category = icon.category || "Other";
+      if (!groups.has(category)) {
+        groups.set(category, []);
+      }
+      groups.get(category)!.push(icon);
+    }
+    
+    return Array.from(groups.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([category, icons]) => ({ category, icons }));
+  }, [filtered]);
 
   return (
     <div className="page">
@@ -53,37 +71,44 @@ export function App() {
         </div>
       </header>
 
-      <main className="grid">
+      <main className="content">
         {filtered.length === 0 ? (
           <div className="empty">
             <h2>No icons found</h2>
             <p className="muted">
-              If you haven’t generated icons yet, run{" "}
+              If you haven't generated icons yet, run{" "}
               <code>npm run icons:generate</code> at the repo root.
             </p>
           </div>
         ) : (
-          filtered.map((m) => {
-          const Comp = icons[m.id as IconName];
-          const importLine = `import { ${m.componentName} } from "marshmallow-icons";`;
-          return (
-            <button
-              key={m.id}
-              className="card"
-              onClick={() => copy(importLine)}
-              title="Click to copy import"
-              type="button"
-            >
-              <div className="iconWrap">
-                {Comp ? <Comp width={size} height={size} /> : <span>?</span>}
+          grouped.map(({ category, icons: categoryIcons }) => (
+            <section key={category} className="category-section">
+              <h2 className="category-title">{category}</h2>
+              <div className="grid">
+                {categoryIcons.map((m) => {
+                  const Comp = icons[m.id as IconName];
+                  const importLine = `import { ${m.componentName} } from "marshmallow-icons";`;
+                  return (
+                    <button
+                      key={m.id}
+                      className="card"
+                      onClick={() => copy(importLine)}
+                      title="Click to copy import"
+                      type="button"
+                    >
+                      <div className="iconWrap">
+                        {Comp ? <Comp width={size} height={size} /> : <span>?</span>}
+                      </div>
+                      <div className="meta">
+                        <div className="name mono">{m.componentName}</div>
+                        <div className="id mono">{m.id}</div>
+                      </div>
+                    </button>
+                  );
+                })}
               </div>
-              <div className="meta">
-                <div className="name mono">{m.componentName}</div>
-                <div className="id mono">{m.id}</div>
-              </div>
-            </button>
-          );
-          })
+            </section>
+          ))
         )}
       </main>
     </div>
