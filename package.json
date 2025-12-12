@@ -1,0 +1,17 @@
+{
+  "name": "marshmallow-unified-design-system",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "icons:generate": "npm -w marshmallow-icons run generate",
+    "icons:build": "npm -w marshmallow-icons run build",
+    "docs:dev": "npm run icons:generate && npm -w @marshmallow/uds-docs run dev",
+    "docs:build": "npm run icons:generate && npm -w @marshmallow/uds-docs run build",
+    "build": "npm run icons:build && npm run docs:build"
+  }
+}
+
+
