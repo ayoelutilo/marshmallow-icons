@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && mkdir -p dist && npm run docs:build && ls -la dist",
+  "buildCommand": "npm install && mkdir -p dist && npm -w marshmallow-icons run generate && npm -w @marshmallow/uds-docs run build && ls -la dist",
   "outputDirectory": "dist",
   "installCommand": "npm install"
 }
