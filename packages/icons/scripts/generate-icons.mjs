@@ -161,10 +161,37 @@ export default ${componentName};
     const outFile = path.join(outDir, `${componentName}.tsx`);
     await fs.writeFile(outFile, tsx, "utf8");
 
+    // Extract category and tags from file path
+    const pathParts = relFromRepo.split("/").filter(Boolean);
+    const category = pathParts.length > 1 ? pathParts[pathParts.length - 2] : "default";
+    const tags = [];
+    
+    // Add style tags (bold, linear, outline, twotone, bulk, broken)
+    if (category === "bold" || category === "linear" || category === "outline" || 
+        category === "twotone" || category === "bulk" || category === "broken") {
+      tags.push(category);
+    }
+    
+    // Extract semantic name from filename (remove Property 1= prefix, numbers, etc.)
+    const semanticName = rawName
+      .replace(/^Property\s*1=/i, "")
+      .replace(/^(\d+)$/, "") // Remove pure numbers
+      .replace(/^(\w+)-(\d+)$/, "$1") // Remove trailing numbers
+      .replace(/[^a-zA-Z0-9]+/g, " ")
+      .trim()
+      .toLowerCase();
+    
+    if (semanticName && semanticName !== componentName.toLowerCase()) {
+      tags.push(semanticName);
+    }
+
     items.push({
       id: relFromRepo.replace(/\.svg$/i, ""),
       componentName,
-      filePath: relFromRepo
+      filePath: relFromRepo,
+      category,
+      tags: tags.filter(Boolean),
+      name: semanticName || componentName.toLowerCase()
     });
   }
 
@@ -213,8 +240,9 @@ export default ${componentName};
   exportLines.push("");
   exportLines.push("export const iconsMeta = [");
   for (const it of items) {
+    const tagsStr = JSON.stringify(it.tags || []);
     exportLines.push(
-      `  { id: "${it.id}", componentName: "${it.componentName}", filePath: "${it.filePath}" },`
+      `  { id: "${it.id}", componentName: "${it.componentName}", filePath: "${it.filePath}", category: "${it.category || "default"}", tags: ${tagsStr}, name: "${it.name || it.componentName.toLowerCase()}" },`
     );
   }
   exportLines.push("] as const;");

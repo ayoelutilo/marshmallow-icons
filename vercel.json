@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npm run icons:generate && cd apps/docs && npm install && npm run build",
+  "buildCommand": "npm install && npm run -w . icons:generate && cd apps/docs && npm install && npm run build",
   "outputDirectory": "apps/docs/dist",
   "framework": "vite"
 }
