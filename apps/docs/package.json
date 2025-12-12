@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "marshmallow-icons": "workspace:*",
+    "marshmallow-icons": "file:../../packages/icons",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

@@ -31,7 +31,7 @@ function toPascalCase(input) {
     .filter(Boolean);
 
   const name = parts
-    .map((p) => p.charAt(0).toUpperCase() + p.slice(1))
+    .map((p) => p.charAt(0).toUpperCase() + p.slice(1).toLowerCase())
     .join("");
 
   if (!name) return "Icon";
@@ -57,8 +57,10 @@ async function walk(dir, results) {
 }
 
 async function main() {
+  const assetsRoot = path.resolve(repoRoot, "assets", "svg");
   const svgFiles = [];
   await walk(assetsRoot, svgFiles);
+  console.log(`Found ${svgFiles.length} SVG files`);
 
   await fs.mkdir(outDir, { recursive: true });
 
@@ -69,6 +71,7 @@ async function main() {
   );
 
   const usedComponentNames = new Map(); // name -> count
+  const normalizedNames = new Map(); // lowercase name -> canonical name
   const items = [];
 
   for (const svgAbsPath of svgFiles.sort()) {
@@ -77,35 +80,83 @@ async function main() {
     const rawName = base.replace(/\.svg$/i, "");
 
     let componentName = toPascalCase(rawName);
+    const normalizedKey = componentName.toLowerCase();
+    
+    // Handle case conflicts - use first casing we see
+    if (normalizedNames.has(normalizedKey)) {
+      const canonicalName = normalizedNames.get(normalizedKey);
+      if (canonicalName !== componentName) {
+        // Case conflict - use canonical name
+        componentName = canonicalName;
+      }
+    } else {
+      normalizedNames.set(normalizedKey, componentName);
+    }
+    
     const count = usedComponentNames.get(componentName) ?? 0;
     usedComponentNames.set(componentName, count + 1);
     if (count > 0) componentName = `${componentName}${count + 1}`;
 
     const svgCode = await fs.readFile(svgAbsPath, "utf8");
 
-    const tsx = await transform(
-      svgCode,
-      {
-        typescript: true,
-        icon: true,
-        expandProps: "end",
-        svgo: true,
-        svgoConfig: {
-          plugins: [
-            {
-              name: "preset-default",
-              params: {
-                overrides: {
-                  // keep viewBox so icons scale properly
-                  removeViewBox: false
-                }
-              }
-            }
-          ]
-        }
-      },
-      { componentName }
-    );
+    // Simple manual conversion: wrap SVG in React component
+    let cleanSvg = svgCode.trim();
+    
+    if (!cleanSvg || cleanSvg.length === 0) {
+      console.warn(`Skipping ${svgAbsPath}: empty file`);
+      continue;
+    }
+    
+    // Extract SVG tag and content using regex - be more flexible
+    let svgMatch = cleanSvg.match(/<svg\s+([^>]*)>([\s\S]*?)<\/svg>/i);
+    if (!svgMatch) {
+      // Try with optional whitespace
+      svgMatch = cleanSvg.match(/<svg([^>]*)>([\s\S]*?)<\/svg>/i);
+    }
+    if (!svgMatch) {
+      // Try without attributes
+      const simpleMatch = cleanSvg.match(/<svg>([\s\S]*?)<\/svg>/i);
+      if (!simpleMatch) {
+        console.warn(`Skipping ${svgAbsPath}: invalid SVG format - first 100 chars: ${cleanSvg.substring(0, 100)}`);
+        continue;
+      }
+      const svgContent = simpleMatch[1].trim();
+      const tsx = `import * as React from "react";
+import { SVGProps } from "react";
+
+const ${componentName} = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props}>
+${svgContent.split('\n').map(line => `    ${line}`).join('\n')}
+  </svg>
+);
+
+export default ${componentName};
+`;
+      const outFile = path.join(outDir, `${componentName}.tsx`);
+      await fs.writeFile(outFile, tsx, "utf8");
+      items.push({
+        id: relFromRepo.replace(/\.svg$/i, ""),
+        componentName,
+        filePath: relFromRepo
+      });
+      continue;
+    }
+    
+    const svgAttrs = svgMatch[1].trim();
+    const svgContent = svgMatch[2].trim();
+    
+    // Create React component
+    const tsx = `import * as React from "react";
+import { SVGProps } from "react";
+
+const ${componentName} = (props: SVGProps<SVGSVGElement>) => (
+  <svg ${svgAttrs} {...props}>
+${svgContent.split('\n').map(line => `    ${line}`).join('\n')}
+  </svg>
+);
+
+export default ${componentName};
+`;
 
     const outFile = path.join(outDir, `${componentName}.tsx`);
     await fs.writeFile(outFile, tsx, "utf8");
@@ -127,9 +178,22 @@ async function main() {
   exportLines.push('import type { ComponentType, SVGProps } from "react";');
   exportLines.push("");
 
-  for (const it of items) {
+  // Get unique component names
+  const uniqueComponents = new Set(items.map(it => it.componentName));
+  
+  // Import all unique components
+  for (const compName of Array.from(uniqueComponents).sort()) {
     exportLines.push(
-      `export { default as ${it.componentName} } from "./${it.componentName}";`
+      `import ${compName} from "./${compName}";`
+    );
+  }
+
+  exportLines.push("");
+
+  // Re-export all components
+  for (const compName of Array.from(uniqueComponents).sort()) {
+    exportLines.push(
+      `export { default as ${compName} } from "./${compName}";`
     );
   }
 
