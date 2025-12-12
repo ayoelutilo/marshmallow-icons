@@ -163,26 +163,45 @@ export default ${componentName};
 
     // Extract category and tags from file path
     const pathParts = relFromRepo.split("/").filter(Boolean);
-    const category = pathParts.length > 1 ? pathParts[pathParts.length - 2] : "default";
+    // Get the parent directory name (category)
+    let category = "default";
+    if (pathParts.length > 2 && pathParts[0] === "assets" && pathParts[1] === "svg") {
+      // For vuesax/icons, use the style directory (bold, linear, etc.)
+      if (pathParts[2] === "vuesax" && pathParts.length > 3) {
+        category = pathParts[3]; // bold, linear, outline, twotone, bulk, broken
+      } else if (pathParts.length > 2) {
+        category = pathParts[2]; // Other categories
+      }
+    }
+    
     const tags = [];
     
     // Add style tags (bold, linear, outline, twotone, bulk, broken)
-    if (category === "bold" || category === "linear" || category === "outline" || 
-        category === "twotone" || category === "bulk" || category === "broken") {
+    const styleTags = ["bold", "linear", "outline", "twotone", "bulk", "broken"];
+    if (styleTags.includes(category)) {
       tags.push(category);
     }
     
     // Extract semantic name from filename (remove Property 1= prefix, numbers, etc.)
-    const semanticName = rawName
+    let semanticName = rawName
       .replace(/^Property\s*1=/i, "")
       .replace(/^(\d+)$/, "") // Remove pure numbers
-      .replace(/^(\w+)-(\d+)$/, "$1") // Remove trailing numbers
+      .replace(/^(\w+)-(\d+)$/, "$1") // Remove trailing numbers like "bold-1" -> "bold"
       .replace(/[^a-zA-Z0-9]+/g, " ")
       .trim()
       .toLowerCase();
     
-    if (semanticName && semanticName !== componentName.toLowerCase()) {
-      tags.push(semanticName);
+    // If we have a meaningful semantic name, add it as a tag
+    if (semanticName && semanticName.length > 1 && !/^\d+$/.test(semanticName)) {
+      // Don't add if it's just the style name
+      if (!styleTags.includes(semanticName)) {
+        tags.push(semanticName);
+      }
+    }
+    
+    // Use component name as fallback for name field
+    if (!semanticName || semanticName.length < 2) {
+      semanticName = componentName.toLowerCase();
     }
 
     items.push({
