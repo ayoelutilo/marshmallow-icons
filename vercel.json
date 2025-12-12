@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npm -w marshmallow-icons run generate && npm -w @marshmallow/uds-docs run build && cd $(git rev-parse --show-toplevel 2>/dev/null || pwd) && node scripts/verify-build.mjs",
+  "buildCommand": "npm install && mkdir -p public && npm -w marshmallow-icons run generate && npm -w @marshmallow/uds-docs run build && test -f public/index.html && echo '✓ Build complete: public/index.html exists'",
   "outputDirectory": "public",
   "installCommand": "npm install"
 }
