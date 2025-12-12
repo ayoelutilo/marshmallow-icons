@@ -161,49 +161,51 @@ export default ${componentName};
     const outFile = path.join(outDir, `${componentName}.tsx`);
     await fs.writeFile(outFile, tsx, "utf8");
 
-    // Extract category and tags from file path
-    const pathParts = relFromRepo.split("/").filter(Boolean);
-    // Get the parent directory name (category)
-    let category = "default";
-    if (pathParts.length >= 2 && pathParts[0] === "assets" && pathParts[1] === "svg") {
-      // For vuesax/icons, use the style directory (bold, linear, etc.)
-      if (pathParts.length >= 4 && pathParts[2] === "vuesax") {
-        category = pathParts[3]; // bold, linear, outline, twotone, bulk, broken
-      } else if (pathParts.length >= 3) {
-        category = pathParts[2]; // Other top-level categories
-      } else {
-        category = "root"; // Files directly in assets/svg/
-      }
-    }
-    
-    const tags = [];
-    
-    // Add style tags (bold, linear, outline, twotone, bulk, broken)
+    // Extract semantic name from filename
     const styleTags = ["bold", "linear", "outline", "twotone", "bulk", "broken"];
-    if (styleTags.includes(category)) {
-      tags.push(category);
-    }
-    
-    // Extract semantic name from filename (remove Property 1= prefix, numbers, etc.)
     let semanticName = rawName
       .replace(/^Property\s*1=/i, "")
+      .replace(/^(bold|linear|outline|twotone|bulk|broken)[-\s]/i, "") // Remove style prefix
       .replace(/^(\d+)$/, "") // Remove pure numbers
-      .replace(/^(\w+)-(\d+)$/, "$1") // Remove trailing numbers like "bold-1" -> "bold"
+      .replace(/[-\s](\d+)$/, "") // Remove trailing numbers like "icon-1" -> "icon"
       .replace(/[^a-zA-Z0-9]+/g, " ")
       .trim()
       .toLowerCase();
     
-    // If we have a meaningful semantic name, add it as a tag
-    if (semanticName && semanticName.length > 1 && !/^\d+$/.test(semanticName)) {
-      // Don't add if it's just the style name
-      if (!styleTags.includes(semanticName)) {
-        tags.push(semanticName);
+    // Use component name as fallback for name field
+    if (!semanticName || semanticName.length < 2 || styleTags.includes(semanticName)) {
+      semanticName = componentName.toLowerCase();
+    }
+    
+    // Extract category from semantic name - use the base icon name (first significant word)
+    // Remove numbers and get the main word
+    let category = semanticName
+      .replace(/^\d+\s*/, "") // Remove leading numbers like "24 support" -> "support"
+      .split(" ")[0] || "other";
+    
+    // Group single-letter or very short names into "Other"
+    if (category.length <= 1) {
+      category = "Other";
+    }
+    
+    // Capitalize category for display
+    category = category.charAt(0).toUpperCase() + category.slice(1);
+    
+    const tags = [];
+    
+    // Extract style from path
+    const pathParts = relFromRepo.split("/").filter(Boolean);
+    if (pathParts.length >= 4 && pathParts[2] === "vuesax") {
+      const style = pathParts[3]; // bold, linear, outline, twotone, bulk, broken
+      if (styleTags.includes(style)) {
+        tags.push(style);
       }
     }
     
-    // Use component name as fallback for name field
-    if (!semanticName || semanticName.length < 2) {
-      semanticName = componentName.toLowerCase();
+    // Add semantic name parts as tags
+    if (semanticName && semanticName.length > 1) {
+      const parts = semanticName.split(" ").filter(p => p.length > 2 && !styleTags.includes(p));
+      tags.push(...parts);
     }
 
     items.push({
