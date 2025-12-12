@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npm run docs:build",
+  "buildCommand": "npm install && mkdir -p dist && npm run docs:build && ls -la dist",
   "outputDirectory": "dist",
   "installCommand": "npm install"
 }
