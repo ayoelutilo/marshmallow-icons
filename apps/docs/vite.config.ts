@@ -4,6 +4,9 @@ import path from "node:path";
 
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: "dist"
+  },
   resolve: {
     alias: {
       // Use source during docs dev, so we don't require a pre-built dist/.
