@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npm -w marshmallow-icons run generate && npm -w @marshmallow/uds-docs run build",
+  "buildCommand": "npm install && npm run docs:build",
   "outputDirectory": "dist",
   "installCommand": "npm install"
 }
