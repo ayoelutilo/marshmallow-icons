@@ -165,12 +165,14 @@ export default ${componentName};
     const pathParts = relFromRepo.split("/").filter(Boolean);
     // Get the parent directory name (category)
     let category = "default";
-    if (pathParts.length > 2 && pathParts[0] === "assets" && pathParts[1] === "svg") {
+    if (pathParts.length >= 2 && pathParts[0] === "assets" && pathParts[1] === "svg") {
       // For vuesax/icons, use the style directory (bold, linear, etc.)
-      if (pathParts[2] === "vuesax" && pathParts.length > 3) {
+      if (pathParts.length >= 4 && pathParts[2] === "vuesax") {
         category = pathParts[3]; // bold, linear, outline, twotone, bulk, broken
-      } else if (pathParts.length > 2) {
-        category = pathParts[2]; // Other categories
+      } else if (pathParts.length >= 3) {
+        category = pathParts[2]; // Other top-level categories
+      } else {
+        category = "root"; // Files directly in assets/svg/
       }
     }
     
