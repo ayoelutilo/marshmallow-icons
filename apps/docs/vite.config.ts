@@ -5,7 +5,10 @@ import path from "node:path";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: "dist"
+    // Output to repo root so Vercel (and other hosts) can consistently detect `dist/`
+    // even when deploying from a monorepo.
+    outDir: path.resolve(__dirname, "../../dist"),
+    emptyOutDir: true
   },
   resolve: {
     alias: {
