@@ -25,5 +25,3 @@ import { LinearPlay } from "marshmallow-icons";
 npm run -w marshmallow-icons generate
 npm run -w marshmallow-icons build
 ```
-
-

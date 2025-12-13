@@ -2,7 +2,20 @@
   "name": "marshmallow-icons",
   "version": "0.1.0",
   "description": "Marshmallow UDS SVG icons as React components",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "The Don't Stop Brand Inc operating as Marshmallow Studio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayoelutilo/marshmallow-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "components",
+    "marshmallow",
+    "design-system"
+  ],
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
