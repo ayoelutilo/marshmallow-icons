@@ -276,7 +276,6 @@ import Blur3 from "./Blur3";
 import Blur4 from "./Blur4";
 import Bold37 from "./Bold37";
 import BoldsAddSquare from "./BoldsAddSquare";
-import BoldsBarbell from "./BoldsBarbell";
 import BoldsBattery from "./BoldsBattery";
 import BoldsBookmark from "./BoldsBookmark";
 import BoldsCamera from "./BoldsCamera";
@@ -290,6 +289,7 @@ import BoldsChevronRightLine from "./BoldsChevronRightLine";
 import BoldsClipboard from "./BoldsClipboard";
 import BoldsContrast from "./BoldsContrast";
 import BoldsCopy from "./BoldsCopy";
+import BoldsDislike from "./BoldsDislike";
 import BoldsDocument from "./BoldsDocument";
 import BoldsDocumentBlank from "./BoldsDocumentBlank";
 import BoldsDocumentText from "./BoldsDocumentText";
@@ -300,7 +300,6 @@ import BoldsFolderFavorite from "./BoldsFolderFavorite";
 import BoldsGallery from "./BoldsGallery";
 import BoldsHome from "./BoldsHome";
 import BoldsKey from "./BoldsKey";
-import BoldsLike from "./BoldsLike";
 import BoldsLocation from "./BoldsLocation";
 import BoldsLock from "./BoldsLock";
 import BoldsLogout from "./BoldsLogout";
@@ -361,7 +360,6 @@ import BrifecaseTimer2 from "./BrifecaseTimer2";
 import Broken37 from "./Broken37";
 import BrokenAddSquare from "./BrokenAddSquare";
 import BrokenBarbell from "./BrokenBarbell";
-import BrokenBattery from "./BrokenBattery";
 import BrokenBookmark from "./BrokenBookmark";
 import BrokenCamera from "./BrokenCamera";
 import BrokenChart from "./BrokenChart";
@@ -374,6 +372,7 @@ import BrokenChevronRightLine from "./BrokenChevronRightLine";
 import BrokenClipboard from "./BrokenClipboard";
 import BrokenContrast from "./BrokenContrast";
 import BrokenCopy from "./BrokenCopy";
+import BrokenDislike from "./BrokenDislike";
 import BrokenDocument from "./BrokenDocument";
 import BrokenDocumentBlank from "./BrokenDocumentBlank";
 import BrokenDocumentText from "./BrokenDocumentText";
@@ -384,7 +383,6 @@ import BrokenFolderFavorite from "./BrokenFolderFavorite";
 import BrokenGallery from "./BrokenGallery";
 import BrokenHome from "./BrokenHome";
 import BrokenKey from "./BrokenKey";
-import BrokenLike from "./BrokenLike";
 import BrokenLocation from "./BrokenLocation";
 import BrokenLock from "./BrokenLock";
 import BrokenLogout from "./BrokenLogout";
@@ -930,7 +928,6 @@ import Facebook4 from "./Facebook4";
 import Facebook5 from "./Facebook5";
 import Facebook6 from "./Facebook6";
 import FadeAddSquare from "./FadeAddSquare";
-import FadeBarbell from "./FadeBarbell";
 import FadeBattery from "./FadeBattery";
 import FadeBookmark from "./FadeBookmark";
 import FadeCamera from "./FadeCamera";
@@ -1406,7 +1403,6 @@ import LikeShapes2 from "./LikeShapes2";
 import LikeTag from "./LikeTag";
 import LikeTag2 from "./LikeTag2";
 import LinearAddSquare from "./LinearAddSquare";
-import LinearBarbell from "./LinearBarbell";
 import LinearBattery from "./LinearBattery";
 import LinearBookmark from "./LinearBookmark";
 import LinearCamera from "./LinearCamera";
@@ -2467,7 +2463,6 @@ import Twitch6 from "./Twitch6";
 import Twotone37 from "./Twotone37";
 import TwotoneAddSquare from "./TwotoneAddSquare";
 import TwotoneAltAddSquare from "./TwotoneAltAddSquare";
-import TwotoneAltBarbell from "./TwotoneAltBarbell";
 import TwotoneAltBattery from "./TwotoneAltBattery";
 import TwotoneAltBookmark from "./TwotoneAltBookmark";
 import TwotoneAltCamera from "./TwotoneAltCamera";
@@ -2509,7 +2504,6 @@ import TwotoneAltTrash from "./TwotoneAltTrash";
 import TwotoneAltUnlock from "./TwotoneAltUnlock";
 import TwotoneAltUpload from "./TwotoneAltUpload";
 import TwotoneAltUser from "./TwotoneAltUser";
-import TwotoneBarbell from "./TwotoneBarbell";
 import TwotoneBattery from "./TwotoneBattery";
 import TwotoneBookmark from "./TwotoneBookmark";
 import TwotoneCamera from "./TwotoneCamera";
@@ -3036,7 +3030,6 @@ export { default as Blur3 } from "./Blur3";
 export { default as Blur4 } from "./Blur4";
 export { default as Bold37 } from "./Bold37";
 export { default as BoldsAddSquare } from "./BoldsAddSquare";
-export { default as BoldsBarbell } from "./BoldsBarbell";
 export { default as BoldsBattery } from "./BoldsBattery";
 export { default as BoldsBookmark } from "./BoldsBookmark";
 export { default as BoldsCamera } from "./BoldsCamera";
@@ -3050,6 +3043,7 @@ export { default as BoldsChevronRightLine } from "./BoldsChevronRightLine";
 export { default as BoldsClipboard } from "./BoldsClipboard";
 export { default as BoldsContrast } from "./BoldsContrast";
 export { default as BoldsCopy } from "./BoldsCopy";
+export { default as BoldsDislike } from "./BoldsDislike";
 export { default as BoldsDocument } from "./BoldsDocument";
 export { default as BoldsDocumentBlank } from "./BoldsDocumentBlank";
 export { default as BoldsDocumentText } from "./BoldsDocumentText";
@@ -3060,7 +3054,6 @@ export { default as BoldsFolderFavorite } from "./BoldsFolderFavorite";
 export { default as BoldsGallery } from "./BoldsGallery";
 export { default as BoldsHome } from "./BoldsHome";
 export { default as BoldsKey } from "./BoldsKey";
-export { default as BoldsLike } from "./BoldsLike";
 export { default as BoldsLocation } from "./BoldsLocation";
 export { default as BoldsLock } from "./BoldsLock";
 export { default as BoldsLogout } from "./BoldsLogout";
@@ -3121,7 +3114,6 @@ export { default as BrifecaseTimer2 } from "./BrifecaseTimer2";
 export { default as Broken37 } from "./Broken37";
 export { default as BrokenAddSquare } from "./BrokenAddSquare";
 export { default as BrokenBarbell } from "./BrokenBarbell";
-export { default as BrokenBattery } from "./BrokenBattery";
 export { default as BrokenBookmark } from "./BrokenBookmark";
 export { default as BrokenCamera } from "./BrokenCamera";
 export { default as BrokenChart } from "./BrokenChart";
@@ -3134,6 +3126,7 @@ export { default as BrokenChevronRightLine } from "./BrokenChevronRightLine";
 export { default as BrokenClipboard } from "./BrokenClipboard";
 export { default as BrokenContrast } from "./BrokenContrast";
 export { default as BrokenCopy } from "./BrokenCopy";
+export { default as BrokenDislike } from "./BrokenDislike";
 export { default as BrokenDocument } from "./BrokenDocument";
 export { default as BrokenDocumentBlank } from "./BrokenDocumentBlank";
 export { default as BrokenDocumentText } from "./BrokenDocumentText";
@@ -3144,7 +3137,6 @@ export { default as BrokenFolderFavorite } from "./BrokenFolderFavorite";
 export { default as BrokenGallery } from "./BrokenGallery";
 export { default as BrokenHome } from "./BrokenHome";
 export { default as BrokenKey } from "./BrokenKey";
-export { default as BrokenLike } from "./BrokenLike";
 export { default as BrokenLocation } from "./BrokenLocation";
 export { default as BrokenLock } from "./BrokenLock";
 export { default as BrokenLogout } from "./BrokenLogout";
@@ -3690,7 +3682,6 @@ export { default as Facebook4 } from "./Facebook4";
 export { default as Facebook5 } from "./Facebook5";
 export { default as Facebook6 } from "./Facebook6";
 export { default as FadeAddSquare } from "./FadeAddSquare";
-export { default as FadeBarbell } from "./FadeBarbell";
 export { default as FadeBattery } from "./FadeBattery";
 export { default as FadeBookmark } from "./FadeBookmark";
 export { default as FadeCamera } from "./FadeCamera";
@@ -4166,7 +4157,6 @@ export { default as LikeShapes2 } from "./LikeShapes2";
 export { default as LikeTag } from "./LikeTag";
 export { default as LikeTag2 } from "./LikeTag2";
 export { default as LinearAddSquare } from "./LinearAddSquare";
-export { default as LinearBarbell } from "./LinearBarbell";
 export { default as LinearBattery } from "./LinearBattery";
 export { default as LinearBookmark } from "./LinearBookmark";
 export { default as LinearCamera } from "./LinearCamera";
@@ -5227,7 +5217,6 @@ export { default as Twitch6 } from "./Twitch6";
 export { default as Twotone37 } from "./Twotone37";
 export { default as TwotoneAddSquare } from "./TwotoneAddSquare";
 export { default as TwotoneAltAddSquare } from "./TwotoneAltAddSquare";
-export { default as TwotoneAltBarbell } from "./TwotoneAltBarbell";
 export { default as TwotoneAltBattery } from "./TwotoneAltBattery";
 export { default as TwotoneAltBookmark } from "./TwotoneAltBookmark";
 export { default as TwotoneAltCamera } from "./TwotoneAltCamera";
@@ -5269,7 +5258,6 @@ export { default as TwotoneAltTrash } from "./TwotoneAltTrash";
 export { default as TwotoneAltUnlock } from "./TwotoneAltUnlock";
 export { default as TwotoneAltUpload } from "./TwotoneAltUpload";
 export { default as TwotoneAltUser } from "./TwotoneAltUser";
-export { default as TwotoneBarbell } from "./TwotoneBarbell";
 export { default as TwotoneBattery } from "./TwotoneBattery";
 export { default as TwotoneBookmark } from "./TwotoneBookmark";
 export { default as TwotoneCamera } from "./TwotoneCamera";
@@ -5539,7 +5527,6 @@ export const icons = {
   "assets/svg/Regular-S": RegularS,
   "assets/svg/Ultralight-S": UltralightS,
   "assets/svg/bolds-add-square": BoldsAddSquare,
-  "assets/svg/bolds-barbell": BoldsBarbell,
   "assets/svg/bolds-battery": BoldsBattery,
   "assets/svg/bolds-bookmark": BoldsBookmark,
   "assets/svg/bolds-camera": BoldsCamera,
@@ -5553,6 +5540,7 @@ export const icons = {
   "assets/svg/bolds-clipboard": BoldsClipboard,
   "assets/svg/bolds-contrast": BoldsContrast,
   "assets/svg/bolds-copy": BoldsCopy,
+  "assets/svg/bolds-dislike": BoldsDislike,
   "assets/svg/bolds-document-blank": BoldsDocumentBlank,
   "assets/svg/bolds-document-text": BoldsDocumentText,
   "assets/svg/bolds-document": BoldsDocument,
@@ -5563,7 +5551,6 @@ export const icons = {
   "assets/svg/bolds-gallery": BoldsGallery,
   "assets/svg/bolds-home": BoldsHome,
   "assets/svg/bolds-key": BoldsKey,
-  "assets/svg/bolds-like": BoldsLike,
   "assets/svg/bolds-location": BoldsLocation,
   "assets/svg/bolds-lock": BoldsLock,
   "assets/svg/bolds-logout": BoldsLogout,
@@ -5583,7 +5570,6 @@ export const icons = {
   "assets/svg/bolds-user": BoldsUser,
   "assets/svg/broken-add-square": BrokenAddSquare,
   "assets/svg/broken-barbell": BrokenBarbell,
-  "assets/svg/broken-battery": BrokenBattery,
   "assets/svg/broken-bookmark": BrokenBookmark,
   "assets/svg/broken-camera": BrokenCamera,
   "assets/svg/broken-chart": BrokenChart,
@@ -5596,6 +5582,7 @@ export const icons = {
   "assets/svg/broken-clipboard": BrokenClipboard,
   "assets/svg/broken-contrast": BrokenContrast,
   "assets/svg/broken-copy": BrokenCopy,
+  "assets/svg/broken-dislike": BrokenDislike,
   "assets/svg/broken-document-blank": BrokenDocumentBlank,
   "assets/svg/broken-document-text": BrokenDocumentText,
   "assets/svg/broken-document": BrokenDocument,
@@ -5606,7 +5593,6 @@ export const icons = {
   "assets/svg/broken-gallery": BrokenGallery,
   "assets/svg/broken-home": BrokenHome,
   "assets/svg/broken-key": BrokenKey,
-  "assets/svg/broken-like": BrokenLike,
   "assets/svg/broken-location": BrokenLocation,
   "assets/svg/broken-lock": BrokenLock,
   "assets/svg/broken-logout": BrokenLogout,
@@ -5627,7 +5613,6 @@ export const icons = {
   "assets/svg/document-normal": DocumentNormal,
   "assets/svg/edit-2": Edit2,
   "assets/svg/fade-add-square": FadeAddSquare,
-  "assets/svg/fade-barbell": FadeBarbell,
   "assets/svg/fade-battery": FadeBattery,
   "assets/svg/fade-bookmark": FadeBookmark,
   "assets/svg/fade-camera": FadeCamera,
@@ -5670,7 +5655,6 @@ export const icons = {
   "assets/svg/fade-user": FadeUser,
   "assets/svg/icon.symbols 1": IconSymbols1,
   "assets/svg/linear-add-square": LinearAddSquare,
-  "assets/svg/linear-barbell": LinearBarbell,
   "assets/svg/linear-battery": LinearBattery,
   "assets/svg/linear-bookmark": LinearBookmark,
   "assets/svg/linear-camera": LinearCamera,
@@ -5714,7 +5698,6 @@ export const icons = {
   "assets/svg/linear-user": LinearUser,
   "assets/svg/twotone-add-square": TwotoneAddSquare,
   "assets/svg/twotone-alt-add-square": TwotoneAltAddSquare,
-  "assets/svg/twotone-alt-barbell": TwotoneAltBarbell,
   "assets/svg/twotone-alt-battery": TwotoneAltBattery,
   "assets/svg/twotone-alt-bookmark": TwotoneAltBookmark,
   "assets/svg/twotone-alt-camera": TwotoneAltCamera,
@@ -5756,7 +5739,6 @@ export const icons = {
   "assets/svg/twotone-alt-unlock": TwotoneAltUnlock,
   "assets/svg/twotone-alt-upload": TwotoneAltUpload,
   "assets/svg/twotone-alt-user": TwotoneAltUser,
-  "assets/svg/twotone-barbell": TwotoneBarbell,
   "assets/svg/twotone-battery": TwotoneBattery,
   "assets/svg/twotone-bookmark": TwotoneBookmark,
   "assets/svg/twotone-camera": TwotoneCamera,
@@ -8370,7 +8352,6 @@ export const iconsMeta = [
   { id: "assets/svg/Regular-S", componentName: "RegularS", filePath: "assets/svg/Regular-S.svg", category: "Regular", tags: ["regular"], name: "regular s" },
   { id: "assets/svg/Ultralight-S", componentName: "UltralightS", filePath: "assets/svg/Ultralight-S.svg", category: "Ultralight", tags: ["ultralight"], name: "ultralight s" },
   { id: "assets/svg/bolds-add-square", componentName: "BoldsAddSquare", filePath: "assets/svg/bolds-add-square.svg", category: "Bolds", tags: ["bolds","add","square"], name: "bolds add square" },
-  { id: "assets/svg/bolds-barbell", componentName: "BoldsBarbell", filePath: "assets/svg/bolds-barbell.svg", category: "Bolds", tags: ["bolds","barbell"], name: "bolds barbell" },
   { id: "assets/svg/bolds-battery", componentName: "BoldsBattery", filePath: "assets/svg/bolds-battery.svg", category: "Bolds", tags: ["bolds","battery"], name: "bolds battery" },
   { id: "assets/svg/bolds-bookmark", componentName: "BoldsBookmark", filePath: "assets/svg/bolds-bookmark.svg", category: "Bolds", tags: ["bolds","bookmark"], name: "bolds bookmark" },
   { id: "assets/svg/bolds-camera", componentName: "BoldsCamera", filePath: "assets/svg/bolds-camera.svg", category: "Bolds", tags: ["bolds","camera"], name: "bolds camera" },
@@ -8384,6 +8365,7 @@ export const iconsMeta = [
   { id: "assets/svg/bolds-clipboard", componentName: "BoldsClipboard", filePath: "assets/svg/bolds-clipboard.svg", category: "Bolds", tags: ["bolds","clipboard"], name: "bolds clipboard" },
   { id: "assets/svg/bolds-contrast", componentName: "BoldsContrast", filePath: "assets/svg/bolds-contrast.svg", category: "Bolds", tags: ["bolds","contrast"], name: "bolds contrast" },
   { id: "assets/svg/bolds-copy", componentName: "BoldsCopy", filePath: "assets/svg/bolds-copy.svg", category: "Bolds", tags: ["bolds","copy"], name: "bolds copy" },
+  { id: "assets/svg/bolds-dislike", componentName: "BoldsDislike", filePath: "assets/svg/bolds-dislike.svg", category: "Bolds", tags: ["bolds","dislike"], name: "bolds dislike" },
   { id: "assets/svg/bolds-document-blank", componentName: "BoldsDocumentBlank", filePath: "assets/svg/bolds-document-blank.svg", category: "Bolds", tags: ["bolds","document","blank"], name: "bolds document blank" },
   { id: "assets/svg/bolds-document-text", componentName: "BoldsDocumentText", filePath: "assets/svg/bolds-document-text.svg", category: "Bolds", tags: ["bolds","document","text"], name: "bolds document text" },
   { id: "assets/svg/bolds-document", componentName: "BoldsDocument", filePath: "assets/svg/bolds-document.svg", category: "Bolds", tags: ["bolds","document"], name: "bolds document" },
@@ -8394,7 +8376,6 @@ export const iconsMeta = [
   { id: "assets/svg/bolds-gallery", componentName: "BoldsGallery", filePath: "assets/svg/bolds-gallery.svg", category: "Bolds", tags: ["bolds","gallery"], name: "bolds gallery" },
   { id: "assets/svg/bolds-home", componentName: "BoldsHome", filePath: "assets/svg/bolds-home.svg", category: "Bolds", tags: ["bolds","home"], name: "bolds home" },
   { id: "assets/svg/bolds-key", componentName: "BoldsKey", filePath: "assets/svg/bolds-key.svg", category: "Bolds", tags: ["bolds","key"], name: "bolds key" },
-  { id: "assets/svg/bolds-like", componentName: "BoldsLike", filePath: "assets/svg/bolds-like.svg", category: "Bolds", tags: ["bolds","like"], name: "bolds like" },
   { id: "assets/svg/bolds-location", componentName: "BoldsLocation", filePath: "assets/svg/bolds-location.svg", category: "Bolds", tags: ["bolds","location"], name: "bolds location" },
   { id: "assets/svg/bolds-lock", componentName: "BoldsLock", filePath: "assets/svg/bolds-lock.svg", category: "Bolds", tags: ["bolds","lock"], name: "bolds lock" },
   { id: "assets/svg/bolds-logout", componentName: "BoldsLogout", filePath: "assets/svg/bolds-logout.svg", category: "Bolds", tags: ["bolds","logout"], name: "bolds logout" },
@@ -8414,7 +8395,6 @@ export const iconsMeta = [
   { id: "assets/svg/bolds-user", componentName: "BoldsUser", filePath: "assets/svg/bolds-user.svg", category: "Bolds", tags: ["bolds","user"], name: "bolds user" },
   { id: "assets/svg/broken-add-square", componentName: "BrokenAddSquare", filePath: "assets/svg/broken-add-square.svg", category: "Add", tags: ["add","square"], name: "add square" },
   { id: "assets/svg/broken-barbell", componentName: "BrokenBarbell", filePath: "assets/svg/broken-barbell.svg", category: "Barbell", tags: ["barbell"], name: "barbell" },
-  { id: "assets/svg/broken-battery", componentName: "BrokenBattery", filePath: "assets/svg/broken-battery.svg", category: "Battery", tags: ["battery"], name: "battery" },
   { id: "assets/svg/broken-bookmark", componentName: "BrokenBookmark", filePath: "assets/svg/broken-bookmark.svg", category: "Bookmark", tags: ["bookmark"], name: "bookmark" },
   { id: "assets/svg/broken-camera", componentName: "BrokenCamera", filePath: "assets/svg/broken-camera.svg", category: "Camera", tags: ["camera"], name: "camera" },
   { id: "assets/svg/broken-chart", componentName: "BrokenChart", filePath: "assets/svg/broken-chart.svg", category: "Chart", tags: ["chart"], name: "chart" },
@@ -8427,6 +8407,7 @@ export const iconsMeta = [
   { id: "assets/svg/broken-clipboard", componentName: "BrokenClipboard", filePath: "assets/svg/broken-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
   { id: "assets/svg/broken-contrast", componentName: "BrokenContrast", filePath: "assets/svg/broken-contrast.svg", category: "Contrast", tags: ["contrast"], name: "contrast" },
   { id: "assets/svg/broken-copy", componentName: "BrokenCopy", filePath: "assets/svg/broken-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
+  { id: "assets/svg/broken-dislike", componentName: "BrokenDislike", filePath: "assets/svg/broken-dislike.svg", category: "Dislike", tags: ["dislike"], name: "dislike" },
   { id: "assets/svg/broken-document-blank", componentName: "BrokenDocumentBlank", filePath: "assets/svg/broken-document-blank.svg", category: "Document", tags: ["document","blank"], name: "document blank" },
   { id: "assets/svg/broken-document-text", componentName: "BrokenDocumentText", filePath: "assets/svg/broken-document-text.svg", category: "Document", tags: ["document","text"], name: "document text" },
   { id: "assets/svg/broken-document", componentName: "BrokenDocument", filePath: "assets/svg/broken-document.svg", category: "Document", tags: ["document"], name: "document" },
@@ -8437,7 +8418,6 @@ export const iconsMeta = [
   { id: "assets/svg/broken-gallery", componentName: "BrokenGallery", filePath: "assets/svg/broken-gallery.svg", category: "Gallery", tags: ["gallery"], name: "gallery" },
   { id: "assets/svg/broken-home", componentName: "BrokenHome", filePath: "assets/svg/broken-home.svg", category: "Home", tags: ["home"], name: "home" },
   { id: "assets/svg/broken-key", componentName: "BrokenKey", filePath: "assets/svg/broken-key.svg", category: "Key", tags: ["key"], name: "key" },
-  { id: "assets/svg/broken-like", componentName: "BrokenLike", filePath: "assets/svg/broken-like.svg", category: "Like", tags: ["like"], name: "like" },
   { id: "assets/svg/broken-location", componentName: "BrokenLocation", filePath: "assets/svg/broken-location.svg", category: "Location", tags: ["location"], name: "location" },
   { id: "assets/svg/broken-lock", componentName: "BrokenLock", filePath: "assets/svg/broken-lock.svg", category: "Lock", tags: ["lock"], name: "lock" },
   { id: "assets/svg/broken-logout", componentName: "BrokenLogout", filePath: "assets/svg/broken-logout.svg", category: "Logout", tags: ["logout"], name: "logout" },
@@ -8458,7 +8438,6 @@ export const iconsMeta = [
   { id: "assets/svg/document-normal", componentName: "DocumentNormal", filePath: "assets/svg/document-normal.svg", category: "Document", tags: ["document","normal"], name: "document normal" },
   { id: "assets/svg/edit-2", componentName: "Edit2", filePath: "assets/svg/edit-2.svg", category: "Edit", tags: ["edit"], name: "edit" },
   { id: "assets/svg/fade-add-square", componentName: "FadeAddSquare", filePath: "assets/svg/fade-add-square.svg", category: "Fade", tags: ["fade","add","square"], name: "fade add square" },
-  { id: "assets/svg/fade-barbell", componentName: "FadeBarbell", filePath: "assets/svg/fade-barbell.svg", category: "Fade", tags: ["fade","barbell"], name: "fade barbell" },
   { id: "assets/svg/fade-battery", componentName: "FadeBattery", filePath: "assets/svg/fade-battery.svg", category: "Fade", tags: ["fade","battery"], name: "fade battery" },
   { id: "assets/svg/fade-bookmark", componentName: "FadeBookmark", filePath: "assets/svg/fade-bookmark.svg", category: "Fade", tags: ["fade","bookmark"], name: "fade bookmark" },
   { id: "assets/svg/fade-camera", componentName: "FadeCamera", filePath: "assets/svg/fade-camera.svg", category: "Fade", tags: ["fade","camera"], name: "fade camera" },
@@ -8501,7 +8480,6 @@ export const iconsMeta = [
   { id: "assets/svg/fade-user", componentName: "FadeUser", filePath: "assets/svg/fade-user.svg", category: "Fade", tags: ["fade","user"], name: "fade user" },
   { id: "assets/svg/icon.symbols 1", componentName: "IconSymbols1", filePath: "assets/svg/icon.symbols 1.svg", category: "Icon", tags: ["icon","symbols"], name: "icon symbols" },
   { id: "assets/svg/linear-add-square", componentName: "LinearAddSquare", filePath: "assets/svg/linear-add-square.svg", category: "Add", tags: ["add","square"], name: "add square" },
-  { id: "assets/svg/linear-barbell", componentName: "LinearBarbell", filePath: "assets/svg/linear-barbell.svg", category: "Barbell", tags: ["barbell"], name: "barbell" },
   { id: "assets/svg/linear-battery", componentName: "LinearBattery", filePath: "assets/svg/linear-battery.svg", category: "Battery", tags: ["battery"], name: "battery" },
   { id: "assets/svg/linear-bookmark", componentName: "LinearBookmark", filePath: "assets/svg/linear-bookmark.svg", category: "Bookmark", tags: ["bookmark"], name: "bookmark" },
   { id: "assets/svg/linear-camera", componentName: "LinearCamera", filePath: "assets/svg/linear-camera.svg", category: "Camera", tags: ["camera"], name: "camera" },
@@ -8545,7 +8523,6 @@ export const iconsMeta = [
   { id: "assets/svg/linear-user", componentName: "LinearUser", filePath: "assets/svg/linear-user.svg", category: "User", tags: ["user"], name: "user" },
   { id: "assets/svg/twotone-add-square", componentName: "TwotoneAddSquare", filePath: "assets/svg/twotone-add-square.svg", category: "Add", tags: ["add","square"], name: "add square" },
   { id: "assets/svg/twotone-alt-add-square", componentName: "TwotoneAltAddSquare", filePath: "assets/svg/twotone-alt-add-square.svg", category: "Alt", tags: ["alt","add","square"], name: "alt add square" },
-  { id: "assets/svg/twotone-alt-barbell", componentName: "TwotoneAltBarbell", filePath: "assets/svg/twotone-alt-barbell.svg", category: "Alt", tags: ["alt","barbell"], name: "alt barbell" },
   { id: "assets/svg/twotone-alt-battery", componentName: "TwotoneAltBattery", filePath: "assets/svg/twotone-alt-battery.svg", category: "Alt", tags: ["alt","battery"], name: "alt battery" },
   { id: "assets/svg/twotone-alt-bookmark", componentName: "TwotoneAltBookmark", filePath: "assets/svg/twotone-alt-bookmark.svg", category: "Alt", tags: ["alt","bookmark"], name: "alt bookmark" },
   { id: "assets/svg/twotone-alt-camera", componentName: "TwotoneAltCamera", filePath: "assets/svg/twotone-alt-camera.svg", category: "Alt", tags: ["alt","camera"], name: "alt camera" },
@@ -8587,7 +8564,6 @@ export const iconsMeta = [
   { id: "assets/svg/twotone-alt-unlock", componentName: "TwotoneAltUnlock", filePath: "assets/svg/twotone-alt-unlock.svg", category: "Alt", tags: ["alt","unlock"], name: "alt unlock" },
   { id: "assets/svg/twotone-alt-upload", componentName: "TwotoneAltUpload", filePath: "assets/svg/twotone-alt-upload.svg", category: "Alt", tags: ["alt","upload"], name: "alt upload" },
   { id: "assets/svg/twotone-alt-user", componentName: "TwotoneAltUser", filePath: "assets/svg/twotone-alt-user.svg", category: "Alt", tags: ["alt","user"], name: "alt user" },
-  { id: "assets/svg/twotone-barbell", componentName: "TwotoneBarbell", filePath: "assets/svg/twotone-barbell.svg", category: "Barbell", tags: ["barbell"], name: "barbell" },
   { id: "assets/svg/twotone-battery", componentName: "TwotoneBattery", filePath: "assets/svg/twotone-battery.svg", category: "Battery", tags: ["battery"], name: "battery" },
   { id: "assets/svg/twotone-bookmark", componentName: "TwotoneBookmark", filePath: "assets/svg/twotone-bookmark.svg", category: "Bookmark", tags: ["bookmark"], name: "bookmark" },
   { id: "assets/svg/twotone-camera", componentName: "TwotoneCamera", filePath: "assets/svg/twotone-camera.svg", category: "Camera", tags: ["camera"], name: "camera" },
