@@ -274,51 +274,50 @@ import Blur from "./Blur";
 import Blur2 from "./Blur2";
 import Blur3 from "./Blur3";
 import Blur4 from "./Blur4";
-import Bold from "./Bold";
-import Bold1 from "./Bold1";
-import Bold10 from "./Bold10";
-import Bold11 from "./Bold11";
-import Bold12 from "./Bold12";
-import Bold13 from "./Bold13";
-import Bold14 from "./Bold14";
-import Bold15 from "./Bold15";
-import Bold16 from "./Bold16";
-import Bold17 from "./Bold17";
-import Bold18 from "./Bold18";
-import Bold19 from "./Bold19";
-import Bold2 from "./Bold2";
-import Bold20 from "./Bold20";
-import Bold21 from "./Bold21";
-import Bold22 from "./Bold22";
-import Bold23 from "./Bold23";
-import Bold24 from "./Bold24";
-import Bold25 from "./Bold25";
-import Bold26 from "./Bold26";
-import Bold27 from "./Bold27";
-import Bold28 from "./Bold28";
-import Bold29 from "./Bold29";
-import Bold3 from "./Bold3";
-import Bold30 from "./Bold30";
-import Bold31 from "./Bold31";
-import Bold32 from "./Bold32";
-import Bold33 from "./Bold33";
-import Bold34 from "./Bold34";
-import Bold35 from "./Bold35";
-import Bold36 from "./Bold36";
 import Bold37 from "./Bold37";
-import Bold4 from "./Bold4";
-import Bold5 from "./Bold5";
-import Bold6 from "./Bold6";
-import Bold7 from "./Bold7";
-import Bold8 from "./Bold8";
-import Bold9 from "./Bold9";
-import BoldClipboard from "./BoldClipboard";
-import BoldCopy from "./BoldCopy";
-import BoldExport from "./BoldExport";
-import BoldPlay from "./BoldPlay";
-import BoldRecord from "./BoldRecord";
-import BoldRepeat from "./BoldRepeat";
-import BoldStop from "./BoldStop";
+import BoldsAddSquare from "./BoldsAddSquare";
+import BoldsBarbell from "./BoldsBarbell";
+import BoldsBattery from "./BoldsBattery";
+import BoldsBookmark from "./BoldsBookmark";
+import BoldsCamera from "./BoldsCamera";
+import BoldsChart from "./BoldsChart";
+import BoldsChevron from "./BoldsChevron";
+import BoldsChevronDown from "./BoldsChevronDown";
+import BoldsChevronLeft from "./BoldsChevronLeft";
+import BoldsChevronLeftLine from "./BoldsChevronLeftLine";
+import BoldsChevronRight from "./BoldsChevronRight";
+import BoldsChevronRightLine from "./BoldsChevronRightLine";
+import BoldsClipboard from "./BoldsClipboard";
+import BoldsContrast from "./BoldsContrast";
+import BoldsCopy from "./BoldsCopy";
+import BoldsDocument from "./BoldsDocument";
+import BoldsDocumentBlank from "./BoldsDocumentBlank";
+import BoldsDocumentText from "./BoldsDocumentText";
+import BoldsDownload from "./BoldsDownload";
+import BoldsEdit from "./BoldsEdit";
+import BoldsExport from "./BoldsExport";
+import BoldsFolderFavorite from "./BoldsFolderFavorite";
+import BoldsGallery from "./BoldsGallery";
+import BoldsHome from "./BoldsHome";
+import BoldsKey from "./BoldsKey";
+import BoldsLike from "./BoldsLike";
+import BoldsLocation from "./BoldsLocation";
+import BoldsLock from "./BoldsLock";
+import BoldsLogout from "./BoldsLogout";
+import BoldsMail from "./BoldsMail";
+import BoldsMessage from "./BoldsMessage";
+import BoldsMessages from "./BoldsMessages";
+import BoldsMicrophone from "./BoldsMicrophone";
+import BoldsPlay from "./BoldsPlay";
+import BoldsRecord from "./BoldsRecord";
+import BoldsRepeat from "./BoldsRepeat";
+import BoldsSearch from "./BoldsSearch";
+import BoldsStar from "./BoldsStar";
+import BoldsStop from "./BoldsStop";
+import BoldsTrash from "./BoldsTrash";
+import BoldsUnlock from "./BoldsUnlock";
+import BoldsUpload from "./BoldsUpload";
+import BoldsUser from "./BoldsUser";
 import Book from "./Book";
 import Book1 from "./Book1";
 import Book12 from "./Book12";
@@ -359,51 +358,50 @@ import BrifecaseTick from "./BrifecaseTick";
 import BrifecaseTick2 from "./BrifecaseTick2";
 import BrifecaseTimer from "./BrifecaseTimer";
 import BrifecaseTimer2 from "./BrifecaseTimer2";
-import Broken from "./Broken";
-import Broken1 from "./Broken1";
-import Broken10 from "./Broken10";
-import Broken11 from "./Broken11";
-import Broken12 from "./Broken12";
-import Broken13 from "./Broken13";
-import Broken14 from "./Broken14";
-import Broken15 from "./Broken15";
-import Broken16 from "./Broken16";
-import Broken17 from "./Broken17";
-import Broken18 from "./Broken18";
-import Broken19 from "./Broken19";
-import Broken2 from "./Broken2";
-import Broken20 from "./Broken20";
-import Broken21 from "./Broken21";
-import Broken22 from "./Broken22";
-import Broken23 from "./Broken23";
-import Broken24 from "./Broken24";
-import Broken25 from "./Broken25";
-import Broken26 from "./Broken26";
-import Broken27 from "./Broken27";
-import Broken28 from "./Broken28";
-import Broken29 from "./Broken29";
-import Broken3 from "./Broken3";
-import Broken30 from "./Broken30";
-import Broken31 from "./Broken31";
-import Broken32 from "./Broken32";
-import Broken33 from "./Broken33";
-import Broken34 from "./Broken34";
-import Broken35 from "./Broken35";
-import Broken36 from "./Broken36";
 import Broken37 from "./Broken37";
-import Broken4 from "./Broken4";
-import Broken5 from "./Broken5";
-import Broken6 from "./Broken6";
-import Broken7 from "./Broken7";
-import Broken8 from "./Broken8";
-import Broken9 from "./Broken9";
+import BrokenAddSquare from "./BrokenAddSquare";
+import BrokenBarbell from "./BrokenBarbell";
+import BrokenBattery from "./BrokenBattery";
+import BrokenBookmark from "./BrokenBookmark";
+import BrokenCamera from "./BrokenCamera";
+import BrokenChart from "./BrokenChart";
+import BrokenChevron from "./BrokenChevron";
+import BrokenChevronDown from "./BrokenChevronDown";
+import BrokenChevronLeft from "./BrokenChevronLeft";
+import BrokenChevronLeftLine from "./BrokenChevronLeftLine";
+import BrokenChevronRight from "./BrokenChevronRight";
+import BrokenChevronRightLine from "./BrokenChevronRightLine";
 import BrokenClipboard from "./BrokenClipboard";
+import BrokenContrast from "./BrokenContrast";
 import BrokenCopy from "./BrokenCopy";
+import BrokenDocument from "./BrokenDocument";
+import BrokenDocumentBlank from "./BrokenDocumentBlank";
+import BrokenDocumentText from "./BrokenDocumentText";
+import BrokenDownload from "./BrokenDownload";
+import BrokenEdit from "./BrokenEdit";
 import BrokenExport from "./BrokenExport";
-import BrokenPlay from "./BrokenPlay";
+import BrokenFolderFavorite from "./BrokenFolderFavorite";
+import BrokenGallery from "./BrokenGallery";
+import BrokenHome from "./BrokenHome";
+import BrokenKey from "./BrokenKey";
+import BrokenLike from "./BrokenLike";
+import BrokenLocation from "./BrokenLocation";
+import BrokenLock from "./BrokenLock";
+import BrokenLogout from "./BrokenLogout";
+import BrokenMail from "./BrokenMail";
+import BrokenMessage from "./BrokenMessage";
+import BrokenMessages from "./BrokenMessages";
+import BrokenMicrophone from "./BrokenMicrophone";
 import BrokenRecord from "./BrokenRecord";
 import BrokenRepeat from "./BrokenRepeat";
+import BrokenSearch from "./BrokenSearch";
+import BrokenSend from "./BrokenSend";
+import BrokenStar from "./BrokenStar";
 import BrokenStop from "./BrokenStop";
+import BrokenTrash from "./BrokenTrash";
+import BrokenUnlock from "./BrokenUnlock";
+import BrokenUpload from "./BrokenUpload";
+import BrokenUser from "./BrokenUser";
 import Broom from "./Broom";
 import Broom2 from "./Broom2";
 import Brush from "./Brush";
@@ -445,50 +443,7 @@ import Buildings2 from "./Buildings2";
 import Buildings22 from "./Buildings22";
 import Buliding from "./Buliding";
 import Buliding2 from "./Buliding2";
-import Bulk from "./Bulk";
-import Bulk1 from "./Bulk1";
-import Bulk11 from "./Bulk11";
-import Bulk12 from "./Bulk12";
-import Bulk13 from "./Bulk13";
-import Bulk14 from "./Bulk14";
-import Bulk15 from "./Bulk15";
-import Bulk16 from "./Bulk16";
-import Bulk17 from "./Bulk17";
-import Bulk18 from "./Bulk18";
-import Bulk19 from "./Bulk19";
-import Bulk2 from "./Bulk2";
-import Bulk20 from "./Bulk20";
-import Bulk21 from "./Bulk21";
-import Bulk22 from "./Bulk22";
-import Bulk23 from "./Bulk23";
-import Bulk24 from "./Bulk24";
-import Bulk25 from "./Bulk25";
-import Bulk26 from "./Bulk26";
-import Bulk27 from "./Bulk27";
-import Bulk28 from "./Bulk28";
-import Bulk29 from "./Bulk29";
-import Bulk3 from "./Bulk3";
-import Bulk30 from "./Bulk30";
-import Bulk31 from "./Bulk31";
-import Bulk32 from "./Bulk32";
-import Bulk33 from "./Bulk33";
-import Bulk34 from "./Bulk34";
-import Bulk35 from "./Bulk35";
-import Bulk36 from "./Bulk36";
 import Bulk37 from "./Bulk37";
-import Bulk4 from "./Bulk4";
-import Bulk5 from "./Bulk5";
-import Bulk6 from "./Bulk6";
-import Bulk7 from "./Bulk7";
-import Bulk8 from "./Bulk8";
-import Bulk9 from "./Bulk9";
-import BulkClipboard from "./BulkClipboard";
-import BulkCopy from "./BulkCopy";
-import BulkExport from "./BulkExport";
-import BulkPlay from "./BulkPlay";
-import BulkRecord from "./BulkRecord";
-import BulkRepeat from "./BulkRepeat";
-import BulkStop from "./BulkStop";
 import Bus from "./Bus";
 import Bus2 from "./Bus2";
 import BuyCrypto from "./BuyCrypto";
@@ -974,6 +929,48 @@ import Facebook3 from "./Facebook3";
 import Facebook4 from "./Facebook4";
 import Facebook5 from "./Facebook5";
 import Facebook6 from "./Facebook6";
+import FadeAddSquare from "./FadeAddSquare";
+import FadeBarbell from "./FadeBarbell";
+import FadeBattery from "./FadeBattery";
+import FadeBookmark from "./FadeBookmark";
+import FadeCamera from "./FadeCamera";
+import FadeChart from "./FadeChart";
+import FadeChevron from "./FadeChevron";
+import FadeChevronDown from "./FadeChevronDown";
+import FadeChevronLeft from "./FadeChevronLeft";
+import FadeChevronLeftLine from "./FadeChevronLeftLine";
+import FadeChevronRight from "./FadeChevronRight";
+import FadeChevronRightLine from "./FadeChevronRightLine";
+import FadeClipboard from "./FadeClipboard";
+import FadeContrast from "./FadeContrast";
+import FadeCopy from "./FadeCopy";
+import FadeDislike from "./FadeDislike";
+import FadeDocument from "./FadeDocument";
+import FadeDocumentBlank from "./FadeDocumentBlank";
+import FadeDocumentText from "./FadeDocumentText";
+import FadeDownload from "./FadeDownload";
+import FadeEdit from "./FadeEdit";
+import FadeExport from "./FadeExport";
+import FadeGallery from "./FadeGallery";
+import FadeHome from "./FadeHome";
+import FadeKey from "./FadeKey";
+import FadeLocation from "./FadeLocation";
+import FadeLock from "./FadeLock";
+import FadeLogout from "./FadeLogout";
+import FadeMail from "./FadeMail";
+import FadeMessage from "./FadeMessage";
+import FadeMessages from "./FadeMessages";
+import FadeMicrophone from "./FadeMicrophone";
+import FadePlay from "./FadePlay";
+import FadeRecord from "./FadeRecord";
+import FadeRepeat from "./FadeRepeat";
+import FadeSearch from "./FadeSearch";
+import FadeStar from "./FadeStar";
+import FadeStop from "./FadeStop";
+import FadeTrash from "./FadeTrash";
+import FadeUnlock from "./FadeUnlock";
+import FadeUpload from "./FadeUpload";
+import FadeUser from "./FadeUser";
 import Fatrows from "./Fatrows";
 import Fatrows2 from "./Fatrows2";
 import FavoriteChart from "./FavoriteChart";
@@ -1315,6 +1312,7 @@ import IconIcx3 from "./IconIcx3";
 import IconIcx4 from "./IconIcx4";
 import IconIcx5 from "./IconIcx5";
 import IconIcx6 from "./IconIcx6";
+import IconSymbols1 from "./IconSymbols1";
 import Illustrator from "./Illustrator";
 import Illustrator2 from "./Illustrator2";
 import Illustrator3 from "./Illustrator3";
@@ -1407,51 +1405,49 @@ import LikeShapes from "./LikeShapes";
 import LikeShapes2 from "./LikeShapes2";
 import LikeTag from "./LikeTag";
 import LikeTag2 from "./LikeTag2";
-import Linear from "./Linear";
-import Linear1 from "./Linear1";
-import Linear10 from "./Linear10";
-import Linear11 from "./Linear11";
-import Linear12 from "./Linear12";
-import Linear13 from "./Linear13";
-import Linear14 from "./Linear14";
-import Linear15 from "./Linear15";
-import Linear16 from "./Linear16";
-import Linear17 from "./Linear17";
-import Linear18 from "./Linear18";
-import Linear19 from "./Linear19";
-import Linear2 from "./Linear2";
-import Linear20 from "./Linear20";
-import Linear21 from "./Linear21";
-import Linear22 from "./Linear22";
-import Linear23 from "./Linear23";
-import Linear24 from "./Linear24";
-import Linear25 from "./Linear25";
-import Linear26 from "./Linear26";
-import Linear27 from "./Linear27";
-import Linear28 from "./Linear28";
-import Linear29 from "./Linear29";
-import Linear3 from "./Linear3";
-import Linear30 from "./Linear30";
-import Linear31 from "./Linear31";
-import Linear32 from "./Linear32";
-import Linear33 from "./Linear33";
-import Linear34 from "./Linear34";
-import Linear35 from "./Linear35";
-import Linear36 from "./Linear36";
-import Linear37 from "./Linear37";
-import Linear4 from "./Linear4";
-import Linear5 from "./Linear5";
-import Linear6 from "./Linear6";
-import Linear7 from "./Linear7";
-import Linear8 from "./Linear8";
-import Linear9 from "./Linear9";
+import LinearAddSquare from "./LinearAddSquare";
+import LinearBarbell from "./LinearBarbell";
+import LinearBattery from "./LinearBattery";
+import LinearBookmark from "./LinearBookmark";
+import LinearCamera from "./LinearCamera";
+import LinearChart from "./LinearChart";
+import LinearChevron from "./LinearChevron";
+import LinearChevronDown from "./LinearChevronDown";
+import LinearChevronLeft from "./LinearChevronLeft";
+import LinearChevronLeftLine from "./LinearChevronLeftLine";
+import LinearChevronRight from "./LinearChevronRight";
+import LinearChevronRightLine from "./LinearChevronRightLine";
 import LinearClipboard from "./LinearClipboard";
+import LinearContrast from "./LinearContrast";
 import LinearCopy from "./LinearCopy";
+import LinearDislike from "./LinearDislike";
+import LinearDocument from "./LinearDocument";
+import LinearDocumentBlank from "./LinearDocumentBlank";
+import LinearDocumentText from "./LinearDocumentText";
+import LinearDownload from "./LinearDownload";
+import LinearEdit from "./LinearEdit";
 import LinearExport from "./LinearExport";
+import LinearFolderFavorite from "./LinearFolderFavorite";
+import LinearGallery from "./LinearGallery";
+import LinearHome from "./LinearHome";
+import LinearKey from "./LinearKey";
+import LinearLocation from "./LinearLocation";
+import LinearLock from "./LinearLock";
+import LinearLogout from "./LinearLogout";
+import LinearMail from "./LinearMail";
+import LinearMessage from "./LinearMessage";
+import LinearMessages from "./LinearMessages";
+import LinearMicrophone from "./LinearMicrophone";
 import LinearPlay from "./LinearPlay";
 import LinearRecord from "./LinearRecord";
 import LinearRepeat from "./LinearRepeat";
+import LinearSearch from "./LinearSearch";
+import LinearStar from "./LinearStar";
 import LinearStop from "./LinearStop";
+import LinearTrash from "./LinearTrash";
+import LinearUnlock from "./LinearUnlock";
+import LinearUpload from "./LinearUpload";
+import LinearUser from "./LinearUser";
 import Link from "./Link";
 import Link1 from "./Link1";
 import Link12 from "./Link12";
@@ -1506,7 +1502,7 @@ import Logout1 from "./Logout1";
 import Logout12 from "./Logout12";
 import Logout2 from "./Logout2";
 import Losi from "./Losi";
-import LosiIconSymbols1 from "./LosiIconSymbols1";
+import LosiMain from "./LosiMain";
 import Lovely from "./Lovely";
 import Lovely2 from "./Lovely2";
 import MagicStar from "./MagicStar";
@@ -1794,55 +1790,7 @@ import OntologyOnt3 from "./OntologyOnt3";
 import OntologyOnt4 from "./OntologyOnt4";
 import OntologyOnt5 from "./OntologyOnt5";
 import OntologyOnt6 from "./OntologyOnt6";
-import Outline from "./Outline";
-import Outline1 from "./Outline1";
-import Outline10 from "./Outline10";
-import Outline11 from "./Outline11";
-import Outline12 from "./Outline12";
-import Outline13 from "./Outline13";
-import Outline14 from "./Outline14";
-import Outline15 from "./Outline15";
-import Outline16 from "./Outline16";
-import Outline17 from "./Outline17";
-import Outline18 from "./Outline18";
-import Outline19 from "./Outline19";
-import Outline2 from "./Outline2";
-import Outline20 from "./Outline20";
-import Outline21 from "./Outline21";
-import Outline22 from "./Outline22";
-import Outline23 from "./Outline23";
-import Outline24 from "./Outline24";
-import Outline25 from "./Outline25";
-import Outline26 from "./Outline26";
-import Outline27 from "./Outline27";
-import Outline28 from "./Outline28";
-import Outline29 from "./Outline29";
-import Outline3 from "./Outline3";
-import Outline30 from "./Outline30";
-import Outline31 from "./Outline31";
-import Outline32 from "./Outline32";
-import Outline33 from "./Outline33";
-import Outline34 from "./Outline34";
-import Outline35 from "./Outline35";
-import Outline36 from "./Outline36";
-import Outline37 from "./Outline37";
-import Outline38 from "./Outline38";
-import Outline39 from "./Outline39";
-import Outline4 from "./Outline4";
-import Outline40 from "./Outline40";
 import Outline41 from "./Outline41";
-import Outline5 from "./Outline5";
-import Outline6 from "./Outline6";
-import Outline7 from "./Outline7";
-import Outline8 from "./Outline8";
-import Outline9 from "./Outline9";
-import OutlineClipboard from "./OutlineClipboard";
-import OutlineCopy from "./OutlineCopy";
-import OutlineExport from "./OutlineExport";
-import OutlinePlay from "./OutlinePlay";
-import OutlineRecord from "./OutlineRecord";
-import OutlineRepeat from "./OutlineRepeat";
-import OutlineStop from "./OutlineStop";
 import Paintbucket from "./Paintbucket";
 import Paintbucket2 from "./Paintbucket2";
 import Paintbucket3 from "./Paintbucket3";
@@ -2516,51 +2464,95 @@ import Twitch3 from "./Twitch3";
 import Twitch4 from "./Twitch4";
 import Twitch5 from "./Twitch5";
 import Twitch6 from "./Twitch6";
-import Twotone from "./Twotone";
-import Twotone1 from "./Twotone1";
-import Twotone10 from "./Twotone10";
-import Twotone11 from "./Twotone11";
-import Twotone12 from "./Twotone12";
-import Twotone13 from "./Twotone13";
-import Twotone14 from "./Twotone14";
-import Twotone15 from "./Twotone15";
-import Twotone16 from "./Twotone16";
-import Twotone17 from "./Twotone17";
-import Twotone18 from "./Twotone18";
-import Twotone19 from "./Twotone19";
-import Twotone2 from "./Twotone2";
-import Twotone20 from "./Twotone20";
-import Twotone21 from "./Twotone21";
-import Twotone22 from "./Twotone22";
-import Twotone23 from "./Twotone23";
-import Twotone24 from "./Twotone24";
-import Twotone25 from "./Twotone25";
-import Twotone26 from "./Twotone26";
-import Twotone27 from "./Twotone27";
-import Twotone28 from "./Twotone28";
-import Twotone29 from "./Twotone29";
-import Twotone3 from "./Twotone3";
-import Twotone30 from "./Twotone30";
-import Twotone31 from "./Twotone31";
-import Twotone32 from "./Twotone32";
-import Twotone33 from "./Twotone33";
-import Twotone34 from "./Twotone34";
-import Twotone35 from "./Twotone35";
-import Twotone36 from "./Twotone36";
 import Twotone37 from "./Twotone37";
-import Twotone4 from "./Twotone4";
-import Twotone5 from "./Twotone5";
-import Twotone6 from "./Twotone6";
-import Twotone7 from "./Twotone7";
-import Twotone8 from "./Twotone8";
-import Twotone9 from "./Twotone9";
+import TwotoneAddSquare from "./TwotoneAddSquare";
+import TwotoneAltAddSquare from "./TwotoneAltAddSquare";
+import TwotoneAltBarbell from "./TwotoneAltBarbell";
+import TwotoneAltBattery from "./TwotoneAltBattery";
+import TwotoneAltBookmark from "./TwotoneAltBookmark";
+import TwotoneAltCamera from "./TwotoneAltCamera";
+import TwotoneAltChart from "./TwotoneAltChart";
+import TwotoneAltChevron from "./TwotoneAltChevron";
+import TwotoneAltChevronDown from "./TwotoneAltChevronDown";
+import TwotoneAltChevronLeft from "./TwotoneAltChevronLeft";
+import TwotoneAltChevronLeftLine from "./TwotoneAltChevronLeftLine";
+import TwotoneAltChevronRight from "./TwotoneAltChevronRight";
+import TwotoneAltChevronRightLine from "./TwotoneAltChevronRightLine";
+import TwotoneAltClipboard from "./TwotoneAltClipboard";
+import TwotoneAltContrast from "./TwotoneAltContrast";
+import TwotoneAltCopy from "./TwotoneAltCopy";
+import TwotoneAltDislike from "./TwotoneAltDislike";
+import TwotoneAltDocument from "./TwotoneAltDocument";
+import TwotoneAltDocumentBlank from "./TwotoneAltDocumentBlank";
+import TwotoneAltDocumentText from "./TwotoneAltDocumentText";
+import TwotoneAltDownload from "./TwotoneAltDownload";
+import TwotoneAltEdit from "./TwotoneAltEdit";
+import TwotoneAltExport from "./TwotoneAltExport";
+import TwotoneAltFolderFavorite from "./TwotoneAltFolderFavorite";
+import TwotoneAltGallery from "./TwotoneAltGallery";
+import TwotoneAltHome from "./TwotoneAltHome";
+import TwotoneAltKey from "./TwotoneAltKey";
+import TwotoneAltLocation from "./TwotoneAltLocation";
+import TwotoneAltLock from "./TwotoneAltLock";
+import TwotoneAltLogout from "./TwotoneAltLogout";
+import TwotoneAltMail from "./TwotoneAltMail";
+import TwotoneAltMessage from "./TwotoneAltMessage";
+import TwotoneAltMessages from "./TwotoneAltMessages";
+import TwotoneAltMicrophone from "./TwotoneAltMicrophone";
+import TwotoneAltPlay from "./TwotoneAltPlay";
+import TwotoneAltRecord from "./TwotoneAltRecord";
+import TwotoneAltRepeat from "./TwotoneAltRepeat";
+import TwotoneAltSearch from "./TwotoneAltSearch";
+import TwotoneAltStar from "./TwotoneAltStar";
+import TwotoneAltStop from "./TwotoneAltStop";
+import TwotoneAltTrash from "./TwotoneAltTrash";
+import TwotoneAltUnlock from "./TwotoneAltUnlock";
+import TwotoneAltUpload from "./TwotoneAltUpload";
+import TwotoneAltUser from "./TwotoneAltUser";
+import TwotoneBarbell from "./TwotoneBarbell";
+import TwotoneBattery from "./TwotoneBattery";
+import TwotoneBookmark from "./TwotoneBookmark";
+import TwotoneCamera from "./TwotoneCamera";
+import TwotoneChart from "./TwotoneChart";
+import TwotoneChevron from "./TwotoneChevron";
+import TwotoneChevronDown from "./TwotoneChevronDown";
+import TwotoneChevronLeft from "./TwotoneChevronLeft";
+import TwotoneChevronLeftLine from "./TwotoneChevronLeftLine";
+import TwotoneChevronRight from "./TwotoneChevronRight";
+import TwotoneChevronRightLine from "./TwotoneChevronRightLine";
 import TwotoneClipboard from "./TwotoneClipboard";
+import TwotoneContrast from "./TwotoneContrast";
 import TwotoneCopy from "./TwotoneCopy";
+import TwotoneDislike from "./TwotoneDislike";
+import TwotoneDocument from "./TwotoneDocument";
+import TwotoneDocumentBlank from "./TwotoneDocumentBlank";
+import TwotoneDocumentText from "./TwotoneDocumentText";
+import TwotoneDownload from "./TwotoneDownload";
+import TwotoneEdit from "./TwotoneEdit";
 import TwotoneExport from "./TwotoneExport";
+import TwotoneFolderFavorite from "./TwotoneFolderFavorite";
+import TwotoneGallery from "./TwotoneGallery";
+import TwotoneGalleryUpload from "./TwotoneGalleryUpload";
+import TwotoneHome from "./TwotoneHome";
+import TwotoneKey from "./TwotoneKey";
+import TwotoneLocation from "./TwotoneLocation";
+import TwotoneLock from "./TwotoneLock";
+import TwotoneLogout from "./TwotoneLogout";
+import TwotoneMail from "./TwotoneMail";
+import TwotoneMessage from "./TwotoneMessage";
+import TwotoneMessages from "./TwotoneMessages";
+import TwotoneMicrophone from "./TwotoneMicrophone";
 import TwotonePlay from "./TwotonePlay";
 import TwotoneRecord from "./TwotoneRecord";
 import TwotoneRepeat from "./TwotoneRepeat";
+import TwotoneSearch from "./TwotoneSearch";
+import TwotoneSparkle from "./TwotoneSparkle";
+import TwotoneStar from "./TwotoneStar";
 import TwotoneStop from "./TwotoneStop";
+import TwotoneTrash from "./TwotoneTrash";
+import TwotoneUnlock from "./TwotoneUnlock";
+import TwotoneUpload from "./TwotoneUpload";
+import TwotoneUser from "./TwotoneUser";
 import Ui8 from "./Ui8";
 import Ui82 from "./Ui82";
 import Ui83 from "./Ui83";
@@ -2602,7 +2594,7 @@ import UserTag from "./UserTag";
 import UserTag2 from "./UserTag2";
 import UserTick from "./UserTick";
 import UserTick2 from "./UserTick2";
-import Variant7 from "./Variant7";
+import VariantSparkleCircle from "./VariantSparkleCircle";
 import VelasVlx from "./VelasVlx";
 import VelasVlx2 from "./VelasVlx2";
 import VelasVlx3 from "./VelasVlx3";
@@ -3042,51 +3034,50 @@ export { default as Blur } from "./Blur";
 export { default as Blur2 } from "./Blur2";
 export { default as Blur3 } from "./Blur3";
 export { default as Blur4 } from "./Blur4";
-export { default as Bold } from "./Bold";
-export { default as Bold1 } from "./Bold1";
-export { default as Bold10 } from "./Bold10";
-export { default as Bold11 } from "./Bold11";
-export { default as Bold12 } from "./Bold12";
-export { default as Bold13 } from "./Bold13";
-export { default as Bold14 } from "./Bold14";
-export { default as Bold15 } from "./Bold15";
-export { default as Bold16 } from "./Bold16";
-export { default as Bold17 } from "./Bold17";
-export { default as Bold18 } from "./Bold18";
-export { default as Bold19 } from "./Bold19";
-export { default as Bold2 } from "./Bold2";
-export { default as Bold20 } from "./Bold20";
-export { default as Bold21 } from "./Bold21";
-export { default as Bold22 } from "./Bold22";
-export { default as Bold23 } from "./Bold23";
-export { default as Bold24 } from "./Bold24";
-export { default as Bold25 } from "./Bold25";
-export { default as Bold26 } from "./Bold26";
-export { default as Bold27 } from "./Bold27";
-export { default as Bold28 } from "./Bold28";
-export { default as Bold29 } from "./Bold29";
-export { default as Bold3 } from "./Bold3";
-export { default as Bold30 } from "./Bold30";
-export { default as Bold31 } from "./Bold31";
-export { default as Bold32 } from "./Bold32";
-export { default as Bold33 } from "./Bold33";
-export { default as Bold34 } from "./Bold34";
-export { default as Bold35 } from "./Bold35";
-export { default as Bold36 } from "./Bold36";
 export { default as Bold37 } from "./Bold37";
-export { default as Bold4 } from "./Bold4";
-export { default as Bold5 } from "./Bold5";
-export { default as Bold6 } from "./Bold6";
-export { default as Bold7 } from "./Bold7";
-export { default as Bold8 } from "./Bold8";
-export { default as Bold9 } from "./Bold9";
-export { default as BoldClipboard } from "./BoldClipboard";
-export { default as BoldCopy } from "./BoldCopy";
-export { default as BoldExport } from "./BoldExport";
-export { default as BoldPlay } from "./BoldPlay";
-export { default as BoldRecord } from "./BoldRecord";
-export { default as BoldRepeat } from "./BoldRepeat";
-export { default as BoldStop } from "./BoldStop";
+export { default as BoldsAddSquare } from "./BoldsAddSquare";
+export { default as BoldsBarbell } from "./BoldsBarbell";
+export { default as BoldsBattery } from "./BoldsBattery";
+export { default as BoldsBookmark } from "./BoldsBookmark";
+export { default as BoldsCamera } from "./BoldsCamera";
+export { default as BoldsChart } from "./BoldsChart";
+export { default as BoldsChevron } from "./BoldsChevron";
+export { default as BoldsChevronDown } from "./BoldsChevronDown";
+export { default as BoldsChevronLeft } from "./BoldsChevronLeft";
+export { default as BoldsChevronLeftLine } from "./BoldsChevronLeftLine";
+export { default as BoldsChevronRight } from "./BoldsChevronRight";
+export { default as BoldsChevronRightLine } from "./BoldsChevronRightLine";
+export { default as BoldsClipboard } from "./BoldsClipboard";
+export { default as BoldsContrast } from "./BoldsContrast";
+export { default as BoldsCopy } from "./BoldsCopy";
+export { default as BoldsDocument } from "./BoldsDocument";
+export { default as BoldsDocumentBlank } from "./BoldsDocumentBlank";
+export { default as BoldsDocumentText } from "./BoldsDocumentText";
+export { default as BoldsDownload } from "./BoldsDownload";
+export { default as BoldsEdit } from "./BoldsEdit";
+export { default as BoldsExport } from "./BoldsExport";
+export { default as BoldsFolderFavorite } from "./BoldsFolderFavorite";
+export { default as BoldsGallery } from "./BoldsGallery";
+export { default as BoldsHome } from "./BoldsHome";
+export { default as BoldsKey } from "./BoldsKey";
+export { default as BoldsLike } from "./BoldsLike";
+export { default as BoldsLocation } from "./BoldsLocation";
+export { default as BoldsLock } from "./BoldsLock";
+export { default as BoldsLogout } from "./BoldsLogout";
+export { default as BoldsMail } from "./BoldsMail";
+export { default as BoldsMessage } from "./BoldsMessage";
+export { default as BoldsMessages } from "./BoldsMessages";
+export { default as BoldsMicrophone } from "./BoldsMicrophone";
+export { default as BoldsPlay } from "./BoldsPlay";
+export { default as BoldsRecord } from "./BoldsRecord";
+export { default as BoldsRepeat } from "./BoldsRepeat";
+export { default as BoldsSearch } from "./BoldsSearch";
+export { default as BoldsStar } from "./BoldsStar";
+export { default as BoldsStop } from "./BoldsStop";
+export { default as BoldsTrash } from "./BoldsTrash";
+export { default as BoldsUnlock } from "./BoldsUnlock";
+export { default as BoldsUpload } from "./BoldsUpload";
+export { default as BoldsUser } from "./BoldsUser";
 export { default as Book } from "./Book";
 export { default as Book1 } from "./Book1";
 export { default as Book12 } from "./Book12";
@@ -3127,51 +3118,50 @@ export { default as BrifecaseTick } from "./BrifecaseTick";
 export { default as BrifecaseTick2 } from "./BrifecaseTick2";
 export { default as BrifecaseTimer } from "./BrifecaseTimer";
 export { default as BrifecaseTimer2 } from "./BrifecaseTimer2";
-export { default as Broken } from "./Broken";
-export { default as Broken1 } from "./Broken1";
-export { default as Broken10 } from "./Broken10";
-export { default as Broken11 } from "./Broken11";
-export { default as Broken12 } from "./Broken12";
-export { default as Broken13 } from "./Broken13";
-export { default as Broken14 } from "./Broken14";
-export { default as Broken15 } from "./Broken15";
-export { default as Broken16 } from "./Broken16";
-export { default as Broken17 } from "./Broken17";
-export { default as Broken18 } from "./Broken18";
-export { default as Broken19 } from "./Broken19";
-export { default as Broken2 } from "./Broken2";
-export { default as Broken20 } from "./Broken20";
-export { default as Broken21 } from "./Broken21";
-export { default as Broken22 } from "./Broken22";
-export { default as Broken23 } from "./Broken23";
-export { default as Broken24 } from "./Broken24";
-export { default as Broken25 } from "./Broken25";
-export { default as Broken26 } from "./Broken26";
-export { default as Broken27 } from "./Broken27";
-export { default as Broken28 } from "./Broken28";
-export { default as Broken29 } from "./Broken29";
-export { default as Broken3 } from "./Broken3";
-export { default as Broken30 } from "./Broken30";
-export { default as Broken31 } from "./Broken31";
-export { default as Broken32 } from "./Broken32";
-export { default as Broken33 } from "./Broken33";
-export { default as Broken34 } from "./Broken34";
-export { default as Broken35 } from "./Broken35";
-export { default as Broken36 } from "./Broken36";
 export { default as Broken37 } from "./Broken37";
-export { default as Broken4 } from "./Broken4";
-export { default as Broken5 } from "./Broken5";
-export { default as Broken6 } from "./Broken6";
-export { default as Broken7 } from "./Broken7";
-export { default as Broken8 } from "./Broken8";
-export { default as Broken9 } from "./Broken9";
+export { default as BrokenAddSquare } from "./BrokenAddSquare";
+export { default as BrokenBarbell } from "./BrokenBarbell";
+export { default as BrokenBattery } from "./BrokenBattery";
+export { default as BrokenBookmark } from "./BrokenBookmark";
+export { default as BrokenCamera } from "./BrokenCamera";
+export { default as BrokenChart } from "./BrokenChart";
+export { default as BrokenChevron } from "./BrokenChevron";
+export { default as BrokenChevronDown } from "./BrokenChevronDown";
+export { default as BrokenChevronLeft } from "./BrokenChevronLeft";
+export { default as BrokenChevronLeftLine } from "./BrokenChevronLeftLine";
+export { default as BrokenChevronRight } from "./BrokenChevronRight";
+export { default as BrokenChevronRightLine } from "./BrokenChevronRightLine";
 export { default as BrokenClipboard } from "./BrokenClipboard";
+export { default as BrokenContrast } from "./BrokenContrast";
 export { default as BrokenCopy } from "./BrokenCopy";
+export { default as BrokenDocument } from "./BrokenDocument";
+export { default as BrokenDocumentBlank } from "./BrokenDocumentBlank";
+export { default as BrokenDocumentText } from "./BrokenDocumentText";
+export { default as BrokenDownload } from "./BrokenDownload";
+export { default as BrokenEdit } from "./BrokenEdit";
 export { default as BrokenExport } from "./BrokenExport";
-export { default as BrokenPlay } from "./BrokenPlay";
+export { default as BrokenFolderFavorite } from "./BrokenFolderFavorite";
+export { default as BrokenGallery } from "./BrokenGallery";
+export { default as BrokenHome } from "./BrokenHome";
+export { default as BrokenKey } from "./BrokenKey";
+export { default as BrokenLike } from "./BrokenLike";
+export { default as BrokenLocation } from "./BrokenLocation";
+export { default as BrokenLock } from "./BrokenLock";
+export { default as BrokenLogout } from "./BrokenLogout";
+export { default as BrokenMail } from "./BrokenMail";
+export { default as BrokenMessage } from "./BrokenMessage";
+export { default as BrokenMessages } from "./BrokenMessages";
+export { default as BrokenMicrophone } from "./BrokenMicrophone";
 export { default as BrokenRecord } from "./BrokenRecord";
 export { default as BrokenRepeat } from "./BrokenRepeat";
+export { default as BrokenSearch } from "./BrokenSearch";
+export { default as BrokenSend } from "./BrokenSend";
+export { default as BrokenStar } from "./BrokenStar";
 export { default as BrokenStop } from "./BrokenStop";
+export { default as BrokenTrash } from "./BrokenTrash";
+export { default as BrokenUnlock } from "./BrokenUnlock";
+export { default as BrokenUpload } from "./BrokenUpload";
+export { default as BrokenUser } from "./BrokenUser";
 export { default as Broom } from "./Broom";
 export { default as Broom2 } from "./Broom2";
 export { default as Brush } from "./Brush";
@@ -3213,50 +3203,7 @@ export { default as Buildings2 } from "./Buildings2";
 export { default as Buildings22 } from "./Buildings22";
 export { default as Buliding } from "./Buliding";
 export { default as Buliding2 } from "./Buliding2";
-export { default as Bulk } from "./Bulk";
-export { default as Bulk1 } from "./Bulk1";
-export { default as Bulk11 } from "./Bulk11";
-export { default as Bulk12 } from "./Bulk12";
-export { default as Bulk13 } from "./Bulk13";
-export { default as Bulk14 } from "./Bulk14";
-export { default as Bulk15 } from "./Bulk15";
-export { default as Bulk16 } from "./Bulk16";
-export { default as Bulk17 } from "./Bulk17";
-export { default as Bulk18 } from "./Bulk18";
-export { default as Bulk19 } from "./Bulk19";
-export { default as Bulk2 } from "./Bulk2";
-export { default as Bulk20 } from "./Bulk20";
-export { default as Bulk21 } from "./Bulk21";
-export { default as Bulk22 } from "./Bulk22";
-export { default as Bulk23 } from "./Bulk23";
-export { default as Bulk24 } from "./Bulk24";
-export { default as Bulk25 } from "./Bulk25";
-export { default as Bulk26 } from "./Bulk26";
-export { default as Bulk27 } from "./Bulk27";
-export { default as Bulk28 } from "./Bulk28";
-export { default as Bulk29 } from "./Bulk29";
-export { default as Bulk3 } from "./Bulk3";
-export { default as Bulk30 } from "./Bulk30";
-export { default as Bulk31 } from "./Bulk31";
-export { default as Bulk32 } from "./Bulk32";
-export { default as Bulk33 } from "./Bulk33";
-export { default as Bulk34 } from "./Bulk34";
-export { default as Bulk35 } from "./Bulk35";
-export { default as Bulk36 } from "./Bulk36";
 export { default as Bulk37 } from "./Bulk37";
-export { default as Bulk4 } from "./Bulk4";
-export { default as Bulk5 } from "./Bulk5";
-export { default as Bulk6 } from "./Bulk6";
-export { default as Bulk7 } from "./Bulk7";
-export { default as Bulk8 } from "./Bulk8";
-export { default as Bulk9 } from "./Bulk9";
-export { default as BulkClipboard } from "./BulkClipboard";
-export { default as BulkCopy } from "./BulkCopy";
-export { default as BulkExport } from "./BulkExport";
-export { default as BulkPlay } from "./BulkPlay";
-export { default as BulkRecord } from "./BulkRecord";
-export { default as BulkRepeat } from "./BulkRepeat";
-export { default as BulkStop } from "./BulkStop";
 export { default as Bus } from "./Bus";
 export { default as Bus2 } from "./Bus2";
 export { default as BuyCrypto } from "./BuyCrypto";
@@ -3742,6 +3689,48 @@ export { default as Facebook3 } from "./Facebook3";
 export { default as Facebook4 } from "./Facebook4";
 export { default as Facebook5 } from "./Facebook5";
 export { default as Facebook6 } from "./Facebook6";
+export { default as FadeAddSquare } from "./FadeAddSquare";
+export { default as FadeBarbell } from "./FadeBarbell";
+export { default as FadeBattery } from "./FadeBattery";
+export { default as FadeBookmark } from "./FadeBookmark";
+export { default as FadeCamera } from "./FadeCamera";
+export { default as FadeChart } from "./FadeChart";
+export { default as FadeChevron } from "./FadeChevron";
+export { default as FadeChevronDown } from "./FadeChevronDown";
+export { default as FadeChevronLeft } from "./FadeChevronLeft";
+export { default as FadeChevronLeftLine } from "./FadeChevronLeftLine";
+export { default as FadeChevronRight } from "./FadeChevronRight";
+export { default as FadeChevronRightLine } from "./FadeChevronRightLine";
+export { default as FadeClipboard } from "./FadeClipboard";
+export { default as FadeContrast } from "./FadeContrast";
+export { default as FadeCopy } from "./FadeCopy";
+export { default as FadeDislike } from "./FadeDislike";
+export { default as FadeDocument } from "./FadeDocument";
+export { default as FadeDocumentBlank } from "./FadeDocumentBlank";
+export { default as FadeDocumentText } from "./FadeDocumentText";
+export { default as FadeDownload } from "./FadeDownload";
+export { default as FadeEdit } from "./FadeEdit";
+export { default as FadeExport } from "./FadeExport";
+export { default as FadeGallery } from "./FadeGallery";
+export { default as FadeHome } from "./FadeHome";
+export { default as FadeKey } from "./FadeKey";
+export { default as FadeLocation } from "./FadeLocation";
+export { default as FadeLock } from "./FadeLock";
+export { default as FadeLogout } from "./FadeLogout";
+export { default as FadeMail } from "./FadeMail";
+export { default as FadeMessage } from "./FadeMessage";
+export { default as FadeMessages } from "./FadeMessages";
+export { default as FadeMicrophone } from "./FadeMicrophone";
+export { default as FadePlay } from "./FadePlay";
+export { default as FadeRecord } from "./FadeRecord";
+export { default as FadeRepeat } from "./FadeRepeat";
+export { default as FadeSearch } from "./FadeSearch";
+export { default as FadeStar } from "./FadeStar";
+export { default as FadeStop } from "./FadeStop";
+export { default as FadeTrash } from "./FadeTrash";
+export { default as FadeUnlock } from "./FadeUnlock";
+export { default as FadeUpload } from "./FadeUpload";
+export { default as FadeUser } from "./FadeUser";
 export { default as Fatrows } from "./Fatrows";
 export { default as Fatrows2 } from "./Fatrows2";
 export { default as FavoriteChart } from "./FavoriteChart";
@@ -4083,6 +4072,7 @@ export { default as IconIcx3 } from "./IconIcx3";
 export { default as IconIcx4 } from "./IconIcx4";
 export { default as IconIcx5 } from "./IconIcx5";
 export { default as IconIcx6 } from "./IconIcx6";
+export { default as IconSymbols1 } from "./IconSymbols1";
 export { default as Illustrator } from "./Illustrator";
 export { default as Illustrator2 } from "./Illustrator2";
 export { default as Illustrator3 } from "./Illustrator3";
@@ -4175,51 +4165,49 @@ export { default as LikeShapes } from "./LikeShapes";
 export { default as LikeShapes2 } from "./LikeShapes2";
 export { default as LikeTag } from "./LikeTag";
 export { default as LikeTag2 } from "./LikeTag2";
-export { default as Linear } from "./Linear";
-export { default as Linear1 } from "./Linear1";
-export { default as Linear10 } from "./Linear10";
-export { default as Linear11 } from "./Linear11";
-export { default as Linear12 } from "./Linear12";
-export { default as Linear13 } from "./Linear13";
-export { default as Linear14 } from "./Linear14";
-export { default as Linear15 } from "./Linear15";
-export { default as Linear16 } from "./Linear16";
-export { default as Linear17 } from "./Linear17";
-export { default as Linear18 } from "./Linear18";
-export { default as Linear19 } from "./Linear19";
-export { default as Linear2 } from "./Linear2";
-export { default as Linear20 } from "./Linear20";
-export { default as Linear21 } from "./Linear21";
-export { default as Linear22 } from "./Linear22";
-export { default as Linear23 } from "./Linear23";
-export { default as Linear24 } from "./Linear24";
-export { default as Linear25 } from "./Linear25";
-export { default as Linear26 } from "./Linear26";
-export { default as Linear27 } from "./Linear27";
-export { default as Linear28 } from "./Linear28";
-export { default as Linear29 } from "./Linear29";
-export { default as Linear3 } from "./Linear3";
-export { default as Linear30 } from "./Linear30";
-export { default as Linear31 } from "./Linear31";
-export { default as Linear32 } from "./Linear32";
-export { default as Linear33 } from "./Linear33";
-export { default as Linear34 } from "./Linear34";
-export { default as Linear35 } from "./Linear35";
-export { default as Linear36 } from "./Linear36";
-export { default as Linear37 } from "./Linear37";
-export { default as Linear4 } from "./Linear4";
-export { default as Linear5 } from "./Linear5";
-export { default as Linear6 } from "./Linear6";
-export { default as Linear7 } from "./Linear7";
-export { default as Linear8 } from "./Linear8";
-export { default as Linear9 } from "./Linear9";
+export { default as LinearAddSquare } from "./LinearAddSquare";
+export { default as LinearBarbell } from "./LinearBarbell";
+export { default as LinearBattery } from "./LinearBattery";
+export { default as LinearBookmark } from "./LinearBookmark";
+export { default as LinearCamera } from "./LinearCamera";
+export { default as LinearChart } from "./LinearChart";
+export { default as LinearChevron } from "./LinearChevron";
+export { default as LinearChevronDown } from "./LinearChevronDown";
+export { default as LinearChevronLeft } from "./LinearChevronLeft";
+export { default as LinearChevronLeftLine } from "./LinearChevronLeftLine";
+export { default as LinearChevronRight } from "./LinearChevronRight";
+export { default as LinearChevronRightLine } from "./LinearChevronRightLine";
 export { default as LinearClipboard } from "./LinearClipboard";
+export { default as LinearContrast } from "./LinearContrast";
 export { default as LinearCopy } from "./LinearCopy";
+export { default as LinearDislike } from "./LinearDislike";
+export { default as LinearDocument } from "./LinearDocument";
+export { default as LinearDocumentBlank } from "./LinearDocumentBlank";
+export { default as LinearDocumentText } from "./LinearDocumentText";
+export { default as LinearDownload } from "./LinearDownload";
+export { default as LinearEdit } from "./LinearEdit";
 export { default as LinearExport } from "./LinearExport";
+export { default as LinearFolderFavorite } from "./LinearFolderFavorite";
+export { default as LinearGallery } from "./LinearGallery";
+export { default as LinearHome } from "./LinearHome";
+export { default as LinearKey } from "./LinearKey";
+export { default as LinearLocation } from "./LinearLocation";
+export { default as LinearLock } from "./LinearLock";
+export { default as LinearLogout } from "./LinearLogout";
+export { default as LinearMail } from "./LinearMail";
+export { default as LinearMessage } from "./LinearMessage";
+export { default as LinearMessages } from "./LinearMessages";
+export { default as LinearMicrophone } from "./LinearMicrophone";
 export { default as LinearPlay } from "./LinearPlay";
 export { default as LinearRecord } from "./LinearRecord";
 export { default as LinearRepeat } from "./LinearRepeat";
+export { default as LinearSearch } from "./LinearSearch";
+export { default as LinearStar } from "./LinearStar";
 export { default as LinearStop } from "./LinearStop";
+export { default as LinearTrash } from "./LinearTrash";
+export { default as LinearUnlock } from "./LinearUnlock";
+export { default as LinearUpload } from "./LinearUpload";
+export { default as LinearUser } from "./LinearUser";
 export { default as Link } from "./Link";
 export { default as Link1 } from "./Link1";
 export { default as Link12 } from "./Link12";
@@ -4274,7 +4262,7 @@ export { default as Logout1 } from "./Logout1";
 export { default as Logout12 } from "./Logout12";
 export { default as Logout2 } from "./Logout2";
 export { default as Losi } from "./Losi";
-export { default as LosiIconSymbols1 } from "./LosiIconSymbols1";
+export { default as LosiMain } from "./LosiMain";
 export { default as Lovely } from "./Lovely";
 export { default as Lovely2 } from "./Lovely2";
 export { default as MagicStar } from "./MagicStar";
@@ -4562,55 +4550,7 @@ export { default as OntologyOnt3 } from "./OntologyOnt3";
 export { default as OntologyOnt4 } from "./OntologyOnt4";
 export { default as OntologyOnt5 } from "./OntologyOnt5";
 export { default as OntologyOnt6 } from "./OntologyOnt6";
-export { default as Outline } from "./Outline";
-export { default as Outline1 } from "./Outline1";
-export { default as Outline10 } from "./Outline10";
-export { default as Outline11 } from "./Outline11";
-export { default as Outline12 } from "./Outline12";
-export { default as Outline13 } from "./Outline13";
-export { default as Outline14 } from "./Outline14";
-export { default as Outline15 } from "./Outline15";
-export { default as Outline16 } from "./Outline16";
-export { default as Outline17 } from "./Outline17";
-export { default as Outline18 } from "./Outline18";
-export { default as Outline19 } from "./Outline19";
-export { default as Outline2 } from "./Outline2";
-export { default as Outline20 } from "./Outline20";
-export { default as Outline21 } from "./Outline21";
-export { default as Outline22 } from "./Outline22";
-export { default as Outline23 } from "./Outline23";
-export { default as Outline24 } from "./Outline24";
-export { default as Outline25 } from "./Outline25";
-export { default as Outline26 } from "./Outline26";
-export { default as Outline27 } from "./Outline27";
-export { default as Outline28 } from "./Outline28";
-export { default as Outline29 } from "./Outline29";
-export { default as Outline3 } from "./Outline3";
-export { default as Outline30 } from "./Outline30";
-export { default as Outline31 } from "./Outline31";
-export { default as Outline32 } from "./Outline32";
-export { default as Outline33 } from "./Outline33";
-export { default as Outline34 } from "./Outline34";
-export { default as Outline35 } from "./Outline35";
-export { default as Outline36 } from "./Outline36";
-export { default as Outline37 } from "./Outline37";
-export { default as Outline38 } from "./Outline38";
-export { default as Outline39 } from "./Outline39";
-export { default as Outline4 } from "./Outline4";
-export { default as Outline40 } from "./Outline40";
 export { default as Outline41 } from "./Outline41";
-export { default as Outline5 } from "./Outline5";
-export { default as Outline6 } from "./Outline6";
-export { default as Outline7 } from "./Outline7";
-export { default as Outline8 } from "./Outline8";
-export { default as Outline9 } from "./Outline9";
-export { default as OutlineClipboard } from "./OutlineClipboard";
-export { default as OutlineCopy } from "./OutlineCopy";
-export { default as OutlineExport } from "./OutlineExport";
-export { default as OutlinePlay } from "./OutlinePlay";
-export { default as OutlineRecord } from "./OutlineRecord";
-export { default as OutlineRepeat } from "./OutlineRepeat";
-export { default as OutlineStop } from "./OutlineStop";
 export { default as Paintbucket } from "./Paintbucket";
 export { default as Paintbucket2 } from "./Paintbucket2";
 export { default as Paintbucket3 } from "./Paintbucket3";
@@ -5284,51 +5224,95 @@ export { default as Twitch3 } from "./Twitch3";
 export { default as Twitch4 } from "./Twitch4";
 export { default as Twitch5 } from "./Twitch5";
 export { default as Twitch6 } from "./Twitch6";
-export { default as Twotone } from "./Twotone";
-export { default as Twotone1 } from "./Twotone1";
-export { default as Twotone10 } from "./Twotone10";
-export { default as Twotone11 } from "./Twotone11";
-export { default as Twotone12 } from "./Twotone12";
-export { default as Twotone13 } from "./Twotone13";
-export { default as Twotone14 } from "./Twotone14";
-export { default as Twotone15 } from "./Twotone15";
-export { default as Twotone16 } from "./Twotone16";
-export { default as Twotone17 } from "./Twotone17";
-export { default as Twotone18 } from "./Twotone18";
-export { default as Twotone19 } from "./Twotone19";
-export { default as Twotone2 } from "./Twotone2";
-export { default as Twotone20 } from "./Twotone20";
-export { default as Twotone21 } from "./Twotone21";
-export { default as Twotone22 } from "./Twotone22";
-export { default as Twotone23 } from "./Twotone23";
-export { default as Twotone24 } from "./Twotone24";
-export { default as Twotone25 } from "./Twotone25";
-export { default as Twotone26 } from "./Twotone26";
-export { default as Twotone27 } from "./Twotone27";
-export { default as Twotone28 } from "./Twotone28";
-export { default as Twotone29 } from "./Twotone29";
-export { default as Twotone3 } from "./Twotone3";
-export { default as Twotone30 } from "./Twotone30";
-export { default as Twotone31 } from "./Twotone31";
-export { default as Twotone32 } from "./Twotone32";
-export { default as Twotone33 } from "./Twotone33";
-export { default as Twotone34 } from "./Twotone34";
-export { default as Twotone35 } from "./Twotone35";
-export { default as Twotone36 } from "./Twotone36";
 export { default as Twotone37 } from "./Twotone37";
-export { default as Twotone4 } from "./Twotone4";
-export { default as Twotone5 } from "./Twotone5";
-export { default as Twotone6 } from "./Twotone6";
-export { default as Twotone7 } from "./Twotone7";
-export { default as Twotone8 } from "./Twotone8";
-export { default as Twotone9 } from "./Twotone9";
+export { default as TwotoneAddSquare } from "./TwotoneAddSquare";
+export { default as TwotoneAltAddSquare } from "./TwotoneAltAddSquare";
+export { default as TwotoneAltBarbell } from "./TwotoneAltBarbell";
+export { default as TwotoneAltBattery } from "./TwotoneAltBattery";
+export { default as TwotoneAltBookmark } from "./TwotoneAltBookmark";
+export { default as TwotoneAltCamera } from "./TwotoneAltCamera";
+export { default as TwotoneAltChart } from "./TwotoneAltChart";
+export { default as TwotoneAltChevron } from "./TwotoneAltChevron";
+export { default as TwotoneAltChevronDown } from "./TwotoneAltChevronDown";
+export { default as TwotoneAltChevronLeft } from "./TwotoneAltChevronLeft";
+export { default as TwotoneAltChevronLeftLine } from "./TwotoneAltChevronLeftLine";
+export { default as TwotoneAltChevronRight } from "./TwotoneAltChevronRight";
+export { default as TwotoneAltChevronRightLine } from "./TwotoneAltChevronRightLine";
+export { default as TwotoneAltClipboard } from "./TwotoneAltClipboard";
+export { default as TwotoneAltContrast } from "./TwotoneAltContrast";
+export { default as TwotoneAltCopy } from "./TwotoneAltCopy";
+export { default as TwotoneAltDislike } from "./TwotoneAltDislike";
+export { default as TwotoneAltDocument } from "./TwotoneAltDocument";
+export { default as TwotoneAltDocumentBlank } from "./TwotoneAltDocumentBlank";
+export { default as TwotoneAltDocumentText } from "./TwotoneAltDocumentText";
+export { default as TwotoneAltDownload } from "./TwotoneAltDownload";
+export { default as TwotoneAltEdit } from "./TwotoneAltEdit";
+export { default as TwotoneAltExport } from "./TwotoneAltExport";
+export { default as TwotoneAltFolderFavorite } from "./TwotoneAltFolderFavorite";
+export { default as TwotoneAltGallery } from "./TwotoneAltGallery";
+export { default as TwotoneAltHome } from "./TwotoneAltHome";
+export { default as TwotoneAltKey } from "./TwotoneAltKey";
+export { default as TwotoneAltLocation } from "./TwotoneAltLocation";
+export { default as TwotoneAltLock } from "./TwotoneAltLock";
+export { default as TwotoneAltLogout } from "./TwotoneAltLogout";
+export { default as TwotoneAltMail } from "./TwotoneAltMail";
+export { default as TwotoneAltMessage } from "./TwotoneAltMessage";
+export { default as TwotoneAltMessages } from "./TwotoneAltMessages";
+export { default as TwotoneAltMicrophone } from "./TwotoneAltMicrophone";
+export { default as TwotoneAltPlay } from "./TwotoneAltPlay";
+export { default as TwotoneAltRecord } from "./TwotoneAltRecord";
+export { default as TwotoneAltRepeat } from "./TwotoneAltRepeat";
+export { default as TwotoneAltSearch } from "./TwotoneAltSearch";
+export { default as TwotoneAltStar } from "./TwotoneAltStar";
+export { default as TwotoneAltStop } from "./TwotoneAltStop";
+export { default as TwotoneAltTrash } from "./TwotoneAltTrash";
+export { default as TwotoneAltUnlock } from "./TwotoneAltUnlock";
+export { default as TwotoneAltUpload } from "./TwotoneAltUpload";
+export { default as TwotoneAltUser } from "./TwotoneAltUser";
+export { default as TwotoneBarbell } from "./TwotoneBarbell";
+export { default as TwotoneBattery } from "./TwotoneBattery";
+export { default as TwotoneBookmark } from "./TwotoneBookmark";
+export { default as TwotoneCamera } from "./TwotoneCamera";
+export { default as TwotoneChart } from "./TwotoneChart";
+export { default as TwotoneChevron } from "./TwotoneChevron";
+export { default as TwotoneChevronDown } from "./TwotoneChevronDown";
+export { default as TwotoneChevronLeft } from "./TwotoneChevronLeft";
+export { default as TwotoneChevronLeftLine } from "./TwotoneChevronLeftLine";
+export { default as TwotoneChevronRight } from "./TwotoneChevronRight";
+export { default as TwotoneChevronRightLine } from "./TwotoneChevronRightLine";
 export { default as TwotoneClipboard } from "./TwotoneClipboard";
+export { default as TwotoneContrast } from "./TwotoneContrast";
 export { default as TwotoneCopy } from "./TwotoneCopy";
+export { default as TwotoneDislike } from "./TwotoneDislike";
+export { default as TwotoneDocument } from "./TwotoneDocument";
+export { default as TwotoneDocumentBlank } from "./TwotoneDocumentBlank";
+export { default as TwotoneDocumentText } from "./TwotoneDocumentText";
+export { default as TwotoneDownload } from "./TwotoneDownload";
+export { default as TwotoneEdit } from "./TwotoneEdit";
 export { default as TwotoneExport } from "./TwotoneExport";
+export { default as TwotoneFolderFavorite } from "./TwotoneFolderFavorite";
+export { default as TwotoneGallery } from "./TwotoneGallery";
+export { default as TwotoneGalleryUpload } from "./TwotoneGalleryUpload";
+export { default as TwotoneHome } from "./TwotoneHome";
+export { default as TwotoneKey } from "./TwotoneKey";
+export { default as TwotoneLocation } from "./TwotoneLocation";
+export { default as TwotoneLock } from "./TwotoneLock";
+export { default as TwotoneLogout } from "./TwotoneLogout";
+export { default as TwotoneMail } from "./TwotoneMail";
+export { default as TwotoneMessage } from "./TwotoneMessage";
+export { default as TwotoneMessages } from "./TwotoneMessages";
+export { default as TwotoneMicrophone } from "./TwotoneMicrophone";
 export { default as TwotonePlay } from "./TwotonePlay";
 export { default as TwotoneRecord } from "./TwotoneRecord";
 export { default as TwotoneRepeat } from "./TwotoneRepeat";
+export { default as TwotoneSearch } from "./TwotoneSearch";
+export { default as TwotoneSparkle } from "./TwotoneSparkle";
+export { default as TwotoneStar } from "./TwotoneStar";
 export { default as TwotoneStop } from "./TwotoneStop";
+export { default as TwotoneTrash } from "./TwotoneTrash";
+export { default as TwotoneUnlock } from "./TwotoneUnlock";
+export { default as TwotoneUpload } from "./TwotoneUpload";
+export { default as TwotoneUser } from "./TwotoneUser";
 export { default as Ui8 } from "./Ui8";
 export { default as Ui82 } from "./Ui82";
 export { default as Ui83 } from "./Ui83";
@@ -5370,7 +5354,7 @@ export { default as UserTag } from "./UserTag";
 export { default as UserTag2 } from "./UserTag2";
 export { default as UserTick } from "./UserTick";
 export { default as UserTick2 } from "./UserTick2";
-export { default as Variant7 } from "./Variant7";
+export { default as VariantSparkleCircle } from "./VariantSparkleCircle";
 export { default as VelasVlx } from "./VelasVlx";
 export { default as VelasVlx2 } from "./VelasVlx2";
 export { default as VelasVlx3 } from "./VelasVlx3";
@@ -5545,286 +5529,278 @@ export type IconComponent = ComponentType<SVGProps<SVGSVGElement>>;
 
 export const icons = {
   "assets/svg/Black-S": BlackS,
+  "assets/svg/Losi-main": LosiMain,
   "assets/svg/Losi": Losi,
-  "assets/svg/Property 1=Variant7": Variant7,
-  "assets/svg/Property 1=bold-1": Bold1,
-  "assets/svg/Property 1=bold-10": Bold10,
-  "assets/svg/Property 1=bold-11": Bold11,
-  "assets/svg/Property 1=bold-12": Bold12,
-  "assets/svg/Property 1=bold-13": Bold13,
-  "assets/svg/Property 1=bold-14": Bold14,
-  "assets/svg/Property 1=bold-15": Bold15,
-  "assets/svg/Property 1=bold-16": Bold16,
-  "assets/svg/Property 1=bold-17": Bold17,
-  "assets/svg/Property 1=bold-18": Bold18,
-  "assets/svg/Property 1=bold-19": Bold19,
-  "assets/svg/Property 1=bold-2": Bold2,
-  "assets/svg/Property 1=bold-20": Bold20,
-  "assets/svg/Property 1=bold-21": Bold21,
-  "assets/svg/Property 1=bold-22": Bold22,
-  "assets/svg/Property 1=bold-23": Bold23,
-  "assets/svg/Property 1=bold-24": Bold24,
-  "assets/svg/Property 1=bold-25": Bold25,
-  "assets/svg/Property 1=bold-26": Bold26,
-  "assets/svg/Property 1=bold-27": Bold27,
-  "assets/svg/Property 1=bold-28": Bold28,
-  "assets/svg/Property 1=bold-29": Bold29,
-  "assets/svg/Property 1=bold-3": Bold3,
-  "assets/svg/Property 1=bold-30": Bold30,
-  "assets/svg/Property 1=bold-31": Bold31,
-  "assets/svg/Property 1=bold-32": Bold32,
-  "assets/svg/Property 1=bold-33": Bold33,
-  "assets/svg/Property 1=bold-34": Bold34,
-  "assets/svg/Property 1=bold-35": Bold35,
-  "assets/svg/Property 1=bold-36": Bold36,
   "assets/svg/Property 1=bold-37": Bold37,
-  "assets/svg/Property 1=bold-4": Bold4,
-  "assets/svg/Property 1=bold-5": Bold5,
-  "assets/svg/Property 1=bold-6": Bold6,
-  "assets/svg/Property 1=bold-7": Bold7,
-  "assets/svg/Property 1=bold-8": Bold8,
-  "assets/svg/Property 1=bold-9": Bold9,
-  "assets/svg/Property 1=bold-clipboard": BoldClipboard,
-  "assets/svg/Property 1=bold-copy": BoldCopy,
-  "assets/svg/Property 1=bold-export": BoldExport,
-  "assets/svg/Property 1=bold-play": BoldPlay,
-  "assets/svg/Property 1=bold-record": BoldRecord,
-  "assets/svg/Property 1=bold-repeat": BoldRepeat,
-  "assets/svg/Property 1=bold-stop": BoldStop,
-  "assets/svg/Property 1=bold": Bold,
-  "assets/svg/Property 1=broken-1": Broken1,
-  "assets/svg/Property 1=broken-10": Broken10,
-  "assets/svg/Property 1=broken-11": Broken11,
-  "assets/svg/Property 1=broken-12": Broken12,
-  "assets/svg/Property 1=broken-13": Broken13,
-  "assets/svg/Property 1=broken-14": Broken14,
-  "assets/svg/Property 1=broken-15": Broken15,
-  "assets/svg/Property 1=broken-16": Broken16,
-  "assets/svg/Property 1=broken-17": Broken17,
-  "assets/svg/Property 1=broken-18": Broken18,
-  "assets/svg/Property 1=broken-19": Broken19,
-  "assets/svg/Property 1=broken-2": Broken2,
-  "assets/svg/Property 1=broken-20": Broken20,
-  "assets/svg/Property 1=broken-21": Broken21,
-  "assets/svg/Property 1=broken-22": Broken22,
-  "assets/svg/Property 1=broken-23": Broken23,
-  "assets/svg/Property 1=broken-24": Broken24,
-  "assets/svg/Property 1=broken-25": Broken25,
-  "assets/svg/Property 1=broken-26": Broken26,
-  "assets/svg/Property 1=broken-27": Broken27,
-  "assets/svg/Property 1=broken-28": Broken28,
-  "assets/svg/Property 1=broken-29": Broken29,
-  "assets/svg/Property 1=broken-3": Broken3,
-  "assets/svg/Property 1=broken-30": Broken30,
-  "assets/svg/Property 1=broken-31": Broken31,
-  "assets/svg/Property 1=broken-32": Broken32,
-  "assets/svg/Property 1=broken-33": Broken33,
-  "assets/svg/Property 1=broken-34": Broken34,
-  "assets/svg/Property 1=broken-35": Broken35,
-  "assets/svg/Property 1=broken-36": Broken36,
   "assets/svg/Property 1=broken-37": Broken37,
-  "assets/svg/Property 1=broken-4": Broken4,
-  "assets/svg/Property 1=broken-5": Broken5,
-  "assets/svg/Property 1=broken-6": Broken6,
-  "assets/svg/Property 1=broken-7": Broken7,
-  "assets/svg/Property 1=broken-8": Broken8,
-  "assets/svg/Property 1=broken-9": Broken9,
-  "assets/svg/Property 1=broken-clipboard": BrokenClipboard,
-  "assets/svg/Property 1=broken-copy": BrokenCopy,
-  "assets/svg/Property 1=broken-export": BrokenExport,
-  "assets/svg/Property 1=broken-play": BrokenPlay,
-  "assets/svg/Property 1=broken-record": BrokenRecord,
-  "assets/svg/Property 1=broken-repeat": BrokenRepeat,
-  "assets/svg/Property 1=broken-stop": BrokenStop,
-  "assets/svg/Property 1=broken": Broken,
-  "assets/svg/Property 1=bulk-1": Bulk1,
-  "assets/svg/Property 1=bulk-11": Bulk11,
-  "assets/svg/Property 1=bulk-12": Bulk12,
-  "assets/svg/Property 1=bulk-13": Bulk13,
-  "assets/svg/Property 1=bulk-14": Bulk14,
-  "assets/svg/Property 1=bulk-15": Bulk15,
-  "assets/svg/Property 1=bulk-16": Bulk16,
-  "assets/svg/Property 1=bulk-17": Bulk17,
-  "assets/svg/Property 1=bulk-18": Bulk18,
-  "assets/svg/Property 1=bulk-19": Bulk19,
-  "assets/svg/Property 1=bulk-2": Bulk2,
-  "assets/svg/Property 1=bulk-20": Bulk20,
-  "assets/svg/Property 1=bulk-21": Bulk21,
-  "assets/svg/Property 1=bulk-22": Bulk22,
-  "assets/svg/Property 1=bulk-23": Bulk23,
-  "assets/svg/Property 1=bulk-24": Bulk24,
-  "assets/svg/Property 1=bulk-25": Bulk25,
-  "assets/svg/Property 1=bulk-26": Bulk26,
-  "assets/svg/Property 1=bulk-27": Bulk27,
-  "assets/svg/Property 1=bulk-28": Bulk28,
-  "assets/svg/Property 1=bulk-29": Bulk29,
-  "assets/svg/Property 1=bulk-3": Bulk3,
-  "assets/svg/Property 1=bulk-30": Bulk30,
-  "assets/svg/Property 1=bulk-31": Bulk31,
-  "assets/svg/Property 1=bulk-32": Bulk32,
-  "assets/svg/Property 1=bulk-33": Bulk33,
-  "assets/svg/Property 1=bulk-34": Bulk34,
-  "assets/svg/Property 1=bulk-35": Bulk35,
-  "assets/svg/Property 1=bulk-36": Bulk36,
   "assets/svg/Property 1=bulk-37": Bulk37,
-  "assets/svg/Property 1=bulk-4": Bulk4,
-  "assets/svg/Property 1=bulk-5": Bulk5,
-  "assets/svg/Property 1=bulk-6": Bulk6,
-  "assets/svg/Property 1=bulk-7": Bulk7,
-  "assets/svg/Property 1=bulk-8": Bulk8,
-  "assets/svg/Property 1=bulk-9": Bulk9,
-  "assets/svg/Property 1=bulk-clipboard": BulkClipboard,
-  "assets/svg/Property 1=bulk-copy": BulkCopy,
-  "assets/svg/Property 1=bulk-export": BulkExport,
-  "assets/svg/Property 1=bulk-play": BulkPlay,
-  "assets/svg/Property 1=bulk-record": BulkRecord,
-  "assets/svg/Property 1=bulk-repeat": BulkRepeat,
-  "assets/svg/Property 1=bulk-stop": BulkStop,
-  "assets/svg/Property 1=bulk": Bulk,
-  "assets/svg/Property 1=linear-1": Linear1,
-  "assets/svg/Property 1=linear-10": Linear10,
-  "assets/svg/Property 1=linear-11": Linear11,
-  "assets/svg/Property 1=linear-12": Linear12,
-  "assets/svg/Property 1=linear-13": Linear13,
-  "assets/svg/Property 1=linear-14": Linear14,
-  "assets/svg/Property 1=linear-15": Linear15,
-  "assets/svg/Property 1=linear-16": Linear16,
-  "assets/svg/Property 1=linear-17": Linear17,
-  "assets/svg/Property 1=linear-18": Linear18,
-  "assets/svg/Property 1=linear-19": Linear19,
-  "assets/svg/Property 1=linear-2": Linear2,
-  "assets/svg/Property 1=linear-20": Linear20,
-  "assets/svg/Property 1=linear-21": Linear21,
-  "assets/svg/Property 1=linear-22": Linear22,
-  "assets/svg/Property 1=linear-23": Linear23,
-  "assets/svg/Property 1=linear-24": Linear24,
-  "assets/svg/Property 1=linear-25": Linear25,
-  "assets/svg/Property 1=linear-26": Linear26,
-  "assets/svg/Property 1=linear-27": Linear27,
-  "assets/svg/Property 1=linear-28": Linear28,
-  "assets/svg/Property 1=linear-29": Linear29,
-  "assets/svg/Property 1=linear-3": Linear3,
-  "assets/svg/Property 1=linear-30": Linear30,
-  "assets/svg/Property 1=linear-31": Linear31,
-  "assets/svg/Property 1=linear-32": Linear32,
-  "assets/svg/Property 1=linear-33": Linear33,
-  "assets/svg/Property 1=linear-34": Linear34,
-  "assets/svg/Property 1=linear-35": Linear35,
-  "assets/svg/Property 1=linear-36": Linear36,
-  "assets/svg/Property 1=linear-37": Linear37,
-  "assets/svg/Property 1=linear-4": Linear4,
-  "assets/svg/Property 1=linear-5": Linear5,
-  "assets/svg/Property 1=linear-6": Linear6,
-  "assets/svg/Property 1=linear-7": Linear7,
-  "assets/svg/Property 1=linear-8": Linear8,
-  "assets/svg/Property 1=linear-9": Linear9,
-  "assets/svg/Property 1=linear-clipboard": LinearClipboard,
-  "assets/svg/Property 1=linear-copy": LinearCopy,
-  "assets/svg/Property 1=linear-export": LinearExport,
-  "assets/svg/Property 1=linear-play": LinearPlay,
-  "assets/svg/Property 1=linear-record": LinearRecord,
-  "assets/svg/Property 1=linear-repeat": LinearRepeat,
-  "assets/svg/Property 1=linear-stop": LinearStop,
-  "assets/svg/Property 1=linear": Linear,
-  "assets/svg/Property 1=outline-1": Outline1,
-  "assets/svg/Property 1=outline-10": Outline10,
-  "assets/svg/Property 1=outline-11": Outline11,
-  "assets/svg/Property 1=outline-12": Outline12,
-  "assets/svg/Property 1=outline-13": Outline13,
-  "assets/svg/Property 1=outline-14": Outline14,
-  "assets/svg/Property 1=outline-15": Outline15,
-  "assets/svg/Property 1=outline-16": Outline16,
-  "assets/svg/Property 1=outline-17": Outline17,
-  "assets/svg/Property 1=outline-18": Outline18,
-  "assets/svg/Property 1=outline-19": Outline19,
-  "assets/svg/Property 1=outline-2": Outline2,
-  "assets/svg/Property 1=outline-20": Outline20,
-  "assets/svg/Property 1=outline-21": Outline21,
-  "assets/svg/Property 1=outline-22": Outline22,
-  "assets/svg/Property 1=outline-23": Outline23,
-  "assets/svg/Property 1=outline-24": Outline24,
-  "assets/svg/Property 1=outline-25": Outline25,
-  "assets/svg/Property 1=outline-26": Outline26,
-  "assets/svg/Property 1=outline-27": Outline27,
-  "assets/svg/Property 1=outline-28": Outline28,
-  "assets/svg/Property 1=outline-29": Outline29,
-  "assets/svg/Property 1=outline-3": Outline3,
-  "assets/svg/Property 1=outline-30": Outline30,
-  "assets/svg/Property 1=outline-31": Outline31,
-  "assets/svg/Property 1=outline-32": Outline32,
-  "assets/svg/Property 1=outline-33": Outline33,
-  "assets/svg/Property 1=outline-34": Outline34,
-  "assets/svg/Property 1=outline-35": Outline35,
-  "assets/svg/Property 1=outline-36": Outline36,
-  "assets/svg/Property 1=outline-37": Outline37,
-  "assets/svg/Property 1=outline-38": Outline38,
-  "assets/svg/Property 1=outline-39": Outline39,
-  "assets/svg/Property 1=outline-4": Outline4,
-  "assets/svg/Property 1=outline-40": Outline40,
   "assets/svg/Property 1=outline-41": Outline41,
-  "assets/svg/Property 1=outline-5": Outline5,
-  "assets/svg/Property 1=outline-6": Outline6,
-  "assets/svg/Property 1=outline-7": Outline7,
-  "assets/svg/Property 1=outline-8": Outline8,
-  "assets/svg/Property 1=outline-9": Outline9,
-  "assets/svg/Property 1=outline-clipboard": OutlineClipboard,
-  "assets/svg/Property 1=outline-copy": OutlineCopy,
-  "assets/svg/Property 1=outline-export": OutlineExport,
-  "assets/svg/Property 1=outline-play": OutlinePlay,
-  "assets/svg/Property 1=outline-record": OutlineRecord,
-  "assets/svg/Property 1=outline-repeat": OutlineRepeat,
-  "assets/svg/Property 1=outline-stop": OutlineStop,
-  "assets/svg/Property 1=outline": Outline,
-  "assets/svg/Property 1=twotone-1": Twotone1,
-  "assets/svg/Property 1=twotone-10": Twotone10,
-  "assets/svg/Property 1=twotone-11": Twotone11,
-  "assets/svg/Property 1=twotone-12": Twotone12,
-  "assets/svg/Property 1=twotone-13": Twotone13,
-  "assets/svg/Property 1=twotone-14": Twotone14,
-  "assets/svg/Property 1=twotone-15": Twotone15,
-  "assets/svg/Property 1=twotone-16": Twotone16,
-  "assets/svg/Property 1=twotone-17": Twotone17,
-  "assets/svg/Property 1=twotone-18": Twotone18,
-  "assets/svg/Property 1=twotone-19": Twotone19,
-  "assets/svg/Property 1=twotone-2": Twotone2,
-  "assets/svg/Property 1=twotone-20": Twotone20,
-  "assets/svg/Property 1=twotone-21": Twotone21,
-  "assets/svg/Property 1=twotone-22": Twotone22,
-  "assets/svg/Property 1=twotone-23": Twotone23,
-  "assets/svg/Property 1=twotone-24": Twotone24,
-  "assets/svg/Property 1=twotone-25": Twotone25,
-  "assets/svg/Property 1=twotone-26": Twotone26,
-  "assets/svg/Property 1=twotone-27": Twotone27,
-  "assets/svg/Property 1=twotone-28": Twotone28,
-  "assets/svg/Property 1=twotone-29": Twotone29,
-  "assets/svg/Property 1=twotone-3": Twotone3,
-  "assets/svg/Property 1=twotone-30": Twotone30,
-  "assets/svg/Property 1=twotone-31": Twotone31,
-  "assets/svg/Property 1=twotone-32": Twotone32,
-  "assets/svg/Property 1=twotone-33": Twotone33,
-  "assets/svg/Property 1=twotone-34": Twotone34,
-  "assets/svg/Property 1=twotone-35": Twotone35,
-  "assets/svg/Property 1=twotone-36": Twotone36,
   "assets/svg/Property 1=twotone-37": Twotone37,
-  "assets/svg/Property 1=twotone-4": Twotone4,
-  "assets/svg/Property 1=twotone-5": Twotone5,
-  "assets/svg/Property 1=twotone-6": Twotone6,
-  "assets/svg/Property 1=twotone-7": Twotone7,
-  "assets/svg/Property 1=twotone-8": Twotone8,
-  "assets/svg/Property 1=twotone-9": Twotone9,
-  "assets/svg/Property 1=twotone-clipboard": TwotoneClipboard,
-  "assets/svg/Property 1=twotone-copy": TwotoneCopy,
-  "assets/svg/Property 1=twotone-export": TwotoneExport,
-  "assets/svg/Property 1=twotone-play": TwotonePlay,
-  "assets/svg/Property 1=twotone-record": TwotoneRecord,
-  "assets/svg/Property 1=twotone-repeat": TwotoneRepeat,
-  "assets/svg/Property 1=twotone-stop": TwotoneStop,
-  "assets/svg/Property 1=twotone": Twotone,
   "assets/svg/Regular-S": RegularS,
   "assets/svg/Ultralight-S": UltralightS,
+  "assets/svg/bolds-add-square": BoldsAddSquare,
+  "assets/svg/bolds-barbell": BoldsBarbell,
+  "assets/svg/bolds-battery": BoldsBattery,
+  "assets/svg/bolds-bookmark": BoldsBookmark,
+  "assets/svg/bolds-camera": BoldsCamera,
+  "assets/svg/bolds-chart": BoldsChart,
+  "assets/svg/bolds-chevron-down": BoldsChevronDown,
+  "assets/svg/bolds-chevron-left-line": BoldsChevronLeftLine,
+  "assets/svg/bolds-chevron-left": BoldsChevronLeft,
+  "assets/svg/bolds-chevron-right-line": BoldsChevronRightLine,
+  "assets/svg/bolds-chevron-right": BoldsChevronRight,
+  "assets/svg/bolds-chevron": BoldsChevron,
+  "assets/svg/bolds-clipboard": BoldsClipboard,
+  "assets/svg/bolds-contrast": BoldsContrast,
+  "assets/svg/bolds-copy": BoldsCopy,
+  "assets/svg/bolds-document-blank": BoldsDocumentBlank,
+  "assets/svg/bolds-document-text": BoldsDocumentText,
+  "assets/svg/bolds-document": BoldsDocument,
+  "assets/svg/bolds-download": BoldsDownload,
+  "assets/svg/bolds-edit": BoldsEdit,
+  "assets/svg/bolds-export": BoldsExport,
+  "assets/svg/bolds-folder-favorite": BoldsFolderFavorite,
+  "assets/svg/bolds-gallery": BoldsGallery,
+  "assets/svg/bolds-home": BoldsHome,
+  "assets/svg/bolds-key": BoldsKey,
+  "assets/svg/bolds-like": BoldsLike,
+  "assets/svg/bolds-location": BoldsLocation,
+  "assets/svg/bolds-lock": BoldsLock,
+  "assets/svg/bolds-logout": BoldsLogout,
+  "assets/svg/bolds-mail": BoldsMail,
+  "assets/svg/bolds-message": BoldsMessage,
+  "assets/svg/bolds-messages": BoldsMessages,
+  "assets/svg/bolds-microphone": BoldsMicrophone,
+  "assets/svg/bolds-play": BoldsPlay,
+  "assets/svg/bolds-record": BoldsRecord,
+  "assets/svg/bolds-repeat": BoldsRepeat,
+  "assets/svg/bolds-search": BoldsSearch,
+  "assets/svg/bolds-star": BoldsStar,
+  "assets/svg/bolds-stop": BoldsStop,
+  "assets/svg/bolds-trash": BoldsTrash,
+  "assets/svg/bolds-unlock": BoldsUnlock,
+  "assets/svg/bolds-upload": BoldsUpload,
+  "assets/svg/bolds-user": BoldsUser,
+  "assets/svg/broken-add-square": BrokenAddSquare,
+  "assets/svg/broken-barbell": BrokenBarbell,
+  "assets/svg/broken-battery": BrokenBattery,
+  "assets/svg/broken-bookmark": BrokenBookmark,
+  "assets/svg/broken-camera": BrokenCamera,
+  "assets/svg/broken-chart": BrokenChart,
+  "assets/svg/broken-chevron-down": BrokenChevronDown,
+  "assets/svg/broken-chevron-left-line": BrokenChevronLeftLine,
+  "assets/svg/broken-chevron-left": BrokenChevronLeft,
+  "assets/svg/broken-chevron-right-line": BrokenChevronRightLine,
+  "assets/svg/broken-chevron-right": BrokenChevronRight,
+  "assets/svg/broken-chevron": BrokenChevron,
+  "assets/svg/broken-clipboard": BrokenClipboard,
+  "assets/svg/broken-contrast": BrokenContrast,
+  "assets/svg/broken-copy": BrokenCopy,
+  "assets/svg/broken-document-blank": BrokenDocumentBlank,
+  "assets/svg/broken-document-text": BrokenDocumentText,
+  "assets/svg/broken-document": BrokenDocument,
+  "assets/svg/broken-download": BrokenDownload,
+  "assets/svg/broken-edit": BrokenEdit,
+  "assets/svg/broken-export": BrokenExport,
+  "assets/svg/broken-folder-favorite": BrokenFolderFavorite,
+  "assets/svg/broken-gallery": BrokenGallery,
+  "assets/svg/broken-home": BrokenHome,
+  "assets/svg/broken-key": BrokenKey,
+  "assets/svg/broken-like": BrokenLike,
+  "assets/svg/broken-location": BrokenLocation,
+  "assets/svg/broken-lock": BrokenLock,
+  "assets/svg/broken-logout": BrokenLogout,
+  "assets/svg/broken-mail": BrokenMail,
+  "assets/svg/broken-message": BrokenMessage,
+  "assets/svg/broken-messages": BrokenMessages,
+  "assets/svg/broken-microphone": BrokenMicrophone,
+  "assets/svg/broken-record": BrokenRecord,
+  "assets/svg/broken-repeat": BrokenRepeat,
+  "assets/svg/broken-search": BrokenSearch,
+  "assets/svg/broken-send": BrokenSend,
+  "assets/svg/broken-star": BrokenStar,
+  "assets/svg/broken-stop": BrokenStop,
+  "assets/svg/broken-trash": BrokenTrash,
+  "assets/svg/broken-unlock": BrokenUnlock,
+  "assets/svg/broken-upload": BrokenUpload,
+  "assets/svg/broken-user": BrokenUser,
   "assets/svg/document-normal": DocumentNormal,
   "assets/svg/edit-2": Edit2,
-  "assets/svg/losi-icon.symbols 1": LosiIconSymbols1,
+  "assets/svg/fade-add-square": FadeAddSquare,
+  "assets/svg/fade-barbell": FadeBarbell,
+  "assets/svg/fade-battery": FadeBattery,
+  "assets/svg/fade-bookmark": FadeBookmark,
+  "assets/svg/fade-camera": FadeCamera,
+  "assets/svg/fade-chart": FadeChart,
+  "assets/svg/fade-chevron-down": FadeChevronDown,
+  "assets/svg/fade-chevron-left-line": FadeChevronLeftLine,
+  "assets/svg/fade-chevron-left": FadeChevronLeft,
+  "assets/svg/fade-chevron-right-line": FadeChevronRightLine,
+  "assets/svg/fade-chevron-right": FadeChevronRight,
+  "assets/svg/fade-chevron": FadeChevron,
+  "assets/svg/fade-clipboard": FadeClipboard,
+  "assets/svg/fade-contrast": FadeContrast,
+  "assets/svg/fade-copy": FadeCopy,
+  "assets/svg/fade-dislike": FadeDislike,
+  "assets/svg/fade-document-blank": FadeDocumentBlank,
+  "assets/svg/fade-document-text": FadeDocumentText,
+  "assets/svg/fade-document": FadeDocument,
+  "assets/svg/fade-download": FadeDownload,
+  "assets/svg/fade-edit": FadeEdit,
+  "assets/svg/fade-export": FadeExport,
+  "assets/svg/fade-gallery": FadeGallery,
+  "assets/svg/fade-home": FadeHome,
+  "assets/svg/fade-key": FadeKey,
+  "assets/svg/fade-location": FadeLocation,
+  "assets/svg/fade-lock": FadeLock,
+  "assets/svg/fade-logout": FadeLogout,
+  "assets/svg/fade-mail": FadeMail,
+  "assets/svg/fade-message": FadeMessage,
+  "assets/svg/fade-messages": FadeMessages,
+  "assets/svg/fade-microphone": FadeMicrophone,
+  "assets/svg/fade-play": FadePlay,
+  "assets/svg/fade-record": FadeRecord,
+  "assets/svg/fade-repeat": FadeRepeat,
+  "assets/svg/fade-search": FadeSearch,
+  "assets/svg/fade-star": FadeStar,
+  "assets/svg/fade-stop": FadeStop,
+  "assets/svg/fade-trash": FadeTrash,
+  "assets/svg/fade-unlock": FadeUnlock,
+  "assets/svg/fade-upload": FadeUpload,
+  "assets/svg/fade-user": FadeUser,
+  "assets/svg/icon.symbols 1": IconSymbols1,
+  "assets/svg/linear-add-square": LinearAddSquare,
+  "assets/svg/linear-barbell": LinearBarbell,
+  "assets/svg/linear-battery": LinearBattery,
+  "assets/svg/linear-bookmark": LinearBookmark,
+  "assets/svg/linear-camera": LinearCamera,
+  "assets/svg/linear-chart": LinearChart,
+  "assets/svg/linear-chevron-down": LinearChevronDown,
+  "assets/svg/linear-chevron-left-line": LinearChevronLeftLine,
+  "assets/svg/linear-chevron-left": LinearChevronLeft,
+  "assets/svg/linear-chevron-right-line": LinearChevronRightLine,
+  "assets/svg/linear-chevron-right": LinearChevronRight,
+  "assets/svg/linear-chevron": LinearChevron,
+  "assets/svg/linear-clipboard": LinearClipboard,
+  "assets/svg/linear-contrast": LinearContrast,
+  "assets/svg/linear-copy": LinearCopy,
+  "assets/svg/linear-dislike": LinearDislike,
+  "assets/svg/linear-document-blank": LinearDocumentBlank,
+  "assets/svg/linear-document-text": LinearDocumentText,
+  "assets/svg/linear-document": LinearDocument,
+  "assets/svg/linear-download": LinearDownload,
+  "assets/svg/linear-edit": LinearEdit,
+  "assets/svg/linear-export": LinearExport,
+  "assets/svg/linear-folder-favorite": LinearFolderFavorite,
+  "assets/svg/linear-gallery": LinearGallery,
+  "assets/svg/linear-home": LinearHome,
+  "assets/svg/linear-key": LinearKey,
+  "assets/svg/linear-location": LinearLocation,
+  "assets/svg/linear-lock": LinearLock,
+  "assets/svg/linear-logout": LinearLogout,
+  "assets/svg/linear-mail": LinearMail,
+  "assets/svg/linear-message": LinearMessage,
+  "assets/svg/linear-messages": LinearMessages,
+  "assets/svg/linear-microphone": LinearMicrophone,
+  "assets/svg/linear-play": LinearPlay,
+  "assets/svg/linear-record": LinearRecord,
+  "assets/svg/linear-repeat": LinearRepeat,
+  "assets/svg/linear-search": LinearSearch,
+  "assets/svg/linear-star": LinearStar,
+  "assets/svg/linear-stop": LinearStop,
+  "assets/svg/linear-trash": LinearTrash,
+  "assets/svg/linear-unlock": LinearUnlock,
+  "assets/svg/linear-upload": LinearUpload,
+  "assets/svg/linear-user": LinearUser,
+  "assets/svg/twotone-add-square": TwotoneAddSquare,
+  "assets/svg/twotone-alt-add-square": TwotoneAltAddSquare,
+  "assets/svg/twotone-alt-barbell": TwotoneAltBarbell,
+  "assets/svg/twotone-alt-battery": TwotoneAltBattery,
+  "assets/svg/twotone-alt-bookmark": TwotoneAltBookmark,
+  "assets/svg/twotone-alt-camera": TwotoneAltCamera,
+  "assets/svg/twotone-alt-chart": TwotoneAltChart,
+  "assets/svg/twotone-alt-chevron-down": TwotoneAltChevronDown,
+  "assets/svg/twotone-alt-chevron-left-line": TwotoneAltChevronLeftLine,
+  "assets/svg/twotone-alt-chevron-left": TwotoneAltChevronLeft,
+  "assets/svg/twotone-alt-chevron-right-line": TwotoneAltChevronRightLine,
+  "assets/svg/twotone-alt-chevron-right": TwotoneAltChevronRight,
+  "assets/svg/twotone-alt-chevron": TwotoneAltChevron,
+  "assets/svg/twotone-alt-clipboard": TwotoneAltClipboard,
+  "assets/svg/twotone-alt-contrast": TwotoneAltContrast,
+  "assets/svg/twotone-alt-copy": TwotoneAltCopy,
+  "assets/svg/twotone-alt-dislike": TwotoneAltDislike,
+  "assets/svg/twotone-alt-document-blank": TwotoneAltDocumentBlank,
+  "assets/svg/twotone-alt-document-text": TwotoneAltDocumentText,
+  "assets/svg/twotone-alt-document": TwotoneAltDocument,
+  "assets/svg/twotone-alt-download": TwotoneAltDownload,
+  "assets/svg/twotone-alt-edit": TwotoneAltEdit,
+  "assets/svg/twotone-alt-export": TwotoneAltExport,
+  "assets/svg/twotone-alt-folder-favorite": TwotoneAltFolderFavorite,
+  "assets/svg/twotone-alt-gallery": TwotoneAltGallery,
+  "assets/svg/twotone-alt-home": TwotoneAltHome,
+  "assets/svg/twotone-alt-key": TwotoneAltKey,
+  "assets/svg/twotone-alt-location": TwotoneAltLocation,
+  "assets/svg/twotone-alt-lock": TwotoneAltLock,
+  "assets/svg/twotone-alt-logout": TwotoneAltLogout,
+  "assets/svg/twotone-alt-mail": TwotoneAltMail,
+  "assets/svg/twotone-alt-message": TwotoneAltMessage,
+  "assets/svg/twotone-alt-messages": TwotoneAltMessages,
+  "assets/svg/twotone-alt-microphone": TwotoneAltMicrophone,
+  "assets/svg/twotone-alt-play": TwotoneAltPlay,
+  "assets/svg/twotone-alt-record": TwotoneAltRecord,
+  "assets/svg/twotone-alt-repeat": TwotoneAltRepeat,
+  "assets/svg/twotone-alt-search": TwotoneAltSearch,
+  "assets/svg/twotone-alt-star": TwotoneAltStar,
+  "assets/svg/twotone-alt-stop": TwotoneAltStop,
+  "assets/svg/twotone-alt-trash": TwotoneAltTrash,
+  "assets/svg/twotone-alt-unlock": TwotoneAltUnlock,
+  "assets/svg/twotone-alt-upload": TwotoneAltUpload,
+  "assets/svg/twotone-alt-user": TwotoneAltUser,
+  "assets/svg/twotone-barbell": TwotoneBarbell,
+  "assets/svg/twotone-battery": TwotoneBattery,
+  "assets/svg/twotone-bookmark": TwotoneBookmark,
+  "assets/svg/twotone-camera": TwotoneCamera,
+  "assets/svg/twotone-chart": TwotoneChart,
+  "assets/svg/twotone-chevron-down": TwotoneChevronDown,
+  "assets/svg/twotone-chevron-left-line": TwotoneChevronLeftLine,
+  "assets/svg/twotone-chevron-left": TwotoneChevronLeft,
+  "assets/svg/twotone-chevron-right-line": TwotoneChevronRightLine,
+  "assets/svg/twotone-chevron-right": TwotoneChevronRight,
+  "assets/svg/twotone-chevron": TwotoneChevron,
+  "assets/svg/twotone-clipboard": TwotoneClipboard,
+  "assets/svg/twotone-contrast": TwotoneContrast,
+  "assets/svg/twotone-copy": TwotoneCopy,
+  "assets/svg/twotone-dislike": TwotoneDislike,
+  "assets/svg/twotone-document-blank": TwotoneDocumentBlank,
+  "assets/svg/twotone-document-text": TwotoneDocumentText,
+  "assets/svg/twotone-document": TwotoneDocument,
+  "assets/svg/twotone-download": TwotoneDownload,
+  "assets/svg/twotone-edit": TwotoneEdit,
+  "assets/svg/twotone-export": TwotoneExport,
+  "assets/svg/twotone-folder-favorite": TwotoneFolderFavorite,
+  "assets/svg/twotone-gallery-upload": TwotoneGalleryUpload,
+  "assets/svg/twotone-gallery": TwotoneGallery,
+  "assets/svg/twotone-home": TwotoneHome,
+  "assets/svg/twotone-key": TwotoneKey,
+  "assets/svg/twotone-location": TwotoneLocation,
+  "assets/svg/twotone-lock": TwotoneLock,
+  "assets/svg/twotone-logout": TwotoneLogout,
+  "assets/svg/twotone-mail": TwotoneMail,
+  "assets/svg/twotone-message": TwotoneMessage,
+  "assets/svg/twotone-messages": TwotoneMessages,
+  "assets/svg/twotone-microphone": TwotoneMicrophone,
+  "assets/svg/twotone-play": TwotonePlay,
+  "assets/svg/twotone-record": TwotoneRecord,
+  "assets/svg/twotone-repeat": TwotoneRepeat,
+  "assets/svg/twotone-search": TwotoneSearch,
+  "assets/svg/twotone-sparkle": TwotoneSparkle,
+  "assets/svg/twotone-star": TwotoneStar,
+  "assets/svg/twotone-stop": TwotoneStop,
+  "assets/svg/twotone-trash": TwotoneTrash,
+  "assets/svg/twotone-unlock": TwotoneUnlock,
+  "assets/svg/twotone-upload": TwotoneUpload,
+  "assets/svg/twotone-user": TwotoneUser,
+  "assets/svg/variant-sparkle-circle": VariantSparkleCircle,
   "assets/svg/vuesax/bold/24-support": Icon24Support,
   "assets/svg/vuesax/bold/3d-cube-scan": Icon3dCubeScan,
   "assets/svg/vuesax/bold/3d-rotate": Icon3dRotate,
@@ -8384,286 +8360,278 @@ export type IconName = keyof typeof icons;
 
 export const iconsMeta = [
   { id: "assets/svg/Black-S", componentName: "BlackS", filePath: "assets/svg/Black-S.svg", category: "Black", tags: ["black"], name: "black s" },
+  { id: "assets/svg/Losi-main", componentName: "LosiMain", filePath: "assets/svg/Losi-main.svg", category: "Losi", tags: ["losi","main"], name: "losi main" },
   { id: "assets/svg/Losi", componentName: "Losi", filePath: "assets/svg/Losi.svg", category: "Losi", tags: ["losi"], name: "losi" },
-  { id: "assets/svg/Property 1=Variant7", componentName: "Variant7", filePath: "assets/svg/Property 1=Variant7.svg", category: "Variant7", tags: ["variant7"], name: "variant7" },
-  { id: "assets/svg/Property 1=bold-1", componentName: "Bold1", filePath: "assets/svg/Property 1=bold-1.svg", category: "Bold1", tags: ["bold1"], name: "bold1" },
-  { id: "assets/svg/Property 1=bold-10", componentName: "Bold10", filePath: "assets/svg/Property 1=bold-10.svg", category: "Bold10", tags: ["bold10"], name: "bold10" },
-  { id: "assets/svg/Property 1=bold-11", componentName: "Bold11", filePath: "assets/svg/Property 1=bold-11.svg", category: "Bold11", tags: ["bold11"], name: "bold11" },
-  { id: "assets/svg/Property 1=bold-12", componentName: "Bold12", filePath: "assets/svg/Property 1=bold-12.svg", category: "Bold12", tags: ["bold12"], name: "bold12" },
-  { id: "assets/svg/Property 1=bold-13", componentName: "Bold13", filePath: "assets/svg/Property 1=bold-13.svg", category: "Bold13", tags: ["bold13"], name: "bold13" },
-  { id: "assets/svg/Property 1=bold-14", componentName: "Bold14", filePath: "assets/svg/Property 1=bold-14.svg", category: "Bold14", tags: ["bold14"], name: "bold14" },
-  { id: "assets/svg/Property 1=bold-15", componentName: "Bold15", filePath: "assets/svg/Property 1=bold-15.svg", category: "Bold15", tags: ["bold15"], name: "bold15" },
-  { id: "assets/svg/Property 1=bold-16", componentName: "Bold16", filePath: "assets/svg/Property 1=bold-16.svg", category: "Bold16", tags: ["bold16"], name: "bold16" },
-  { id: "assets/svg/Property 1=bold-17", componentName: "Bold17", filePath: "assets/svg/Property 1=bold-17.svg", category: "Bold17", tags: ["bold17"], name: "bold17" },
-  { id: "assets/svg/Property 1=bold-18", componentName: "Bold18", filePath: "assets/svg/Property 1=bold-18.svg", category: "Bold18", tags: ["bold18"], name: "bold18" },
-  { id: "assets/svg/Property 1=bold-19", componentName: "Bold19", filePath: "assets/svg/Property 1=bold-19.svg", category: "Bold19", tags: ["bold19"], name: "bold19" },
-  { id: "assets/svg/Property 1=bold-2", componentName: "Bold2", filePath: "assets/svg/Property 1=bold-2.svg", category: "Bold2", tags: ["bold2"], name: "bold2" },
-  { id: "assets/svg/Property 1=bold-20", componentName: "Bold20", filePath: "assets/svg/Property 1=bold-20.svg", category: "Bold20", tags: ["bold20"], name: "bold20" },
-  { id: "assets/svg/Property 1=bold-21", componentName: "Bold21", filePath: "assets/svg/Property 1=bold-21.svg", category: "Bold21", tags: ["bold21"], name: "bold21" },
-  { id: "assets/svg/Property 1=bold-22", componentName: "Bold22", filePath: "assets/svg/Property 1=bold-22.svg", category: "Bold22", tags: ["bold22"], name: "bold22" },
-  { id: "assets/svg/Property 1=bold-23", componentName: "Bold23", filePath: "assets/svg/Property 1=bold-23.svg", category: "Bold23", tags: ["bold23"], name: "bold23" },
-  { id: "assets/svg/Property 1=bold-24", componentName: "Bold24", filePath: "assets/svg/Property 1=bold-24.svg", category: "Bold24", tags: ["bold24"], name: "bold24" },
-  { id: "assets/svg/Property 1=bold-25", componentName: "Bold25", filePath: "assets/svg/Property 1=bold-25.svg", category: "Bold25", tags: ["bold25"], name: "bold25" },
-  { id: "assets/svg/Property 1=bold-26", componentName: "Bold26", filePath: "assets/svg/Property 1=bold-26.svg", category: "Bold26", tags: ["bold26"], name: "bold26" },
-  { id: "assets/svg/Property 1=bold-27", componentName: "Bold27", filePath: "assets/svg/Property 1=bold-27.svg", category: "Bold27", tags: ["bold27"], name: "bold27" },
-  { id: "assets/svg/Property 1=bold-28", componentName: "Bold28", filePath: "assets/svg/Property 1=bold-28.svg", category: "Bold28", tags: ["bold28"], name: "bold28" },
-  { id: "assets/svg/Property 1=bold-29", componentName: "Bold29", filePath: "assets/svg/Property 1=bold-29.svg", category: "Bold29", tags: ["bold29"], name: "bold29" },
-  { id: "assets/svg/Property 1=bold-3", componentName: "Bold3", filePath: "assets/svg/Property 1=bold-3.svg", category: "Bold3", tags: ["bold3"], name: "bold3" },
-  { id: "assets/svg/Property 1=bold-30", componentName: "Bold30", filePath: "assets/svg/Property 1=bold-30.svg", category: "Bold30", tags: ["bold30"], name: "bold30" },
-  { id: "assets/svg/Property 1=bold-31", componentName: "Bold31", filePath: "assets/svg/Property 1=bold-31.svg", category: "Bold31", tags: ["bold31"], name: "bold31" },
-  { id: "assets/svg/Property 1=bold-32", componentName: "Bold32", filePath: "assets/svg/Property 1=bold-32.svg", category: "Bold32", tags: ["bold32"], name: "bold32" },
-  { id: "assets/svg/Property 1=bold-33", componentName: "Bold33", filePath: "assets/svg/Property 1=bold-33.svg", category: "Bold33", tags: ["bold33"], name: "bold33" },
-  { id: "assets/svg/Property 1=bold-34", componentName: "Bold34", filePath: "assets/svg/Property 1=bold-34.svg", category: "Bold34", tags: ["bold34"], name: "bold34" },
-  { id: "assets/svg/Property 1=bold-35", componentName: "Bold35", filePath: "assets/svg/Property 1=bold-35.svg", category: "Bold35", tags: ["bold35"], name: "bold35" },
-  { id: "assets/svg/Property 1=bold-36", componentName: "Bold36", filePath: "assets/svg/Property 1=bold-36.svg", category: "Bold36", tags: ["bold36"], name: "bold36" },
   { id: "assets/svg/Property 1=bold-37", componentName: "Bold37", filePath: "assets/svg/Property 1=bold-37.svg", category: "Bold37", tags: ["bold37"], name: "bold37" },
-  { id: "assets/svg/Property 1=bold-4", componentName: "Bold4", filePath: "assets/svg/Property 1=bold-4.svg", category: "Bold4", tags: ["bold4"], name: "bold4" },
-  { id: "assets/svg/Property 1=bold-5", componentName: "Bold5", filePath: "assets/svg/Property 1=bold-5.svg", category: "Bold5", tags: ["bold5"], name: "bold5" },
-  { id: "assets/svg/Property 1=bold-6", componentName: "Bold6", filePath: "assets/svg/Property 1=bold-6.svg", category: "Bold6", tags: ["bold6"], name: "bold6" },
-  { id: "assets/svg/Property 1=bold-7", componentName: "Bold7", filePath: "assets/svg/Property 1=bold-7.svg", category: "Bold7", tags: ["bold7"], name: "bold7" },
-  { id: "assets/svg/Property 1=bold-8", componentName: "Bold8", filePath: "assets/svg/Property 1=bold-8.svg", category: "Bold8", tags: ["bold8"], name: "bold8" },
-  { id: "assets/svg/Property 1=bold-9", componentName: "Bold9", filePath: "assets/svg/Property 1=bold-9.svg", category: "Bold9", tags: ["bold9"], name: "bold9" },
-  { id: "assets/svg/Property 1=bold-clipboard", componentName: "BoldClipboard", filePath: "assets/svg/Property 1=bold-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
-  { id: "assets/svg/Property 1=bold-copy", componentName: "BoldCopy", filePath: "assets/svg/Property 1=bold-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
-  { id: "assets/svg/Property 1=bold-export", componentName: "BoldExport", filePath: "assets/svg/Property 1=bold-export.svg", category: "Export", tags: ["export"], name: "export" },
-  { id: "assets/svg/Property 1=bold-play", componentName: "BoldPlay", filePath: "assets/svg/Property 1=bold-play.svg", category: "Play", tags: ["play"], name: "play" },
-  { id: "assets/svg/Property 1=bold-record", componentName: "BoldRecord", filePath: "assets/svg/Property 1=bold-record.svg", category: "Record", tags: ["record"], name: "record" },
-  { id: "assets/svg/Property 1=bold-repeat", componentName: "BoldRepeat", filePath: "assets/svg/Property 1=bold-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
-  { id: "assets/svg/Property 1=bold-stop", componentName: "BoldStop", filePath: "assets/svg/Property 1=bold-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
-  { id: "assets/svg/Property 1=bold", componentName: "Bold", filePath: "assets/svg/Property 1=bold.svg", category: "Bold", tags: [], name: "bold" },
-  { id: "assets/svg/Property 1=broken-1", componentName: "Broken1", filePath: "assets/svg/Property 1=broken-1.svg", category: "Broken1", tags: ["broken1"], name: "broken1" },
-  { id: "assets/svg/Property 1=broken-10", componentName: "Broken10", filePath: "assets/svg/Property 1=broken-10.svg", category: "Broken10", tags: ["broken10"], name: "broken10" },
-  { id: "assets/svg/Property 1=broken-11", componentName: "Broken11", filePath: "assets/svg/Property 1=broken-11.svg", category: "Broken11", tags: ["broken11"], name: "broken11" },
-  { id: "assets/svg/Property 1=broken-12", componentName: "Broken12", filePath: "assets/svg/Property 1=broken-12.svg", category: "Broken12", tags: ["broken12"], name: "broken12" },
-  { id: "assets/svg/Property 1=broken-13", componentName: "Broken13", filePath: "assets/svg/Property 1=broken-13.svg", category: "Broken13", tags: ["broken13"], name: "broken13" },
-  { id: "assets/svg/Property 1=broken-14", componentName: "Broken14", filePath: "assets/svg/Property 1=broken-14.svg", category: "Broken14", tags: ["broken14"], name: "broken14" },
-  { id: "assets/svg/Property 1=broken-15", componentName: "Broken15", filePath: "assets/svg/Property 1=broken-15.svg", category: "Broken15", tags: ["broken15"], name: "broken15" },
-  { id: "assets/svg/Property 1=broken-16", componentName: "Broken16", filePath: "assets/svg/Property 1=broken-16.svg", category: "Broken16", tags: ["broken16"], name: "broken16" },
-  { id: "assets/svg/Property 1=broken-17", componentName: "Broken17", filePath: "assets/svg/Property 1=broken-17.svg", category: "Broken17", tags: ["broken17"], name: "broken17" },
-  { id: "assets/svg/Property 1=broken-18", componentName: "Broken18", filePath: "assets/svg/Property 1=broken-18.svg", category: "Broken18", tags: ["broken18"], name: "broken18" },
-  { id: "assets/svg/Property 1=broken-19", componentName: "Broken19", filePath: "assets/svg/Property 1=broken-19.svg", category: "Broken19", tags: ["broken19"], name: "broken19" },
-  { id: "assets/svg/Property 1=broken-2", componentName: "Broken2", filePath: "assets/svg/Property 1=broken-2.svg", category: "Broken2", tags: ["broken2"], name: "broken2" },
-  { id: "assets/svg/Property 1=broken-20", componentName: "Broken20", filePath: "assets/svg/Property 1=broken-20.svg", category: "Broken20", tags: ["broken20"], name: "broken20" },
-  { id: "assets/svg/Property 1=broken-21", componentName: "Broken21", filePath: "assets/svg/Property 1=broken-21.svg", category: "Broken21", tags: ["broken21"], name: "broken21" },
-  { id: "assets/svg/Property 1=broken-22", componentName: "Broken22", filePath: "assets/svg/Property 1=broken-22.svg", category: "Broken22", tags: ["broken22"], name: "broken22" },
-  { id: "assets/svg/Property 1=broken-23", componentName: "Broken23", filePath: "assets/svg/Property 1=broken-23.svg", category: "Broken23", tags: ["broken23"], name: "broken23" },
-  { id: "assets/svg/Property 1=broken-24", componentName: "Broken24", filePath: "assets/svg/Property 1=broken-24.svg", category: "Broken24", tags: ["broken24"], name: "broken24" },
-  { id: "assets/svg/Property 1=broken-25", componentName: "Broken25", filePath: "assets/svg/Property 1=broken-25.svg", category: "Broken25", tags: ["broken25"], name: "broken25" },
-  { id: "assets/svg/Property 1=broken-26", componentName: "Broken26", filePath: "assets/svg/Property 1=broken-26.svg", category: "Broken26", tags: ["broken26"], name: "broken26" },
-  { id: "assets/svg/Property 1=broken-27", componentName: "Broken27", filePath: "assets/svg/Property 1=broken-27.svg", category: "Broken27", tags: ["broken27"], name: "broken27" },
-  { id: "assets/svg/Property 1=broken-28", componentName: "Broken28", filePath: "assets/svg/Property 1=broken-28.svg", category: "Broken28", tags: ["broken28"], name: "broken28" },
-  { id: "assets/svg/Property 1=broken-29", componentName: "Broken29", filePath: "assets/svg/Property 1=broken-29.svg", category: "Broken29", tags: ["broken29"], name: "broken29" },
-  { id: "assets/svg/Property 1=broken-3", componentName: "Broken3", filePath: "assets/svg/Property 1=broken-3.svg", category: "Broken3", tags: ["broken3"], name: "broken3" },
-  { id: "assets/svg/Property 1=broken-30", componentName: "Broken30", filePath: "assets/svg/Property 1=broken-30.svg", category: "Broken30", tags: ["broken30"], name: "broken30" },
-  { id: "assets/svg/Property 1=broken-31", componentName: "Broken31", filePath: "assets/svg/Property 1=broken-31.svg", category: "Broken31", tags: ["broken31"], name: "broken31" },
-  { id: "assets/svg/Property 1=broken-32", componentName: "Broken32", filePath: "assets/svg/Property 1=broken-32.svg", category: "Broken32", tags: ["broken32"], name: "broken32" },
-  { id: "assets/svg/Property 1=broken-33", componentName: "Broken33", filePath: "assets/svg/Property 1=broken-33.svg", category: "Broken33", tags: ["broken33"], name: "broken33" },
-  { id: "assets/svg/Property 1=broken-34", componentName: "Broken34", filePath: "assets/svg/Property 1=broken-34.svg", category: "Broken34", tags: ["broken34"], name: "broken34" },
-  { id: "assets/svg/Property 1=broken-35", componentName: "Broken35", filePath: "assets/svg/Property 1=broken-35.svg", category: "Broken35", tags: ["broken35"], name: "broken35" },
-  { id: "assets/svg/Property 1=broken-36", componentName: "Broken36", filePath: "assets/svg/Property 1=broken-36.svg", category: "Broken36", tags: ["broken36"], name: "broken36" },
   { id: "assets/svg/Property 1=broken-37", componentName: "Broken37", filePath: "assets/svg/Property 1=broken-37.svg", category: "Broken37", tags: ["broken37"], name: "broken37" },
-  { id: "assets/svg/Property 1=broken-4", componentName: "Broken4", filePath: "assets/svg/Property 1=broken-4.svg", category: "Broken4", tags: ["broken4"], name: "broken4" },
-  { id: "assets/svg/Property 1=broken-5", componentName: "Broken5", filePath: "assets/svg/Property 1=broken-5.svg", category: "Broken5", tags: ["broken5"], name: "broken5" },
-  { id: "assets/svg/Property 1=broken-6", componentName: "Broken6", filePath: "assets/svg/Property 1=broken-6.svg", category: "Broken6", tags: ["broken6"], name: "broken6" },
-  { id: "assets/svg/Property 1=broken-7", componentName: "Broken7", filePath: "assets/svg/Property 1=broken-7.svg", category: "Broken7", tags: ["broken7"], name: "broken7" },
-  { id: "assets/svg/Property 1=broken-8", componentName: "Broken8", filePath: "assets/svg/Property 1=broken-8.svg", category: "Broken8", tags: ["broken8"], name: "broken8" },
-  { id: "assets/svg/Property 1=broken-9", componentName: "Broken9", filePath: "assets/svg/Property 1=broken-9.svg", category: "Broken9", tags: ["broken9"], name: "broken9" },
-  { id: "assets/svg/Property 1=broken-clipboard", componentName: "BrokenClipboard", filePath: "assets/svg/Property 1=broken-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
-  { id: "assets/svg/Property 1=broken-copy", componentName: "BrokenCopy", filePath: "assets/svg/Property 1=broken-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
-  { id: "assets/svg/Property 1=broken-export", componentName: "BrokenExport", filePath: "assets/svg/Property 1=broken-export.svg", category: "Export", tags: ["export"], name: "export" },
-  { id: "assets/svg/Property 1=broken-play", componentName: "BrokenPlay", filePath: "assets/svg/Property 1=broken-play.svg", category: "Play", tags: ["play"], name: "play" },
-  { id: "assets/svg/Property 1=broken-record", componentName: "BrokenRecord", filePath: "assets/svg/Property 1=broken-record.svg", category: "Record", tags: ["record"], name: "record" },
-  { id: "assets/svg/Property 1=broken-repeat", componentName: "BrokenRepeat", filePath: "assets/svg/Property 1=broken-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
-  { id: "assets/svg/Property 1=broken-stop", componentName: "BrokenStop", filePath: "assets/svg/Property 1=broken-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
-  { id: "assets/svg/Property 1=broken", componentName: "Broken", filePath: "assets/svg/Property 1=broken.svg", category: "Broken", tags: [], name: "broken" },
-  { id: "assets/svg/Property 1=bulk-1", componentName: "Bulk1", filePath: "assets/svg/Property 1=bulk-1.svg", category: "Bulk1", tags: ["bulk1"], name: "bulk1" },
-  { id: "assets/svg/Property 1=bulk-11", componentName: "Bulk11", filePath: "assets/svg/Property 1=bulk-11.svg", category: "Bulk11", tags: ["bulk11"], name: "bulk11" },
-  { id: "assets/svg/Property 1=bulk-12", componentName: "Bulk12", filePath: "assets/svg/Property 1=bulk-12.svg", category: "Bulk12", tags: ["bulk12"], name: "bulk12" },
-  { id: "assets/svg/Property 1=bulk-13", componentName: "Bulk13", filePath: "assets/svg/Property 1=bulk-13.svg", category: "Bulk13", tags: ["bulk13"], name: "bulk13" },
-  { id: "assets/svg/Property 1=bulk-14", componentName: "Bulk14", filePath: "assets/svg/Property 1=bulk-14.svg", category: "Bulk14", tags: ["bulk14"], name: "bulk14" },
-  { id: "assets/svg/Property 1=bulk-15", componentName: "Bulk15", filePath: "assets/svg/Property 1=bulk-15.svg", category: "Bulk15", tags: ["bulk15"], name: "bulk15" },
-  { id: "assets/svg/Property 1=bulk-16", componentName: "Bulk16", filePath: "assets/svg/Property 1=bulk-16.svg", category: "Bulk16", tags: ["bulk16"], name: "bulk16" },
-  { id: "assets/svg/Property 1=bulk-17", componentName: "Bulk17", filePath: "assets/svg/Property 1=bulk-17.svg", category: "Bulk17", tags: ["bulk17"], name: "bulk17" },
-  { id: "assets/svg/Property 1=bulk-18", componentName: "Bulk18", filePath: "assets/svg/Property 1=bulk-18.svg", category: "Bulk18", tags: ["bulk18"], name: "bulk18" },
-  { id: "assets/svg/Property 1=bulk-19", componentName: "Bulk19", filePath: "assets/svg/Property 1=bulk-19.svg", category: "Bulk19", tags: ["bulk19"], name: "bulk19" },
-  { id: "assets/svg/Property 1=bulk-2", componentName: "Bulk2", filePath: "assets/svg/Property 1=bulk-2.svg", category: "Bulk2", tags: ["bulk2"], name: "bulk2" },
-  { id: "assets/svg/Property 1=bulk-20", componentName: "Bulk20", filePath: "assets/svg/Property 1=bulk-20.svg", category: "Bulk20", tags: ["bulk20"], name: "bulk20" },
-  { id: "assets/svg/Property 1=bulk-21", componentName: "Bulk21", filePath: "assets/svg/Property 1=bulk-21.svg", category: "Bulk21", tags: ["bulk21"], name: "bulk21" },
-  { id: "assets/svg/Property 1=bulk-22", componentName: "Bulk22", filePath: "assets/svg/Property 1=bulk-22.svg", category: "Bulk22", tags: ["bulk22"], name: "bulk22" },
-  { id: "assets/svg/Property 1=bulk-23", componentName: "Bulk23", filePath: "assets/svg/Property 1=bulk-23.svg", category: "Bulk23", tags: ["bulk23"], name: "bulk23" },
-  { id: "assets/svg/Property 1=bulk-24", componentName: "Bulk24", filePath: "assets/svg/Property 1=bulk-24.svg", category: "Bulk24", tags: ["bulk24"], name: "bulk24" },
-  { id: "assets/svg/Property 1=bulk-25", componentName: "Bulk25", filePath: "assets/svg/Property 1=bulk-25.svg", category: "Bulk25", tags: ["bulk25"], name: "bulk25" },
-  { id: "assets/svg/Property 1=bulk-26", componentName: "Bulk26", filePath: "assets/svg/Property 1=bulk-26.svg", category: "Bulk26", tags: ["bulk26"], name: "bulk26" },
-  { id: "assets/svg/Property 1=bulk-27", componentName: "Bulk27", filePath: "assets/svg/Property 1=bulk-27.svg", category: "Bulk27", tags: ["bulk27"], name: "bulk27" },
-  { id: "assets/svg/Property 1=bulk-28", componentName: "Bulk28", filePath: "assets/svg/Property 1=bulk-28.svg", category: "Bulk28", tags: ["bulk28"], name: "bulk28" },
-  { id: "assets/svg/Property 1=bulk-29", componentName: "Bulk29", filePath: "assets/svg/Property 1=bulk-29.svg", category: "Bulk29", tags: ["bulk29"], name: "bulk29" },
-  { id: "assets/svg/Property 1=bulk-3", componentName: "Bulk3", filePath: "assets/svg/Property 1=bulk-3.svg", category: "Bulk3", tags: ["bulk3"], name: "bulk3" },
-  { id: "assets/svg/Property 1=bulk-30", componentName: "Bulk30", filePath: "assets/svg/Property 1=bulk-30.svg", category: "Bulk30", tags: ["bulk30"], name: "bulk30" },
-  { id: "assets/svg/Property 1=bulk-31", componentName: "Bulk31", filePath: "assets/svg/Property 1=bulk-31.svg", category: "Bulk31", tags: ["bulk31"], name: "bulk31" },
-  { id: "assets/svg/Property 1=bulk-32", componentName: "Bulk32", filePath: "assets/svg/Property 1=bulk-32.svg", category: "Bulk32", tags: ["bulk32"], name: "bulk32" },
-  { id: "assets/svg/Property 1=bulk-33", componentName: "Bulk33", filePath: "assets/svg/Property 1=bulk-33.svg", category: "Bulk33", tags: ["bulk33"], name: "bulk33" },
-  { id: "assets/svg/Property 1=bulk-34", componentName: "Bulk34", filePath: "assets/svg/Property 1=bulk-34.svg", category: "Bulk34", tags: ["bulk34"], name: "bulk34" },
-  { id: "assets/svg/Property 1=bulk-35", componentName: "Bulk35", filePath: "assets/svg/Property 1=bulk-35.svg", category: "Bulk35", tags: ["bulk35"], name: "bulk35" },
-  { id: "assets/svg/Property 1=bulk-36", componentName: "Bulk36", filePath: "assets/svg/Property 1=bulk-36.svg", category: "Bulk36", tags: ["bulk36"], name: "bulk36" },
   { id: "assets/svg/Property 1=bulk-37", componentName: "Bulk37", filePath: "assets/svg/Property 1=bulk-37.svg", category: "Bulk37", tags: ["bulk37"], name: "bulk37" },
-  { id: "assets/svg/Property 1=bulk-4", componentName: "Bulk4", filePath: "assets/svg/Property 1=bulk-4.svg", category: "Bulk4", tags: ["bulk4"], name: "bulk4" },
-  { id: "assets/svg/Property 1=bulk-5", componentName: "Bulk5", filePath: "assets/svg/Property 1=bulk-5.svg", category: "Bulk5", tags: ["bulk5"], name: "bulk5" },
-  { id: "assets/svg/Property 1=bulk-6", componentName: "Bulk6", filePath: "assets/svg/Property 1=bulk-6.svg", category: "Bulk6", tags: ["bulk6"], name: "bulk6" },
-  { id: "assets/svg/Property 1=bulk-7", componentName: "Bulk7", filePath: "assets/svg/Property 1=bulk-7.svg", category: "Bulk7", tags: ["bulk7"], name: "bulk7" },
-  { id: "assets/svg/Property 1=bulk-8", componentName: "Bulk8", filePath: "assets/svg/Property 1=bulk-8.svg", category: "Bulk8", tags: ["bulk8"], name: "bulk8" },
-  { id: "assets/svg/Property 1=bulk-9", componentName: "Bulk9", filePath: "assets/svg/Property 1=bulk-9.svg", category: "Bulk9", tags: ["bulk9"], name: "bulk9" },
-  { id: "assets/svg/Property 1=bulk-clipboard", componentName: "BulkClipboard", filePath: "assets/svg/Property 1=bulk-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
-  { id: "assets/svg/Property 1=bulk-copy", componentName: "BulkCopy", filePath: "assets/svg/Property 1=bulk-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
-  { id: "assets/svg/Property 1=bulk-export", componentName: "BulkExport", filePath: "assets/svg/Property 1=bulk-export.svg", category: "Export", tags: ["export"], name: "export" },
-  { id: "assets/svg/Property 1=bulk-play", componentName: "BulkPlay", filePath: "assets/svg/Property 1=bulk-play.svg", category: "Play", tags: ["play"], name: "play" },
-  { id: "assets/svg/Property 1=bulk-record", componentName: "BulkRecord", filePath: "assets/svg/Property 1=bulk-record.svg", category: "Record", tags: ["record"], name: "record" },
-  { id: "assets/svg/Property 1=bulk-repeat", componentName: "BulkRepeat", filePath: "assets/svg/Property 1=bulk-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
-  { id: "assets/svg/Property 1=bulk-stop", componentName: "BulkStop", filePath: "assets/svg/Property 1=bulk-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
-  { id: "assets/svg/Property 1=bulk", componentName: "Bulk", filePath: "assets/svg/Property 1=bulk.svg", category: "Bulk", tags: [], name: "bulk" },
-  { id: "assets/svg/Property 1=linear-1", componentName: "Linear1", filePath: "assets/svg/Property 1=linear-1.svg", category: "Linear1", tags: ["linear1"], name: "linear1" },
-  { id: "assets/svg/Property 1=linear-10", componentName: "Linear10", filePath: "assets/svg/Property 1=linear-10.svg", category: "Linear10", tags: ["linear10"], name: "linear10" },
-  { id: "assets/svg/Property 1=linear-11", componentName: "Linear11", filePath: "assets/svg/Property 1=linear-11.svg", category: "Linear11", tags: ["linear11"], name: "linear11" },
-  { id: "assets/svg/Property 1=linear-12", componentName: "Linear12", filePath: "assets/svg/Property 1=linear-12.svg", category: "Linear12", tags: ["linear12"], name: "linear12" },
-  { id: "assets/svg/Property 1=linear-13", componentName: "Linear13", filePath: "assets/svg/Property 1=linear-13.svg", category: "Linear13", tags: ["linear13"], name: "linear13" },
-  { id: "assets/svg/Property 1=linear-14", componentName: "Linear14", filePath: "assets/svg/Property 1=linear-14.svg", category: "Linear14", tags: ["linear14"], name: "linear14" },
-  { id: "assets/svg/Property 1=linear-15", componentName: "Linear15", filePath: "assets/svg/Property 1=linear-15.svg", category: "Linear15", tags: ["linear15"], name: "linear15" },
-  { id: "assets/svg/Property 1=linear-16", componentName: "Linear16", filePath: "assets/svg/Property 1=linear-16.svg", category: "Linear16", tags: ["linear16"], name: "linear16" },
-  { id: "assets/svg/Property 1=linear-17", componentName: "Linear17", filePath: "assets/svg/Property 1=linear-17.svg", category: "Linear17", tags: ["linear17"], name: "linear17" },
-  { id: "assets/svg/Property 1=linear-18", componentName: "Linear18", filePath: "assets/svg/Property 1=linear-18.svg", category: "Linear18", tags: ["linear18"], name: "linear18" },
-  { id: "assets/svg/Property 1=linear-19", componentName: "Linear19", filePath: "assets/svg/Property 1=linear-19.svg", category: "Linear19", tags: ["linear19"], name: "linear19" },
-  { id: "assets/svg/Property 1=linear-2", componentName: "Linear2", filePath: "assets/svg/Property 1=linear-2.svg", category: "Linear2", tags: ["linear2"], name: "linear2" },
-  { id: "assets/svg/Property 1=linear-20", componentName: "Linear20", filePath: "assets/svg/Property 1=linear-20.svg", category: "Linear20", tags: ["linear20"], name: "linear20" },
-  { id: "assets/svg/Property 1=linear-21", componentName: "Linear21", filePath: "assets/svg/Property 1=linear-21.svg", category: "Linear21", tags: ["linear21"], name: "linear21" },
-  { id: "assets/svg/Property 1=linear-22", componentName: "Linear22", filePath: "assets/svg/Property 1=linear-22.svg", category: "Linear22", tags: ["linear22"], name: "linear22" },
-  { id: "assets/svg/Property 1=linear-23", componentName: "Linear23", filePath: "assets/svg/Property 1=linear-23.svg", category: "Linear23", tags: ["linear23"], name: "linear23" },
-  { id: "assets/svg/Property 1=linear-24", componentName: "Linear24", filePath: "assets/svg/Property 1=linear-24.svg", category: "Linear24", tags: ["linear24"], name: "linear24" },
-  { id: "assets/svg/Property 1=linear-25", componentName: "Linear25", filePath: "assets/svg/Property 1=linear-25.svg", category: "Linear25", tags: ["linear25"], name: "linear25" },
-  { id: "assets/svg/Property 1=linear-26", componentName: "Linear26", filePath: "assets/svg/Property 1=linear-26.svg", category: "Linear26", tags: ["linear26"], name: "linear26" },
-  { id: "assets/svg/Property 1=linear-27", componentName: "Linear27", filePath: "assets/svg/Property 1=linear-27.svg", category: "Linear27", tags: ["linear27"], name: "linear27" },
-  { id: "assets/svg/Property 1=linear-28", componentName: "Linear28", filePath: "assets/svg/Property 1=linear-28.svg", category: "Linear28", tags: ["linear28"], name: "linear28" },
-  { id: "assets/svg/Property 1=linear-29", componentName: "Linear29", filePath: "assets/svg/Property 1=linear-29.svg", category: "Linear29", tags: ["linear29"], name: "linear29" },
-  { id: "assets/svg/Property 1=linear-3", componentName: "Linear3", filePath: "assets/svg/Property 1=linear-3.svg", category: "Linear3", tags: ["linear3"], name: "linear3" },
-  { id: "assets/svg/Property 1=linear-30", componentName: "Linear30", filePath: "assets/svg/Property 1=linear-30.svg", category: "Linear30", tags: ["linear30"], name: "linear30" },
-  { id: "assets/svg/Property 1=linear-31", componentName: "Linear31", filePath: "assets/svg/Property 1=linear-31.svg", category: "Linear31", tags: ["linear31"], name: "linear31" },
-  { id: "assets/svg/Property 1=linear-32", componentName: "Linear32", filePath: "assets/svg/Property 1=linear-32.svg", category: "Linear32", tags: ["linear32"], name: "linear32" },
-  { id: "assets/svg/Property 1=linear-33", componentName: "Linear33", filePath: "assets/svg/Property 1=linear-33.svg", category: "Linear33", tags: ["linear33"], name: "linear33" },
-  { id: "assets/svg/Property 1=linear-34", componentName: "Linear34", filePath: "assets/svg/Property 1=linear-34.svg", category: "Linear34", tags: ["linear34"], name: "linear34" },
-  { id: "assets/svg/Property 1=linear-35", componentName: "Linear35", filePath: "assets/svg/Property 1=linear-35.svg", category: "Linear35", tags: ["linear35"], name: "linear35" },
-  { id: "assets/svg/Property 1=linear-36", componentName: "Linear36", filePath: "assets/svg/Property 1=linear-36.svg", category: "Linear36", tags: ["linear36"], name: "linear36" },
-  { id: "assets/svg/Property 1=linear-37", componentName: "Linear37", filePath: "assets/svg/Property 1=linear-37.svg", category: "Linear37", tags: ["linear37"], name: "linear37" },
-  { id: "assets/svg/Property 1=linear-4", componentName: "Linear4", filePath: "assets/svg/Property 1=linear-4.svg", category: "Linear4", tags: ["linear4"], name: "linear4" },
-  { id: "assets/svg/Property 1=linear-5", componentName: "Linear5", filePath: "assets/svg/Property 1=linear-5.svg", category: "Linear5", tags: ["linear5"], name: "linear5" },
-  { id: "assets/svg/Property 1=linear-6", componentName: "Linear6", filePath: "assets/svg/Property 1=linear-6.svg", category: "Linear6", tags: ["linear6"], name: "linear6" },
-  { id: "assets/svg/Property 1=linear-7", componentName: "Linear7", filePath: "assets/svg/Property 1=linear-7.svg", category: "Linear7", tags: ["linear7"], name: "linear7" },
-  { id: "assets/svg/Property 1=linear-8", componentName: "Linear8", filePath: "assets/svg/Property 1=linear-8.svg", category: "Linear8", tags: ["linear8"], name: "linear8" },
-  { id: "assets/svg/Property 1=linear-9", componentName: "Linear9", filePath: "assets/svg/Property 1=linear-9.svg", category: "Linear9", tags: ["linear9"], name: "linear9" },
-  { id: "assets/svg/Property 1=linear-clipboard", componentName: "LinearClipboard", filePath: "assets/svg/Property 1=linear-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
-  { id: "assets/svg/Property 1=linear-copy", componentName: "LinearCopy", filePath: "assets/svg/Property 1=linear-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
-  { id: "assets/svg/Property 1=linear-export", componentName: "LinearExport", filePath: "assets/svg/Property 1=linear-export.svg", category: "Export", tags: ["export"], name: "export" },
-  { id: "assets/svg/Property 1=linear-play", componentName: "LinearPlay", filePath: "assets/svg/Property 1=linear-play.svg", category: "Play", tags: ["play"], name: "play" },
-  { id: "assets/svg/Property 1=linear-record", componentName: "LinearRecord", filePath: "assets/svg/Property 1=linear-record.svg", category: "Record", tags: ["record"], name: "record" },
-  { id: "assets/svg/Property 1=linear-repeat", componentName: "LinearRepeat", filePath: "assets/svg/Property 1=linear-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
-  { id: "assets/svg/Property 1=linear-stop", componentName: "LinearStop", filePath: "assets/svg/Property 1=linear-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
-  { id: "assets/svg/Property 1=linear", componentName: "Linear", filePath: "assets/svg/Property 1=linear.svg", category: "Linear", tags: [], name: "linear" },
-  { id: "assets/svg/Property 1=outline-1", componentName: "Outline1", filePath: "assets/svg/Property 1=outline-1.svg", category: "Outline1", tags: ["outline1"], name: "outline1" },
-  { id: "assets/svg/Property 1=outline-10", componentName: "Outline10", filePath: "assets/svg/Property 1=outline-10.svg", category: "Outline10", tags: ["outline10"], name: "outline10" },
-  { id: "assets/svg/Property 1=outline-11", componentName: "Outline11", filePath: "assets/svg/Property 1=outline-11.svg", category: "Outline11", tags: ["outline11"], name: "outline11" },
-  { id: "assets/svg/Property 1=outline-12", componentName: "Outline12", filePath: "assets/svg/Property 1=outline-12.svg", category: "Outline12", tags: ["outline12"], name: "outline12" },
-  { id: "assets/svg/Property 1=outline-13", componentName: "Outline13", filePath: "assets/svg/Property 1=outline-13.svg", category: "Outline13", tags: ["outline13"], name: "outline13" },
-  { id: "assets/svg/Property 1=outline-14", componentName: "Outline14", filePath: "assets/svg/Property 1=outline-14.svg", category: "Outline14", tags: ["outline14"], name: "outline14" },
-  { id: "assets/svg/Property 1=outline-15", componentName: "Outline15", filePath: "assets/svg/Property 1=outline-15.svg", category: "Outline15", tags: ["outline15"], name: "outline15" },
-  { id: "assets/svg/Property 1=outline-16", componentName: "Outline16", filePath: "assets/svg/Property 1=outline-16.svg", category: "Outline16", tags: ["outline16"], name: "outline16" },
-  { id: "assets/svg/Property 1=outline-17", componentName: "Outline17", filePath: "assets/svg/Property 1=outline-17.svg", category: "Outline17", tags: ["outline17"], name: "outline17" },
-  { id: "assets/svg/Property 1=outline-18", componentName: "Outline18", filePath: "assets/svg/Property 1=outline-18.svg", category: "Outline18", tags: ["outline18"], name: "outline18" },
-  { id: "assets/svg/Property 1=outline-19", componentName: "Outline19", filePath: "assets/svg/Property 1=outline-19.svg", category: "Outline19", tags: ["outline19"], name: "outline19" },
-  { id: "assets/svg/Property 1=outline-2", componentName: "Outline2", filePath: "assets/svg/Property 1=outline-2.svg", category: "Outline2", tags: ["outline2"], name: "outline2" },
-  { id: "assets/svg/Property 1=outline-20", componentName: "Outline20", filePath: "assets/svg/Property 1=outline-20.svg", category: "Outline20", tags: ["outline20"], name: "outline20" },
-  { id: "assets/svg/Property 1=outline-21", componentName: "Outline21", filePath: "assets/svg/Property 1=outline-21.svg", category: "Outline21", tags: ["outline21"], name: "outline21" },
-  { id: "assets/svg/Property 1=outline-22", componentName: "Outline22", filePath: "assets/svg/Property 1=outline-22.svg", category: "Outline22", tags: ["outline22"], name: "outline22" },
-  { id: "assets/svg/Property 1=outline-23", componentName: "Outline23", filePath: "assets/svg/Property 1=outline-23.svg", category: "Outline23", tags: ["outline23"], name: "outline23" },
-  { id: "assets/svg/Property 1=outline-24", componentName: "Outline24", filePath: "assets/svg/Property 1=outline-24.svg", category: "Outline24", tags: ["outline24"], name: "outline24" },
-  { id: "assets/svg/Property 1=outline-25", componentName: "Outline25", filePath: "assets/svg/Property 1=outline-25.svg", category: "Outline25", tags: ["outline25"], name: "outline25" },
-  { id: "assets/svg/Property 1=outline-26", componentName: "Outline26", filePath: "assets/svg/Property 1=outline-26.svg", category: "Outline26", tags: ["outline26"], name: "outline26" },
-  { id: "assets/svg/Property 1=outline-27", componentName: "Outline27", filePath: "assets/svg/Property 1=outline-27.svg", category: "Outline27", tags: ["outline27"], name: "outline27" },
-  { id: "assets/svg/Property 1=outline-28", componentName: "Outline28", filePath: "assets/svg/Property 1=outline-28.svg", category: "Outline28", tags: ["outline28"], name: "outline28" },
-  { id: "assets/svg/Property 1=outline-29", componentName: "Outline29", filePath: "assets/svg/Property 1=outline-29.svg", category: "Outline29", tags: ["outline29"], name: "outline29" },
-  { id: "assets/svg/Property 1=outline-3", componentName: "Outline3", filePath: "assets/svg/Property 1=outline-3.svg", category: "Outline3", tags: ["outline3"], name: "outline3" },
-  { id: "assets/svg/Property 1=outline-30", componentName: "Outline30", filePath: "assets/svg/Property 1=outline-30.svg", category: "Outline30", tags: ["outline30"], name: "outline30" },
-  { id: "assets/svg/Property 1=outline-31", componentName: "Outline31", filePath: "assets/svg/Property 1=outline-31.svg", category: "Outline31", tags: ["outline31"], name: "outline31" },
-  { id: "assets/svg/Property 1=outline-32", componentName: "Outline32", filePath: "assets/svg/Property 1=outline-32.svg", category: "Outline32", tags: ["outline32"], name: "outline32" },
-  { id: "assets/svg/Property 1=outline-33", componentName: "Outline33", filePath: "assets/svg/Property 1=outline-33.svg", category: "Outline33", tags: ["outline33"], name: "outline33" },
-  { id: "assets/svg/Property 1=outline-34", componentName: "Outline34", filePath: "assets/svg/Property 1=outline-34.svg", category: "Outline34", tags: ["outline34"], name: "outline34" },
-  { id: "assets/svg/Property 1=outline-35", componentName: "Outline35", filePath: "assets/svg/Property 1=outline-35.svg", category: "Outline35", tags: ["outline35"], name: "outline35" },
-  { id: "assets/svg/Property 1=outline-36", componentName: "Outline36", filePath: "assets/svg/Property 1=outline-36.svg", category: "Outline36", tags: ["outline36"], name: "outline36" },
-  { id: "assets/svg/Property 1=outline-37", componentName: "Outline37", filePath: "assets/svg/Property 1=outline-37.svg", category: "Outline37", tags: ["outline37"], name: "outline37" },
-  { id: "assets/svg/Property 1=outline-38", componentName: "Outline38", filePath: "assets/svg/Property 1=outline-38.svg", category: "Outline38", tags: ["outline38"], name: "outline38" },
-  { id: "assets/svg/Property 1=outline-39", componentName: "Outline39", filePath: "assets/svg/Property 1=outline-39.svg", category: "Outline39", tags: ["outline39"], name: "outline39" },
-  { id: "assets/svg/Property 1=outline-4", componentName: "Outline4", filePath: "assets/svg/Property 1=outline-4.svg", category: "Outline4", tags: ["outline4"], name: "outline4" },
-  { id: "assets/svg/Property 1=outline-40", componentName: "Outline40", filePath: "assets/svg/Property 1=outline-40.svg", category: "Outline40", tags: ["outline40"], name: "outline40" },
   { id: "assets/svg/Property 1=outline-41", componentName: "Outline41", filePath: "assets/svg/Property 1=outline-41.svg", category: "Outline41", tags: ["outline41"], name: "outline41" },
-  { id: "assets/svg/Property 1=outline-5", componentName: "Outline5", filePath: "assets/svg/Property 1=outline-5.svg", category: "Outline5", tags: ["outline5"], name: "outline5" },
-  { id: "assets/svg/Property 1=outline-6", componentName: "Outline6", filePath: "assets/svg/Property 1=outline-6.svg", category: "Outline6", tags: ["outline6"], name: "outline6" },
-  { id: "assets/svg/Property 1=outline-7", componentName: "Outline7", filePath: "assets/svg/Property 1=outline-7.svg", category: "Outline7", tags: ["outline7"], name: "outline7" },
-  { id: "assets/svg/Property 1=outline-8", componentName: "Outline8", filePath: "assets/svg/Property 1=outline-8.svg", category: "Outline8", tags: ["outline8"], name: "outline8" },
-  { id: "assets/svg/Property 1=outline-9", componentName: "Outline9", filePath: "assets/svg/Property 1=outline-9.svg", category: "Outline9", tags: ["outline9"], name: "outline9" },
-  { id: "assets/svg/Property 1=outline-clipboard", componentName: "OutlineClipboard", filePath: "assets/svg/Property 1=outline-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
-  { id: "assets/svg/Property 1=outline-copy", componentName: "OutlineCopy", filePath: "assets/svg/Property 1=outline-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
-  { id: "assets/svg/Property 1=outline-export", componentName: "OutlineExport", filePath: "assets/svg/Property 1=outline-export.svg", category: "Export", tags: ["export"], name: "export" },
-  { id: "assets/svg/Property 1=outline-play", componentName: "OutlinePlay", filePath: "assets/svg/Property 1=outline-play.svg", category: "Play", tags: ["play"], name: "play" },
-  { id: "assets/svg/Property 1=outline-record", componentName: "OutlineRecord", filePath: "assets/svg/Property 1=outline-record.svg", category: "Record", tags: ["record"], name: "record" },
-  { id: "assets/svg/Property 1=outline-repeat", componentName: "OutlineRepeat", filePath: "assets/svg/Property 1=outline-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
-  { id: "assets/svg/Property 1=outline-stop", componentName: "OutlineStop", filePath: "assets/svg/Property 1=outline-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
-  { id: "assets/svg/Property 1=outline", componentName: "Outline", filePath: "assets/svg/Property 1=outline.svg", category: "Outline", tags: [], name: "outline" },
-  { id: "assets/svg/Property 1=twotone-1", componentName: "Twotone1", filePath: "assets/svg/Property 1=twotone-1.svg", category: "Twotone1", tags: ["twotone1"], name: "twotone1" },
-  { id: "assets/svg/Property 1=twotone-10", componentName: "Twotone10", filePath: "assets/svg/Property 1=twotone-10.svg", category: "Twotone10", tags: ["twotone10"], name: "twotone10" },
-  { id: "assets/svg/Property 1=twotone-11", componentName: "Twotone11", filePath: "assets/svg/Property 1=twotone-11.svg", category: "Twotone11", tags: ["twotone11"], name: "twotone11" },
-  { id: "assets/svg/Property 1=twotone-12", componentName: "Twotone12", filePath: "assets/svg/Property 1=twotone-12.svg", category: "Twotone12", tags: ["twotone12"], name: "twotone12" },
-  { id: "assets/svg/Property 1=twotone-13", componentName: "Twotone13", filePath: "assets/svg/Property 1=twotone-13.svg", category: "Twotone13", tags: ["twotone13"], name: "twotone13" },
-  { id: "assets/svg/Property 1=twotone-14", componentName: "Twotone14", filePath: "assets/svg/Property 1=twotone-14.svg", category: "Twotone14", tags: ["twotone14"], name: "twotone14" },
-  { id: "assets/svg/Property 1=twotone-15", componentName: "Twotone15", filePath: "assets/svg/Property 1=twotone-15.svg", category: "Twotone15", tags: ["twotone15"], name: "twotone15" },
-  { id: "assets/svg/Property 1=twotone-16", componentName: "Twotone16", filePath: "assets/svg/Property 1=twotone-16.svg", category: "Twotone16", tags: ["twotone16"], name: "twotone16" },
-  { id: "assets/svg/Property 1=twotone-17", componentName: "Twotone17", filePath: "assets/svg/Property 1=twotone-17.svg", category: "Twotone17", tags: ["twotone17"], name: "twotone17" },
-  { id: "assets/svg/Property 1=twotone-18", componentName: "Twotone18", filePath: "assets/svg/Property 1=twotone-18.svg", category: "Twotone18", tags: ["twotone18"], name: "twotone18" },
-  { id: "assets/svg/Property 1=twotone-19", componentName: "Twotone19", filePath: "assets/svg/Property 1=twotone-19.svg", category: "Twotone19", tags: ["twotone19"], name: "twotone19" },
-  { id: "assets/svg/Property 1=twotone-2", componentName: "Twotone2", filePath: "assets/svg/Property 1=twotone-2.svg", category: "Twotone2", tags: ["twotone2"], name: "twotone2" },
-  { id: "assets/svg/Property 1=twotone-20", componentName: "Twotone20", filePath: "assets/svg/Property 1=twotone-20.svg", category: "Twotone20", tags: ["twotone20"], name: "twotone20" },
-  { id: "assets/svg/Property 1=twotone-21", componentName: "Twotone21", filePath: "assets/svg/Property 1=twotone-21.svg", category: "Twotone21", tags: ["twotone21"], name: "twotone21" },
-  { id: "assets/svg/Property 1=twotone-22", componentName: "Twotone22", filePath: "assets/svg/Property 1=twotone-22.svg", category: "Twotone22", tags: ["twotone22"], name: "twotone22" },
-  { id: "assets/svg/Property 1=twotone-23", componentName: "Twotone23", filePath: "assets/svg/Property 1=twotone-23.svg", category: "Twotone23", tags: ["twotone23"], name: "twotone23" },
-  { id: "assets/svg/Property 1=twotone-24", componentName: "Twotone24", filePath: "assets/svg/Property 1=twotone-24.svg", category: "Twotone24", tags: ["twotone24"], name: "twotone24" },
-  { id: "assets/svg/Property 1=twotone-25", componentName: "Twotone25", filePath: "assets/svg/Property 1=twotone-25.svg", category: "Twotone25", tags: ["twotone25"], name: "twotone25" },
-  { id: "assets/svg/Property 1=twotone-26", componentName: "Twotone26", filePath: "assets/svg/Property 1=twotone-26.svg", category: "Twotone26", tags: ["twotone26"], name: "twotone26" },
-  { id: "assets/svg/Property 1=twotone-27", componentName: "Twotone27", filePath: "assets/svg/Property 1=twotone-27.svg", category: "Twotone27", tags: ["twotone27"], name: "twotone27" },
-  { id: "assets/svg/Property 1=twotone-28", componentName: "Twotone28", filePath: "assets/svg/Property 1=twotone-28.svg", category: "Twotone28", tags: ["twotone28"], name: "twotone28" },
-  { id: "assets/svg/Property 1=twotone-29", componentName: "Twotone29", filePath: "assets/svg/Property 1=twotone-29.svg", category: "Twotone29", tags: ["twotone29"], name: "twotone29" },
-  { id: "assets/svg/Property 1=twotone-3", componentName: "Twotone3", filePath: "assets/svg/Property 1=twotone-3.svg", category: "Twotone3", tags: ["twotone3"], name: "twotone3" },
-  { id: "assets/svg/Property 1=twotone-30", componentName: "Twotone30", filePath: "assets/svg/Property 1=twotone-30.svg", category: "Twotone30", tags: ["twotone30"], name: "twotone30" },
-  { id: "assets/svg/Property 1=twotone-31", componentName: "Twotone31", filePath: "assets/svg/Property 1=twotone-31.svg", category: "Twotone31", tags: ["twotone31"], name: "twotone31" },
-  { id: "assets/svg/Property 1=twotone-32", componentName: "Twotone32", filePath: "assets/svg/Property 1=twotone-32.svg", category: "Twotone32", tags: ["twotone32"], name: "twotone32" },
-  { id: "assets/svg/Property 1=twotone-33", componentName: "Twotone33", filePath: "assets/svg/Property 1=twotone-33.svg", category: "Twotone33", tags: ["twotone33"], name: "twotone33" },
-  { id: "assets/svg/Property 1=twotone-34", componentName: "Twotone34", filePath: "assets/svg/Property 1=twotone-34.svg", category: "Twotone34", tags: ["twotone34"], name: "twotone34" },
-  { id: "assets/svg/Property 1=twotone-35", componentName: "Twotone35", filePath: "assets/svg/Property 1=twotone-35.svg", category: "Twotone35", tags: ["twotone35"], name: "twotone35" },
-  { id: "assets/svg/Property 1=twotone-36", componentName: "Twotone36", filePath: "assets/svg/Property 1=twotone-36.svg", category: "Twotone36", tags: ["twotone36"], name: "twotone36" },
   { id: "assets/svg/Property 1=twotone-37", componentName: "Twotone37", filePath: "assets/svg/Property 1=twotone-37.svg", category: "Twotone37", tags: ["twotone37"], name: "twotone37" },
-  { id: "assets/svg/Property 1=twotone-4", componentName: "Twotone4", filePath: "assets/svg/Property 1=twotone-4.svg", category: "Twotone4", tags: ["twotone4"], name: "twotone4" },
-  { id: "assets/svg/Property 1=twotone-5", componentName: "Twotone5", filePath: "assets/svg/Property 1=twotone-5.svg", category: "Twotone5", tags: ["twotone5"], name: "twotone5" },
-  { id: "assets/svg/Property 1=twotone-6", componentName: "Twotone6", filePath: "assets/svg/Property 1=twotone-6.svg", category: "Twotone6", tags: ["twotone6"], name: "twotone6" },
-  { id: "assets/svg/Property 1=twotone-7", componentName: "Twotone7", filePath: "assets/svg/Property 1=twotone-7.svg", category: "Twotone7", tags: ["twotone7"], name: "twotone7" },
-  { id: "assets/svg/Property 1=twotone-8", componentName: "Twotone8", filePath: "assets/svg/Property 1=twotone-8.svg", category: "Twotone8", tags: ["twotone8"], name: "twotone8" },
-  { id: "assets/svg/Property 1=twotone-9", componentName: "Twotone9", filePath: "assets/svg/Property 1=twotone-9.svg", category: "Twotone9", tags: ["twotone9"], name: "twotone9" },
-  { id: "assets/svg/Property 1=twotone-clipboard", componentName: "TwotoneClipboard", filePath: "assets/svg/Property 1=twotone-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
-  { id: "assets/svg/Property 1=twotone-copy", componentName: "TwotoneCopy", filePath: "assets/svg/Property 1=twotone-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
-  { id: "assets/svg/Property 1=twotone-export", componentName: "TwotoneExport", filePath: "assets/svg/Property 1=twotone-export.svg", category: "Export", tags: ["export"], name: "export" },
-  { id: "assets/svg/Property 1=twotone-play", componentName: "TwotonePlay", filePath: "assets/svg/Property 1=twotone-play.svg", category: "Play", tags: ["play"], name: "play" },
-  { id: "assets/svg/Property 1=twotone-record", componentName: "TwotoneRecord", filePath: "assets/svg/Property 1=twotone-record.svg", category: "Record", tags: ["record"], name: "record" },
-  { id: "assets/svg/Property 1=twotone-repeat", componentName: "TwotoneRepeat", filePath: "assets/svg/Property 1=twotone-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
-  { id: "assets/svg/Property 1=twotone-stop", componentName: "TwotoneStop", filePath: "assets/svg/Property 1=twotone-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
-  { id: "assets/svg/Property 1=twotone", componentName: "Twotone", filePath: "assets/svg/Property 1=twotone.svg", category: "Twotone", tags: [], name: "twotone" },
   { id: "assets/svg/Regular-S", componentName: "RegularS", filePath: "assets/svg/Regular-S.svg", category: "Regular", tags: ["regular"], name: "regular s" },
   { id: "assets/svg/Ultralight-S", componentName: "UltralightS", filePath: "assets/svg/Ultralight-S.svg", category: "Ultralight", tags: ["ultralight"], name: "ultralight s" },
+  { id: "assets/svg/bolds-add-square", componentName: "BoldsAddSquare", filePath: "assets/svg/bolds-add-square.svg", category: "Bolds", tags: ["bolds","add","square"], name: "bolds add square" },
+  { id: "assets/svg/bolds-barbell", componentName: "BoldsBarbell", filePath: "assets/svg/bolds-barbell.svg", category: "Bolds", tags: ["bolds","barbell"], name: "bolds barbell" },
+  { id: "assets/svg/bolds-battery", componentName: "BoldsBattery", filePath: "assets/svg/bolds-battery.svg", category: "Bolds", tags: ["bolds","battery"], name: "bolds battery" },
+  { id: "assets/svg/bolds-bookmark", componentName: "BoldsBookmark", filePath: "assets/svg/bolds-bookmark.svg", category: "Bolds", tags: ["bolds","bookmark"], name: "bolds bookmark" },
+  { id: "assets/svg/bolds-camera", componentName: "BoldsCamera", filePath: "assets/svg/bolds-camera.svg", category: "Bolds", tags: ["bolds","camera"], name: "bolds camera" },
+  { id: "assets/svg/bolds-chart", componentName: "BoldsChart", filePath: "assets/svg/bolds-chart.svg", category: "Bolds", tags: ["bolds","chart"], name: "bolds chart" },
+  { id: "assets/svg/bolds-chevron-down", componentName: "BoldsChevronDown", filePath: "assets/svg/bolds-chevron-down.svg", category: "Bolds", tags: ["bolds","chevron","down"], name: "bolds chevron down" },
+  { id: "assets/svg/bolds-chevron-left-line", componentName: "BoldsChevronLeftLine", filePath: "assets/svg/bolds-chevron-left-line.svg", category: "Bolds", tags: ["bolds","chevron","left","line"], name: "bolds chevron left line" },
+  { id: "assets/svg/bolds-chevron-left", componentName: "BoldsChevronLeft", filePath: "assets/svg/bolds-chevron-left.svg", category: "Bolds", tags: ["bolds","chevron","left"], name: "bolds chevron left" },
+  { id: "assets/svg/bolds-chevron-right-line", componentName: "BoldsChevronRightLine", filePath: "assets/svg/bolds-chevron-right-line.svg", category: "Bolds", tags: ["bolds","chevron","right","line"], name: "bolds chevron right line" },
+  { id: "assets/svg/bolds-chevron-right", componentName: "BoldsChevronRight", filePath: "assets/svg/bolds-chevron-right.svg", category: "Bolds", tags: ["bolds","chevron","right"], name: "bolds chevron right" },
+  { id: "assets/svg/bolds-chevron", componentName: "BoldsChevron", filePath: "assets/svg/bolds-chevron.svg", category: "Bolds", tags: ["bolds","chevron"], name: "bolds chevron" },
+  { id: "assets/svg/bolds-clipboard", componentName: "BoldsClipboard", filePath: "assets/svg/bolds-clipboard.svg", category: "Bolds", tags: ["bolds","clipboard"], name: "bolds clipboard" },
+  { id: "assets/svg/bolds-contrast", componentName: "BoldsContrast", filePath: "assets/svg/bolds-contrast.svg", category: "Bolds", tags: ["bolds","contrast"], name: "bolds contrast" },
+  { id: "assets/svg/bolds-copy", componentName: "BoldsCopy", filePath: "assets/svg/bolds-copy.svg", category: "Bolds", tags: ["bolds","copy"], name: "bolds copy" },
+  { id: "assets/svg/bolds-document-blank", componentName: "BoldsDocumentBlank", filePath: "assets/svg/bolds-document-blank.svg", category: "Bolds", tags: ["bolds","document","blank"], name: "bolds document blank" },
+  { id: "assets/svg/bolds-document-text", componentName: "BoldsDocumentText", filePath: "assets/svg/bolds-document-text.svg", category: "Bolds", tags: ["bolds","document","text"], name: "bolds document text" },
+  { id: "assets/svg/bolds-document", componentName: "BoldsDocument", filePath: "assets/svg/bolds-document.svg", category: "Bolds", tags: ["bolds","document"], name: "bolds document" },
+  { id: "assets/svg/bolds-download", componentName: "BoldsDownload", filePath: "assets/svg/bolds-download.svg", category: "Bolds", tags: ["bolds","download"], name: "bolds download" },
+  { id: "assets/svg/bolds-edit", componentName: "BoldsEdit", filePath: "assets/svg/bolds-edit.svg", category: "Bolds", tags: ["bolds","edit"], name: "bolds edit" },
+  { id: "assets/svg/bolds-export", componentName: "BoldsExport", filePath: "assets/svg/bolds-export.svg", category: "Bolds", tags: ["bolds","export"], name: "bolds export" },
+  { id: "assets/svg/bolds-folder-favorite", componentName: "BoldsFolderFavorite", filePath: "assets/svg/bolds-folder-favorite.svg", category: "Bolds", tags: ["bolds","folder","favorite"], name: "bolds folder favorite" },
+  { id: "assets/svg/bolds-gallery", componentName: "BoldsGallery", filePath: "assets/svg/bolds-gallery.svg", category: "Bolds", tags: ["bolds","gallery"], name: "bolds gallery" },
+  { id: "assets/svg/bolds-home", componentName: "BoldsHome", filePath: "assets/svg/bolds-home.svg", category: "Bolds", tags: ["bolds","home"], name: "bolds home" },
+  { id: "assets/svg/bolds-key", componentName: "BoldsKey", filePath: "assets/svg/bolds-key.svg", category: "Bolds", tags: ["bolds","key"], name: "bolds key" },
+  { id: "assets/svg/bolds-like", componentName: "BoldsLike", filePath: "assets/svg/bolds-like.svg", category: "Bolds", tags: ["bolds","like"], name: "bolds like" },
+  { id: "assets/svg/bolds-location", componentName: "BoldsLocation", filePath: "assets/svg/bolds-location.svg", category: "Bolds", tags: ["bolds","location"], name: "bolds location" },
+  { id: "assets/svg/bolds-lock", componentName: "BoldsLock", filePath: "assets/svg/bolds-lock.svg", category: "Bolds", tags: ["bolds","lock"], name: "bolds lock" },
+  { id: "assets/svg/bolds-logout", componentName: "BoldsLogout", filePath: "assets/svg/bolds-logout.svg", category: "Bolds", tags: ["bolds","logout"], name: "bolds logout" },
+  { id: "assets/svg/bolds-mail", componentName: "BoldsMail", filePath: "assets/svg/bolds-mail.svg", category: "Bolds", tags: ["bolds","mail"], name: "bolds mail" },
+  { id: "assets/svg/bolds-message", componentName: "BoldsMessage", filePath: "assets/svg/bolds-message.svg", category: "Bolds", tags: ["bolds","message"], name: "bolds message" },
+  { id: "assets/svg/bolds-messages", componentName: "BoldsMessages", filePath: "assets/svg/bolds-messages.svg", category: "Bolds", tags: ["bolds","messages"], name: "bolds messages" },
+  { id: "assets/svg/bolds-microphone", componentName: "BoldsMicrophone", filePath: "assets/svg/bolds-microphone.svg", category: "Bolds", tags: ["bolds","microphone"], name: "bolds microphone" },
+  { id: "assets/svg/bolds-play", componentName: "BoldsPlay", filePath: "assets/svg/bolds-play.svg", category: "Bolds", tags: ["bolds","play"], name: "bolds play" },
+  { id: "assets/svg/bolds-record", componentName: "BoldsRecord", filePath: "assets/svg/bolds-record.svg", category: "Bolds", tags: ["bolds","record"], name: "bolds record" },
+  { id: "assets/svg/bolds-repeat", componentName: "BoldsRepeat", filePath: "assets/svg/bolds-repeat.svg", category: "Bolds", tags: ["bolds","repeat"], name: "bolds repeat" },
+  { id: "assets/svg/bolds-search", componentName: "BoldsSearch", filePath: "assets/svg/bolds-search.svg", category: "Bolds", tags: ["bolds","search"], name: "bolds search" },
+  { id: "assets/svg/bolds-star", componentName: "BoldsStar", filePath: "assets/svg/bolds-star.svg", category: "Bolds", tags: ["bolds","star"], name: "bolds star" },
+  { id: "assets/svg/bolds-stop", componentName: "BoldsStop", filePath: "assets/svg/bolds-stop.svg", category: "Bolds", tags: ["bolds","stop"], name: "bolds stop" },
+  { id: "assets/svg/bolds-trash", componentName: "BoldsTrash", filePath: "assets/svg/bolds-trash.svg", category: "Bolds", tags: ["bolds","trash"], name: "bolds trash" },
+  { id: "assets/svg/bolds-unlock", componentName: "BoldsUnlock", filePath: "assets/svg/bolds-unlock.svg", category: "Bolds", tags: ["bolds","unlock"], name: "bolds unlock" },
+  { id: "assets/svg/bolds-upload", componentName: "BoldsUpload", filePath: "assets/svg/bolds-upload.svg", category: "Bolds", tags: ["bolds","upload"], name: "bolds upload" },
+  { id: "assets/svg/bolds-user", componentName: "BoldsUser", filePath: "assets/svg/bolds-user.svg", category: "Bolds", tags: ["bolds","user"], name: "bolds user" },
+  { id: "assets/svg/broken-add-square", componentName: "BrokenAddSquare", filePath: "assets/svg/broken-add-square.svg", category: "Add", tags: ["add","square"], name: "add square" },
+  { id: "assets/svg/broken-barbell", componentName: "BrokenBarbell", filePath: "assets/svg/broken-barbell.svg", category: "Barbell", tags: ["barbell"], name: "barbell" },
+  { id: "assets/svg/broken-battery", componentName: "BrokenBattery", filePath: "assets/svg/broken-battery.svg", category: "Battery", tags: ["battery"], name: "battery" },
+  { id: "assets/svg/broken-bookmark", componentName: "BrokenBookmark", filePath: "assets/svg/broken-bookmark.svg", category: "Bookmark", tags: ["bookmark"], name: "bookmark" },
+  { id: "assets/svg/broken-camera", componentName: "BrokenCamera", filePath: "assets/svg/broken-camera.svg", category: "Camera", tags: ["camera"], name: "camera" },
+  { id: "assets/svg/broken-chart", componentName: "BrokenChart", filePath: "assets/svg/broken-chart.svg", category: "Chart", tags: ["chart"], name: "chart" },
+  { id: "assets/svg/broken-chevron-down", componentName: "BrokenChevronDown", filePath: "assets/svg/broken-chevron-down.svg", category: "Chevron", tags: ["chevron","down"], name: "chevron down" },
+  { id: "assets/svg/broken-chevron-left-line", componentName: "BrokenChevronLeftLine", filePath: "assets/svg/broken-chevron-left-line.svg", category: "Chevron", tags: ["chevron","left","line"], name: "chevron left line" },
+  { id: "assets/svg/broken-chevron-left", componentName: "BrokenChevronLeft", filePath: "assets/svg/broken-chevron-left.svg", category: "Chevron", tags: ["chevron","left"], name: "chevron left" },
+  { id: "assets/svg/broken-chevron-right-line", componentName: "BrokenChevronRightLine", filePath: "assets/svg/broken-chevron-right-line.svg", category: "Chevron", tags: ["chevron","right","line"], name: "chevron right line" },
+  { id: "assets/svg/broken-chevron-right", componentName: "BrokenChevronRight", filePath: "assets/svg/broken-chevron-right.svg", category: "Chevron", tags: ["chevron","right"], name: "chevron right" },
+  { id: "assets/svg/broken-chevron", componentName: "BrokenChevron", filePath: "assets/svg/broken-chevron.svg", category: "Chevron", tags: ["chevron"], name: "chevron" },
+  { id: "assets/svg/broken-clipboard", componentName: "BrokenClipboard", filePath: "assets/svg/broken-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
+  { id: "assets/svg/broken-contrast", componentName: "BrokenContrast", filePath: "assets/svg/broken-contrast.svg", category: "Contrast", tags: ["contrast"], name: "contrast" },
+  { id: "assets/svg/broken-copy", componentName: "BrokenCopy", filePath: "assets/svg/broken-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
+  { id: "assets/svg/broken-document-blank", componentName: "BrokenDocumentBlank", filePath: "assets/svg/broken-document-blank.svg", category: "Document", tags: ["document","blank"], name: "document blank" },
+  { id: "assets/svg/broken-document-text", componentName: "BrokenDocumentText", filePath: "assets/svg/broken-document-text.svg", category: "Document", tags: ["document","text"], name: "document text" },
+  { id: "assets/svg/broken-document", componentName: "BrokenDocument", filePath: "assets/svg/broken-document.svg", category: "Document", tags: ["document"], name: "document" },
+  { id: "assets/svg/broken-download", componentName: "BrokenDownload", filePath: "assets/svg/broken-download.svg", category: "Download", tags: ["download"], name: "download" },
+  { id: "assets/svg/broken-edit", componentName: "BrokenEdit", filePath: "assets/svg/broken-edit.svg", category: "Edit", tags: ["edit"], name: "edit" },
+  { id: "assets/svg/broken-export", componentName: "BrokenExport", filePath: "assets/svg/broken-export.svg", category: "Export", tags: ["export"], name: "export" },
+  { id: "assets/svg/broken-folder-favorite", componentName: "BrokenFolderFavorite", filePath: "assets/svg/broken-folder-favorite.svg", category: "Folder", tags: ["folder","favorite"], name: "folder favorite" },
+  { id: "assets/svg/broken-gallery", componentName: "BrokenGallery", filePath: "assets/svg/broken-gallery.svg", category: "Gallery", tags: ["gallery"], name: "gallery" },
+  { id: "assets/svg/broken-home", componentName: "BrokenHome", filePath: "assets/svg/broken-home.svg", category: "Home", tags: ["home"], name: "home" },
+  { id: "assets/svg/broken-key", componentName: "BrokenKey", filePath: "assets/svg/broken-key.svg", category: "Key", tags: ["key"], name: "key" },
+  { id: "assets/svg/broken-like", componentName: "BrokenLike", filePath: "assets/svg/broken-like.svg", category: "Like", tags: ["like"], name: "like" },
+  { id: "assets/svg/broken-location", componentName: "BrokenLocation", filePath: "assets/svg/broken-location.svg", category: "Location", tags: ["location"], name: "location" },
+  { id: "assets/svg/broken-lock", componentName: "BrokenLock", filePath: "assets/svg/broken-lock.svg", category: "Lock", tags: ["lock"], name: "lock" },
+  { id: "assets/svg/broken-logout", componentName: "BrokenLogout", filePath: "assets/svg/broken-logout.svg", category: "Logout", tags: ["logout"], name: "logout" },
+  { id: "assets/svg/broken-mail", componentName: "BrokenMail", filePath: "assets/svg/broken-mail.svg", category: "Mail", tags: ["mail"], name: "mail" },
+  { id: "assets/svg/broken-message", componentName: "BrokenMessage", filePath: "assets/svg/broken-message.svg", category: "Message", tags: ["message"], name: "message" },
+  { id: "assets/svg/broken-messages", componentName: "BrokenMessages", filePath: "assets/svg/broken-messages.svg", category: "Messages", tags: ["messages"], name: "messages" },
+  { id: "assets/svg/broken-microphone", componentName: "BrokenMicrophone", filePath: "assets/svg/broken-microphone.svg", category: "Microphone", tags: ["microphone"], name: "microphone" },
+  { id: "assets/svg/broken-record", componentName: "BrokenRecord", filePath: "assets/svg/broken-record.svg", category: "Record", tags: ["record"], name: "record" },
+  { id: "assets/svg/broken-repeat", componentName: "BrokenRepeat", filePath: "assets/svg/broken-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
+  { id: "assets/svg/broken-search", componentName: "BrokenSearch", filePath: "assets/svg/broken-search.svg", category: "Search", tags: ["search"], name: "search" },
+  { id: "assets/svg/broken-send", componentName: "BrokenSend", filePath: "assets/svg/broken-send.svg", category: "Send", tags: ["send"], name: "send" },
+  { id: "assets/svg/broken-star", componentName: "BrokenStar", filePath: "assets/svg/broken-star.svg", category: "Star", tags: ["star"], name: "star" },
+  { id: "assets/svg/broken-stop", componentName: "BrokenStop", filePath: "assets/svg/broken-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
+  { id: "assets/svg/broken-trash", componentName: "BrokenTrash", filePath: "assets/svg/broken-trash.svg", category: "Trash", tags: ["trash"], name: "trash" },
+  { id: "assets/svg/broken-unlock", componentName: "BrokenUnlock", filePath: "assets/svg/broken-unlock.svg", category: "Unlock", tags: ["unlock"], name: "unlock" },
+  { id: "assets/svg/broken-upload", componentName: "BrokenUpload", filePath: "assets/svg/broken-upload.svg", category: "Upload", tags: ["upload"], name: "upload" },
+  { id: "assets/svg/broken-user", componentName: "BrokenUser", filePath: "assets/svg/broken-user.svg", category: "User", tags: ["user"], name: "user" },
   { id: "assets/svg/document-normal", componentName: "DocumentNormal", filePath: "assets/svg/document-normal.svg", category: "Document", tags: ["document","normal"], name: "document normal" },
   { id: "assets/svg/edit-2", componentName: "Edit2", filePath: "assets/svg/edit-2.svg", category: "Edit", tags: ["edit"], name: "edit" },
-  { id: "assets/svg/losi-icon.symbols 1", componentName: "LosiIconSymbols1", filePath: "assets/svg/losi-icon.symbols 1.svg", category: "Losi", tags: ["losi","icon","symbols"], name: "losi icon symbols" },
+  { id: "assets/svg/fade-add-square", componentName: "FadeAddSquare", filePath: "assets/svg/fade-add-square.svg", category: "Fade", tags: ["fade","add","square"], name: "fade add square" },
+  { id: "assets/svg/fade-barbell", componentName: "FadeBarbell", filePath: "assets/svg/fade-barbell.svg", category: "Fade", tags: ["fade","barbell"], name: "fade barbell" },
+  { id: "assets/svg/fade-battery", componentName: "FadeBattery", filePath: "assets/svg/fade-battery.svg", category: "Fade", tags: ["fade","battery"], name: "fade battery" },
+  { id: "assets/svg/fade-bookmark", componentName: "FadeBookmark", filePath: "assets/svg/fade-bookmark.svg", category: "Fade", tags: ["fade","bookmark"], name: "fade bookmark" },
+  { id: "assets/svg/fade-camera", componentName: "FadeCamera", filePath: "assets/svg/fade-camera.svg", category: "Fade", tags: ["fade","camera"], name: "fade camera" },
+  { id: "assets/svg/fade-chart", componentName: "FadeChart", filePath: "assets/svg/fade-chart.svg", category: "Fade", tags: ["fade","chart"], name: "fade chart" },
+  { id: "assets/svg/fade-chevron-down", componentName: "FadeChevronDown", filePath: "assets/svg/fade-chevron-down.svg", category: "Fade", tags: ["fade","chevron","down"], name: "fade chevron down" },
+  { id: "assets/svg/fade-chevron-left-line", componentName: "FadeChevronLeftLine", filePath: "assets/svg/fade-chevron-left-line.svg", category: "Fade", tags: ["fade","chevron","left","line"], name: "fade chevron left line" },
+  { id: "assets/svg/fade-chevron-left", componentName: "FadeChevronLeft", filePath: "assets/svg/fade-chevron-left.svg", category: "Fade", tags: ["fade","chevron","left"], name: "fade chevron left" },
+  { id: "assets/svg/fade-chevron-right-line", componentName: "FadeChevronRightLine", filePath: "assets/svg/fade-chevron-right-line.svg", category: "Fade", tags: ["fade","chevron","right","line"], name: "fade chevron right line" },
+  { id: "assets/svg/fade-chevron-right", componentName: "FadeChevronRight", filePath: "assets/svg/fade-chevron-right.svg", category: "Fade", tags: ["fade","chevron","right"], name: "fade chevron right" },
+  { id: "assets/svg/fade-chevron", componentName: "FadeChevron", filePath: "assets/svg/fade-chevron.svg", category: "Fade", tags: ["fade","chevron"], name: "fade chevron" },
+  { id: "assets/svg/fade-clipboard", componentName: "FadeClipboard", filePath: "assets/svg/fade-clipboard.svg", category: "Fade", tags: ["fade","clipboard"], name: "fade clipboard" },
+  { id: "assets/svg/fade-contrast", componentName: "FadeContrast", filePath: "assets/svg/fade-contrast.svg", category: "Fade", tags: ["fade","contrast"], name: "fade contrast" },
+  { id: "assets/svg/fade-copy", componentName: "FadeCopy", filePath: "assets/svg/fade-copy.svg", category: "Fade", tags: ["fade","copy"], name: "fade copy" },
+  { id: "assets/svg/fade-dislike", componentName: "FadeDislike", filePath: "assets/svg/fade-dislike.svg", category: "Fade", tags: ["fade","dislike"], name: "fade dislike" },
+  { id: "assets/svg/fade-document-blank", componentName: "FadeDocumentBlank", filePath: "assets/svg/fade-document-blank.svg", category: "Fade", tags: ["fade","document","blank"], name: "fade document blank" },
+  { id: "assets/svg/fade-document-text", componentName: "FadeDocumentText", filePath: "assets/svg/fade-document-text.svg", category: "Fade", tags: ["fade","document","text"], name: "fade document text" },
+  { id: "assets/svg/fade-document", componentName: "FadeDocument", filePath: "assets/svg/fade-document.svg", category: "Fade", tags: ["fade","document"], name: "fade document" },
+  { id: "assets/svg/fade-download", componentName: "FadeDownload", filePath: "assets/svg/fade-download.svg", category: "Fade", tags: ["fade","download"], name: "fade download" },
+  { id: "assets/svg/fade-edit", componentName: "FadeEdit", filePath: "assets/svg/fade-edit.svg", category: "Fade", tags: ["fade","edit"], name: "fade edit" },
+  { id: "assets/svg/fade-export", componentName: "FadeExport", filePath: "assets/svg/fade-export.svg", category: "Fade", tags: ["fade","export"], name: "fade export" },
+  { id: "assets/svg/fade-gallery", componentName: "FadeGallery", filePath: "assets/svg/fade-gallery.svg", category: "Fade", tags: ["fade","gallery"], name: "fade gallery" },
+  { id: "assets/svg/fade-home", componentName: "FadeHome", filePath: "assets/svg/fade-home.svg", category: "Fade", tags: ["fade","home"], name: "fade home" },
+  { id: "assets/svg/fade-key", componentName: "FadeKey", filePath: "assets/svg/fade-key.svg", category: "Fade", tags: ["fade","key"], name: "fade key" },
+  { id: "assets/svg/fade-location", componentName: "FadeLocation", filePath: "assets/svg/fade-location.svg", category: "Fade", tags: ["fade","location"], name: "fade location" },
+  { id: "assets/svg/fade-lock", componentName: "FadeLock", filePath: "assets/svg/fade-lock.svg", category: "Fade", tags: ["fade","lock"], name: "fade lock" },
+  { id: "assets/svg/fade-logout", componentName: "FadeLogout", filePath: "assets/svg/fade-logout.svg", category: "Fade", tags: ["fade","logout"], name: "fade logout" },
+  { id: "assets/svg/fade-mail", componentName: "FadeMail", filePath: "assets/svg/fade-mail.svg", category: "Fade", tags: ["fade","mail"], name: "fade mail" },
+  { id: "assets/svg/fade-message", componentName: "FadeMessage", filePath: "assets/svg/fade-message.svg", category: "Fade", tags: ["fade","message"], name: "fade message" },
+  { id: "assets/svg/fade-messages", componentName: "FadeMessages", filePath: "assets/svg/fade-messages.svg", category: "Fade", tags: ["fade","messages"], name: "fade messages" },
+  { id: "assets/svg/fade-microphone", componentName: "FadeMicrophone", filePath: "assets/svg/fade-microphone.svg", category: "Fade", tags: ["fade","microphone"], name: "fade microphone" },
+  { id: "assets/svg/fade-play", componentName: "FadePlay", filePath: "assets/svg/fade-play.svg", category: "Fade", tags: ["fade","play"], name: "fade play" },
+  { id: "assets/svg/fade-record", componentName: "FadeRecord", filePath: "assets/svg/fade-record.svg", category: "Fade", tags: ["fade","record"], name: "fade record" },
+  { id: "assets/svg/fade-repeat", componentName: "FadeRepeat", filePath: "assets/svg/fade-repeat.svg", category: "Fade", tags: ["fade","repeat"], name: "fade repeat" },
+  { id: "assets/svg/fade-search", componentName: "FadeSearch", filePath: "assets/svg/fade-search.svg", category: "Fade", tags: ["fade","search"], name: "fade search" },
+  { id: "assets/svg/fade-star", componentName: "FadeStar", filePath: "assets/svg/fade-star.svg", category: "Fade", tags: ["fade","star"], name: "fade star" },
+  { id: "assets/svg/fade-stop", componentName: "FadeStop", filePath: "assets/svg/fade-stop.svg", category: "Fade", tags: ["fade","stop"], name: "fade stop" },
+  { id: "assets/svg/fade-trash", componentName: "FadeTrash", filePath: "assets/svg/fade-trash.svg", category: "Fade", tags: ["fade","trash"], name: "fade trash" },
+  { id: "assets/svg/fade-unlock", componentName: "FadeUnlock", filePath: "assets/svg/fade-unlock.svg", category: "Fade", tags: ["fade","unlock"], name: "fade unlock" },
+  { id: "assets/svg/fade-upload", componentName: "FadeUpload", filePath: "assets/svg/fade-upload.svg", category: "Fade", tags: ["fade","upload"], name: "fade upload" },
+  { id: "assets/svg/fade-user", componentName: "FadeUser", filePath: "assets/svg/fade-user.svg", category: "Fade", tags: ["fade","user"], name: "fade user" },
+  { id: "assets/svg/icon.symbols 1", componentName: "IconSymbols1", filePath: "assets/svg/icon.symbols 1.svg", category: "Icon", tags: ["icon","symbols"], name: "icon symbols" },
+  { id: "assets/svg/linear-add-square", componentName: "LinearAddSquare", filePath: "assets/svg/linear-add-square.svg", category: "Add", tags: ["add","square"], name: "add square" },
+  { id: "assets/svg/linear-barbell", componentName: "LinearBarbell", filePath: "assets/svg/linear-barbell.svg", category: "Barbell", tags: ["barbell"], name: "barbell" },
+  { id: "assets/svg/linear-battery", componentName: "LinearBattery", filePath: "assets/svg/linear-battery.svg", category: "Battery", tags: ["battery"], name: "battery" },
+  { id: "assets/svg/linear-bookmark", componentName: "LinearBookmark", filePath: "assets/svg/linear-bookmark.svg", category: "Bookmark", tags: ["bookmark"], name: "bookmark" },
+  { id: "assets/svg/linear-camera", componentName: "LinearCamera", filePath: "assets/svg/linear-camera.svg", category: "Camera", tags: ["camera"], name: "camera" },
+  { id: "assets/svg/linear-chart", componentName: "LinearChart", filePath: "assets/svg/linear-chart.svg", category: "Chart", tags: ["chart"], name: "chart" },
+  { id: "assets/svg/linear-chevron-down", componentName: "LinearChevronDown", filePath: "assets/svg/linear-chevron-down.svg", category: "Chevron", tags: ["chevron","down"], name: "chevron down" },
+  { id: "assets/svg/linear-chevron-left-line", componentName: "LinearChevronLeftLine", filePath: "assets/svg/linear-chevron-left-line.svg", category: "Chevron", tags: ["chevron","left","line"], name: "chevron left line" },
+  { id: "assets/svg/linear-chevron-left", componentName: "LinearChevronLeft", filePath: "assets/svg/linear-chevron-left.svg", category: "Chevron", tags: ["chevron","left"], name: "chevron left" },
+  { id: "assets/svg/linear-chevron-right-line", componentName: "LinearChevronRightLine", filePath: "assets/svg/linear-chevron-right-line.svg", category: "Chevron", tags: ["chevron","right","line"], name: "chevron right line" },
+  { id: "assets/svg/linear-chevron-right", componentName: "LinearChevronRight", filePath: "assets/svg/linear-chevron-right.svg", category: "Chevron", tags: ["chevron","right"], name: "chevron right" },
+  { id: "assets/svg/linear-chevron", componentName: "LinearChevron", filePath: "assets/svg/linear-chevron.svg", category: "Chevron", tags: ["chevron"], name: "chevron" },
+  { id: "assets/svg/linear-clipboard", componentName: "LinearClipboard", filePath: "assets/svg/linear-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
+  { id: "assets/svg/linear-contrast", componentName: "LinearContrast", filePath: "assets/svg/linear-contrast.svg", category: "Contrast", tags: ["contrast"], name: "contrast" },
+  { id: "assets/svg/linear-copy", componentName: "LinearCopy", filePath: "assets/svg/linear-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
+  { id: "assets/svg/linear-dislike", componentName: "LinearDislike", filePath: "assets/svg/linear-dislike.svg", category: "Dislike", tags: ["dislike"], name: "dislike" },
+  { id: "assets/svg/linear-document-blank", componentName: "LinearDocumentBlank", filePath: "assets/svg/linear-document-blank.svg", category: "Document", tags: ["document","blank"], name: "document blank" },
+  { id: "assets/svg/linear-document-text", componentName: "LinearDocumentText", filePath: "assets/svg/linear-document-text.svg", category: "Document", tags: ["document","text"], name: "document text" },
+  { id: "assets/svg/linear-document", componentName: "LinearDocument", filePath: "assets/svg/linear-document.svg", category: "Document", tags: ["document"], name: "document" },
+  { id: "assets/svg/linear-download", componentName: "LinearDownload", filePath: "assets/svg/linear-download.svg", category: "Download", tags: ["download"], name: "download" },
+  { id: "assets/svg/linear-edit", componentName: "LinearEdit", filePath: "assets/svg/linear-edit.svg", category: "Edit", tags: ["edit"], name: "edit" },
+  { id: "assets/svg/linear-export", componentName: "LinearExport", filePath: "assets/svg/linear-export.svg", category: "Export", tags: ["export"], name: "export" },
+  { id: "assets/svg/linear-folder-favorite", componentName: "LinearFolderFavorite", filePath: "assets/svg/linear-folder-favorite.svg", category: "Folder", tags: ["folder","favorite"], name: "folder favorite" },
+  { id: "assets/svg/linear-gallery", componentName: "LinearGallery", filePath: "assets/svg/linear-gallery.svg", category: "Gallery", tags: ["gallery"], name: "gallery" },
+  { id: "assets/svg/linear-home", componentName: "LinearHome", filePath: "assets/svg/linear-home.svg", category: "Home", tags: ["home"], name: "home" },
+  { id: "assets/svg/linear-key", componentName: "LinearKey", filePath: "assets/svg/linear-key.svg", category: "Key", tags: ["key"], name: "key" },
+  { id: "assets/svg/linear-location", componentName: "LinearLocation", filePath: "assets/svg/linear-location.svg", category: "Location", tags: ["location"], name: "location" },
+  { id: "assets/svg/linear-lock", componentName: "LinearLock", filePath: "assets/svg/linear-lock.svg", category: "Lock", tags: ["lock"], name: "lock" },
+  { id: "assets/svg/linear-logout", componentName: "LinearLogout", filePath: "assets/svg/linear-logout.svg", category: "Logout", tags: ["logout"], name: "logout" },
+  { id: "assets/svg/linear-mail", componentName: "LinearMail", filePath: "assets/svg/linear-mail.svg", category: "Mail", tags: ["mail"], name: "mail" },
+  { id: "assets/svg/linear-message", componentName: "LinearMessage", filePath: "assets/svg/linear-message.svg", category: "Message", tags: ["message"], name: "message" },
+  { id: "assets/svg/linear-messages", componentName: "LinearMessages", filePath: "assets/svg/linear-messages.svg", category: "Messages", tags: ["messages"], name: "messages" },
+  { id: "assets/svg/linear-microphone", componentName: "LinearMicrophone", filePath: "assets/svg/linear-microphone.svg", category: "Microphone", tags: ["microphone"], name: "microphone" },
+  { id: "assets/svg/linear-play", componentName: "LinearPlay", filePath: "assets/svg/linear-play.svg", category: "Play", tags: ["play"], name: "play" },
+  { id: "assets/svg/linear-record", componentName: "LinearRecord", filePath: "assets/svg/linear-record.svg", category: "Record", tags: ["record"], name: "record" },
+  { id: "assets/svg/linear-repeat", componentName: "LinearRepeat", filePath: "assets/svg/linear-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
+  { id: "assets/svg/linear-search", componentName: "LinearSearch", filePath: "assets/svg/linear-search.svg", category: "Search", tags: ["search"], name: "search" },
+  { id: "assets/svg/linear-star", componentName: "LinearStar", filePath: "assets/svg/linear-star.svg", category: "Star", tags: ["star"], name: "star" },
+  { id: "assets/svg/linear-stop", componentName: "LinearStop", filePath: "assets/svg/linear-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
+  { id: "assets/svg/linear-trash", componentName: "LinearTrash", filePath: "assets/svg/linear-trash.svg", category: "Trash", tags: ["trash"], name: "trash" },
+  { id: "assets/svg/linear-unlock", componentName: "LinearUnlock", filePath: "assets/svg/linear-unlock.svg", category: "Unlock", tags: ["unlock"], name: "unlock" },
+  { id: "assets/svg/linear-upload", componentName: "LinearUpload", filePath: "assets/svg/linear-upload.svg", category: "Upload", tags: ["upload"], name: "upload" },
+  { id: "assets/svg/linear-user", componentName: "LinearUser", filePath: "assets/svg/linear-user.svg", category: "User", tags: ["user"], name: "user" },
+  { id: "assets/svg/twotone-add-square", componentName: "TwotoneAddSquare", filePath: "assets/svg/twotone-add-square.svg", category: "Add", tags: ["add","square"], name: "add square" },
+  { id: "assets/svg/twotone-alt-add-square", componentName: "TwotoneAltAddSquare", filePath: "assets/svg/twotone-alt-add-square.svg", category: "Alt", tags: ["alt","add","square"], name: "alt add square" },
+  { id: "assets/svg/twotone-alt-barbell", componentName: "TwotoneAltBarbell", filePath: "assets/svg/twotone-alt-barbell.svg", category: "Alt", tags: ["alt","barbell"], name: "alt barbell" },
+  { id: "assets/svg/twotone-alt-battery", componentName: "TwotoneAltBattery", filePath: "assets/svg/twotone-alt-battery.svg", category: "Alt", tags: ["alt","battery"], name: "alt battery" },
+  { id: "assets/svg/twotone-alt-bookmark", componentName: "TwotoneAltBookmark", filePath: "assets/svg/twotone-alt-bookmark.svg", category: "Alt", tags: ["alt","bookmark"], name: "alt bookmark" },
+  { id: "assets/svg/twotone-alt-camera", componentName: "TwotoneAltCamera", filePath: "assets/svg/twotone-alt-camera.svg", category: "Alt", tags: ["alt","camera"], name: "alt camera" },
+  { id: "assets/svg/twotone-alt-chart", componentName: "TwotoneAltChart", filePath: "assets/svg/twotone-alt-chart.svg", category: "Alt", tags: ["alt","chart"], name: "alt chart" },
+  { id: "assets/svg/twotone-alt-chevron-down", componentName: "TwotoneAltChevronDown", filePath: "assets/svg/twotone-alt-chevron-down.svg", category: "Alt", tags: ["alt","chevron","down"], name: "alt chevron down" },
+  { id: "assets/svg/twotone-alt-chevron-left-line", componentName: "TwotoneAltChevronLeftLine", filePath: "assets/svg/twotone-alt-chevron-left-line.svg", category: "Alt", tags: ["alt","chevron","left","line"], name: "alt chevron left line" },
+  { id: "assets/svg/twotone-alt-chevron-left", componentName: "TwotoneAltChevronLeft", filePath: "assets/svg/twotone-alt-chevron-left.svg", category: "Alt", tags: ["alt","chevron","left"], name: "alt chevron left" },
+  { id: "assets/svg/twotone-alt-chevron-right-line", componentName: "TwotoneAltChevronRightLine", filePath: "assets/svg/twotone-alt-chevron-right-line.svg", category: "Alt", tags: ["alt","chevron","right","line"], name: "alt chevron right line" },
+  { id: "assets/svg/twotone-alt-chevron-right", componentName: "TwotoneAltChevronRight", filePath: "assets/svg/twotone-alt-chevron-right.svg", category: "Alt", tags: ["alt","chevron","right"], name: "alt chevron right" },
+  { id: "assets/svg/twotone-alt-chevron", componentName: "TwotoneAltChevron", filePath: "assets/svg/twotone-alt-chevron.svg", category: "Alt", tags: ["alt","chevron"], name: "alt chevron" },
+  { id: "assets/svg/twotone-alt-clipboard", componentName: "TwotoneAltClipboard", filePath: "assets/svg/twotone-alt-clipboard.svg", category: "Alt", tags: ["alt","clipboard"], name: "alt clipboard" },
+  { id: "assets/svg/twotone-alt-contrast", componentName: "TwotoneAltContrast", filePath: "assets/svg/twotone-alt-contrast.svg", category: "Alt", tags: ["alt","contrast"], name: "alt contrast" },
+  { id: "assets/svg/twotone-alt-copy", componentName: "TwotoneAltCopy", filePath: "assets/svg/twotone-alt-copy.svg", category: "Alt", tags: ["alt","copy"], name: "alt copy" },
+  { id: "assets/svg/twotone-alt-dislike", componentName: "TwotoneAltDislike", filePath: "assets/svg/twotone-alt-dislike.svg", category: "Alt", tags: ["alt","dislike"], name: "alt dislike" },
+  { id: "assets/svg/twotone-alt-document-blank", componentName: "TwotoneAltDocumentBlank", filePath: "assets/svg/twotone-alt-document-blank.svg", category: "Alt", tags: ["alt","document","blank"], name: "alt document blank" },
+  { id: "assets/svg/twotone-alt-document-text", componentName: "TwotoneAltDocumentText", filePath: "assets/svg/twotone-alt-document-text.svg", category: "Alt", tags: ["alt","document","text"], name: "alt document text" },
+  { id: "assets/svg/twotone-alt-document", componentName: "TwotoneAltDocument", filePath: "assets/svg/twotone-alt-document.svg", category: "Alt", tags: ["alt","document"], name: "alt document" },
+  { id: "assets/svg/twotone-alt-download", componentName: "TwotoneAltDownload", filePath: "assets/svg/twotone-alt-download.svg", category: "Alt", tags: ["alt","download"], name: "alt download" },
+  { id: "assets/svg/twotone-alt-edit", componentName: "TwotoneAltEdit", filePath: "assets/svg/twotone-alt-edit.svg", category: "Alt", tags: ["alt","edit"], name: "alt edit" },
+  { id: "assets/svg/twotone-alt-export", componentName: "TwotoneAltExport", filePath: "assets/svg/twotone-alt-export.svg", category: "Alt", tags: ["alt","export"], name: "alt export" },
+  { id: "assets/svg/twotone-alt-folder-favorite", componentName: "TwotoneAltFolderFavorite", filePath: "assets/svg/twotone-alt-folder-favorite.svg", category: "Alt", tags: ["alt","folder","favorite"], name: "alt folder favorite" },
+  { id: "assets/svg/twotone-alt-gallery", componentName: "TwotoneAltGallery", filePath: "assets/svg/twotone-alt-gallery.svg", category: "Alt", tags: ["alt","gallery"], name: "alt gallery" },
+  { id: "assets/svg/twotone-alt-home", componentName: "TwotoneAltHome", filePath: "assets/svg/twotone-alt-home.svg", category: "Alt", tags: ["alt","home"], name: "alt home" },
+  { id: "assets/svg/twotone-alt-key", componentName: "TwotoneAltKey", filePath: "assets/svg/twotone-alt-key.svg", category: "Alt", tags: ["alt","key"], name: "alt key" },
+  { id: "assets/svg/twotone-alt-location", componentName: "TwotoneAltLocation", filePath: "assets/svg/twotone-alt-location.svg", category: "Alt", tags: ["alt","location"], name: "alt location" },
+  { id: "assets/svg/twotone-alt-lock", componentName: "TwotoneAltLock", filePath: "assets/svg/twotone-alt-lock.svg", category: "Alt", tags: ["alt","lock"], name: "alt lock" },
+  { id: "assets/svg/twotone-alt-logout", componentName: "TwotoneAltLogout", filePath: "assets/svg/twotone-alt-logout.svg", category: "Alt", tags: ["alt","logout"], name: "alt logout" },
+  { id: "assets/svg/twotone-alt-mail", componentName: "TwotoneAltMail", filePath: "assets/svg/twotone-alt-mail.svg", category: "Alt", tags: ["alt","mail"], name: "alt mail" },
+  { id: "assets/svg/twotone-alt-message", componentName: "TwotoneAltMessage", filePath: "assets/svg/twotone-alt-message.svg", category: "Alt", tags: ["alt","message"], name: "alt message" },
+  { id: "assets/svg/twotone-alt-messages", componentName: "TwotoneAltMessages", filePath: "assets/svg/twotone-alt-messages.svg", category: "Alt", tags: ["alt","messages"], name: "alt messages" },
+  { id: "assets/svg/twotone-alt-microphone", componentName: "TwotoneAltMicrophone", filePath: "assets/svg/twotone-alt-microphone.svg", category: "Alt", tags: ["alt","microphone"], name: "alt microphone" },
+  { id: "assets/svg/twotone-alt-play", componentName: "TwotoneAltPlay", filePath: "assets/svg/twotone-alt-play.svg", category: "Alt", tags: ["alt","play"], name: "alt play" },
+  { id: "assets/svg/twotone-alt-record", componentName: "TwotoneAltRecord", filePath: "assets/svg/twotone-alt-record.svg", category: "Alt", tags: ["alt","record"], name: "alt record" },
+  { id: "assets/svg/twotone-alt-repeat", componentName: "TwotoneAltRepeat", filePath: "assets/svg/twotone-alt-repeat.svg", category: "Alt", tags: ["alt","repeat"], name: "alt repeat" },
+  { id: "assets/svg/twotone-alt-search", componentName: "TwotoneAltSearch", filePath: "assets/svg/twotone-alt-search.svg", category: "Alt", tags: ["alt","search"], name: "alt search" },
+  { id: "assets/svg/twotone-alt-star", componentName: "TwotoneAltStar", filePath: "assets/svg/twotone-alt-star.svg", category: "Alt", tags: ["alt","star"], name: "alt star" },
+  { id: "assets/svg/twotone-alt-stop", componentName: "TwotoneAltStop", filePath: "assets/svg/twotone-alt-stop.svg", category: "Alt", tags: ["alt","stop"], name: "alt stop" },
+  { id: "assets/svg/twotone-alt-trash", componentName: "TwotoneAltTrash", filePath: "assets/svg/twotone-alt-trash.svg", category: "Alt", tags: ["alt","trash"], name: "alt trash" },
+  { id: "assets/svg/twotone-alt-unlock", componentName: "TwotoneAltUnlock", filePath: "assets/svg/twotone-alt-unlock.svg", category: "Alt", tags: ["alt","unlock"], name: "alt unlock" },
+  { id: "assets/svg/twotone-alt-upload", componentName: "TwotoneAltUpload", filePath: "assets/svg/twotone-alt-upload.svg", category: "Alt", tags: ["alt","upload"], name: "alt upload" },
+  { id: "assets/svg/twotone-alt-user", componentName: "TwotoneAltUser", filePath: "assets/svg/twotone-alt-user.svg", category: "Alt", tags: ["alt","user"], name: "alt user" },
+  { id: "assets/svg/twotone-barbell", componentName: "TwotoneBarbell", filePath: "assets/svg/twotone-barbell.svg", category: "Barbell", tags: ["barbell"], name: "barbell" },
+  { id: "assets/svg/twotone-battery", componentName: "TwotoneBattery", filePath: "assets/svg/twotone-battery.svg", category: "Battery", tags: ["battery"], name: "battery" },
+  { id: "assets/svg/twotone-bookmark", componentName: "TwotoneBookmark", filePath: "assets/svg/twotone-bookmark.svg", category: "Bookmark", tags: ["bookmark"], name: "bookmark" },
+  { id: "assets/svg/twotone-camera", componentName: "TwotoneCamera", filePath: "assets/svg/twotone-camera.svg", category: "Camera", tags: ["camera"], name: "camera" },
+  { id: "assets/svg/twotone-chart", componentName: "TwotoneChart", filePath: "assets/svg/twotone-chart.svg", category: "Chart", tags: ["chart"], name: "chart" },
+  { id: "assets/svg/twotone-chevron-down", componentName: "TwotoneChevronDown", filePath: "assets/svg/twotone-chevron-down.svg", category: "Chevron", tags: ["chevron","down"], name: "chevron down" },
+  { id: "assets/svg/twotone-chevron-left-line", componentName: "TwotoneChevronLeftLine", filePath: "assets/svg/twotone-chevron-left-line.svg", category: "Chevron", tags: ["chevron","left","line"], name: "chevron left line" },
+  { id: "assets/svg/twotone-chevron-left", componentName: "TwotoneChevronLeft", filePath: "assets/svg/twotone-chevron-left.svg", category: "Chevron", tags: ["chevron","left"], name: "chevron left" },
+  { id: "assets/svg/twotone-chevron-right-line", componentName: "TwotoneChevronRightLine", filePath: "assets/svg/twotone-chevron-right-line.svg", category: "Chevron", tags: ["chevron","right","line"], name: "chevron right line" },
+  { id: "assets/svg/twotone-chevron-right", componentName: "TwotoneChevronRight", filePath: "assets/svg/twotone-chevron-right.svg", category: "Chevron", tags: ["chevron","right"], name: "chevron right" },
+  { id: "assets/svg/twotone-chevron", componentName: "TwotoneChevron", filePath: "assets/svg/twotone-chevron.svg", category: "Chevron", tags: ["chevron"], name: "chevron" },
+  { id: "assets/svg/twotone-clipboard", componentName: "TwotoneClipboard", filePath: "assets/svg/twotone-clipboard.svg", category: "Clipboard", tags: ["clipboard"], name: "clipboard" },
+  { id: "assets/svg/twotone-contrast", componentName: "TwotoneContrast", filePath: "assets/svg/twotone-contrast.svg", category: "Contrast", tags: ["contrast"], name: "contrast" },
+  { id: "assets/svg/twotone-copy", componentName: "TwotoneCopy", filePath: "assets/svg/twotone-copy.svg", category: "Copy", tags: ["copy"], name: "copy" },
+  { id: "assets/svg/twotone-dislike", componentName: "TwotoneDislike", filePath: "assets/svg/twotone-dislike.svg", category: "Dislike", tags: ["dislike"], name: "dislike" },
+  { id: "assets/svg/twotone-document-blank", componentName: "TwotoneDocumentBlank", filePath: "assets/svg/twotone-document-blank.svg", category: "Document", tags: ["document","blank"], name: "document blank" },
+  { id: "assets/svg/twotone-document-text", componentName: "TwotoneDocumentText", filePath: "assets/svg/twotone-document-text.svg", category: "Document", tags: ["document","text"], name: "document text" },
+  { id: "assets/svg/twotone-document", componentName: "TwotoneDocument", filePath: "assets/svg/twotone-document.svg", category: "Document", tags: ["document"], name: "document" },
+  { id: "assets/svg/twotone-download", componentName: "TwotoneDownload", filePath: "assets/svg/twotone-download.svg", category: "Download", tags: ["download"], name: "download" },
+  { id: "assets/svg/twotone-edit", componentName: "TwotoneEdit", filePath: "assets/svg/twotone-edit.svg", category: "Edit", tags: ["edit"], name: "edit" },
+  { id: "assets/svg/twotone-export", componentName: "TwotoneExport", filePath: "assets/svg/twotone-export.svg", category: "Export", tags: ["export"], name: "export" },
+  { id: "assets/svg/twotone-folder-favorite", componentName: "TwotoneFolderFavorite", filePath: "assets/svg/twotone-folder-favorite.svg", category: "Folder", tags: ["folder","favorite"], name: "folder favorite" },
+  { id: "assets/svg/twotone-gallery-upload", componentName: "TwotoneGalleryUpload", filePath: "assets/svg/twotone-gallery-upload.svg", category: "Gallery", tags: ["gallery","upload"], name: "gallery upload" },
+  { id: "assets/svg/twotone-gallery", componentName: "TwotoneGallery", filePath: "assets/svg/twotone-gallery.svg", category: "Gallery", tags: ["gallery"], name: "gallery" },
+  { id: "assets/svg/twotone-home", componentName: "TwotoneHome", filePath: "assets/svg/twotone-home.svg", category: "Home", tags: ["home"], name: "home" },
+  { id: "assets/svg/twotone-key", componentName: "TwotoneKey", filePath: "assets/svg/twotone-key.svg", category: "Key", tags: ["key"], name: "key" },
+  { id: "assets/svg/twotone-location", componentName: "TwotoneLocation", filePath: "assets/svg/twotone-location.svg", category: "Location", tags: ["location"], name: "location" },
+  { id: "assets/svg/twotone-lock", componentName: "TwotoneLock", filePath: "assets/svg/twotone-lock.svg", category: "Lock", tags: ["lock"], name: "lock" },
+  { id: "assets/svg/twotone-logout", componentName: "TwotoneLogout", filePath: "assets/svg/twotone-logout.svg", category: "Logout", tags: ["logout"], name: "logout" },
+  { id: "assets/svg/twotone-mail", componentName: "TwotoneMail", filePath: "assets/svg/twotone-mail.svg", category: "Mail", tags: ["mail"], name: "mail" },
+  { id: "assets/svg/twotone-message", componentName: "TwotoneMessage", filePath: "assets/svg/twotone-message.svg", category: "Message", tags: ["message"], name: "message" },
+  { id: "assets/svg/twotone-messages", componentName: "TwotoneMessages", filePath: "assets/svg/twotone-messages.svg", category: "Messages", tags: ["messages"], name: "messages" },
+  { id: "assets/svg/twotone-microphone", componentName: "TwotoneMicrophone", filePath: "assets/svg/twotone-microphone.svg", category: "Microphone", tags: ["microphone"], name: "microphone" },
+  { id: "assets/svg/twotone-play", componentName: "TwotonePlay", filePath: "assets/svg/twotone-play.svg", category: "Play", tags: ["play"], name: "play" },
+  { id: "assets/svg/twotone-record", componentName: "TwotoneRecord", filePath: "assets/svg/twotone-record.svg", category: "Record", tags: ["record"], name: "record" },
+  { id: "assets/svg/twotone-repeat", componentName: "TwotoneRepeat", filePath: "assets/svg/twotone-repeat.svg", category: "Repeat", tags: ["repeat"], name: "repeat" },
+  { id: "assets/svg/twotone-search", componentName: "TwotoneSearch", filePath: "assets/svg/twotone-search.svg", category: "Search", tags: ["search"], name: "search" },
+  { id: "assets/svg/twotone-sparkle", componentName: "TwotoneSparkle", filePath: "assets/svg/twotone-sparkle.svg", category: "Sparkle", tags: ["sparkle"], name: "sparkle" },
+  { id: "assets/svg/twotone-star", componentName: "TwotoneStar", filePath: "assets/svg/twotone-star.svg", category: "Star", tags: ["star"], name: "star" },
+  { id: "assets/svg/twotone-stop", componentName: "TwotoneStop", filePath: "assets/svg/twotone-stop.svg", category: "Stop", tags: ["stop"], name: "stop" },
+  { id: "assets/svg/twotone-trash", componentName: "TwotoneTrash", filePath: "assets/svg/twotone-trash.svg", category: "Trash", tags: ["trash"], name: "trash" },
+  { id: "assets/svg/twotone-unlock", componentName: "TwotoneUnlock", filePath: "assets/svg/twotone-unlock.svg", category: "Unlock", tags: ["unlock"], name: "unlock" },
+  { id: "assets/svg/twotone-upload", componentName: "TwotoneUpload", filePath: "assets/svg/twotone-upload.svg", category: "Upload", tags: ["upload"], name: "upload" },
+  { id: "assets/svg/twotone-user", componentName: "TwotoneUser", filePath: "assets/svg/twotone-user.svg", category: "User", tags: ["user"], name: "user" },
+  { id: "assets/svg/variant-sparkle-circle", componentName: "VariantSparkleCircle", filePath: "assets/svg/variant-sparkle-circle.svg", category: "Variant", tags: ["variant","sparkle","circle"], name: "variant sparkle circle" },
   { id: "assets/svg/vuesax/bold/24-support", componentName: "Icon24Support", filePath: "assets/svg/vuesax/bold/24-support.svg", category: "Support", tags: ["bold","support"], name: "24 support" },
   { id: "assets/svg/vuesax/bold/3d-cube-scan", componentName: "Icon3dCubeScan", filePath: "assets/svg/vuesax/bold/3d-cube-scan.svg", category: "Other", tags: ["bold","cube","scan"], name: "3d cube scan" },
   { id: "assets/svg/vuesax/bold/3d-rotate", componentName: "Icon3dRotate", filePath: "assets/svg/vuesax/bold/3d-rotate.svg", category: "Other", tags: ["bold","rotate"], name: "3d rotate" },
