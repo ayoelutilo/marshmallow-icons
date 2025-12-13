@@ -274,7 +274,6 @@ import Blur from "./Blur";
 import Blur2 from "./Blur2";
 import Blur3 from "./Blur3";
 import Blur4 from "./Blur4";
-import Bold37 from "./Bold37";
 import BoldsAddSquare from "./BoldsAddSquare";
 import BoldsBattery from "./BoldsBattery";
 import BoldsBookmark from "./BoldsBookmark";
@@ -357,7 +356,6 @@ import BrifecaseTick from "./BrifecaseTick";
 import BrifecaseTick2 from "./BrifecaseTick2";
 import BrifecaseTimer from "./BrifecaseTimer";
 import BrifecaseTimer2 from "./BrifecaseTimer2";
-import Broken37 from "./Broken37";
 import BrokenAddSquare from "./BrokenAddSquare";
 import BrokenBarbell from "./BrokenBarbell";
 import BrokenBookmark from "./BrokenBookmark";
@@ -441,7 +439,6 @@ import Buildings2 from "./Buildings2";
 import Buildings22 from "./Buildings22";
 import Buliding from "./Buliding";
 import Buliding2 from "./Buliding2";
-import Bulk37 from "./Bulk37";
 import Bus from "./Bus";
 import Bus2 from "./Bus2";
 import BuyCrypto from "./BuyCrypto";
@@ -1497,8 +1494,12 @@ import Logout from "./Logout";
 import Logout1 from "./Logout1";
 import Logout12 from "./Logout12";
 import Logout2 from "./Logout2";
-import Losi from "./Losi";
+import LosiBold37 from "./LosiBold37";
+import LosiBroken37 from "./LosiBroken37";
+import LosiBulk37 from "./LosiBulk37";
 import LosiMain from "./LosiMain";
+import LosiOutline41 from "./LosiOutline41";
+import LosiTwotone37 from "./LosiTwotone37";
 import Lovely from "./Lovely";
 import Lovely2 from "./Lovely2";
 import MagicStar from "./MagicStar";
@@ -1786,7 +1787,6 @@ import OntologyOnt3 from "./OntologyOnt3";
 import OntologyOnt4 from "./OntologyOnt4";
 import OntologyOnt5 from "./OntologyOnt5";
 import OntologyOnt6 from "./OntologyOnt6";
-import Outline41 from "./Outline41";
 import Paintbucket from "./Paintbucket";
 import Paintbucket2 from "./Paintbucket2";
 import Paintbucket3 from "./Paintbucket3";
@@ -2460,7 +2460,6 @@ import Twitch3 from "./Twitch3";
 import Twitch4 from "./Twitch4";
 import Twitch5 from "./Twitch5";
 import Twitch6 from "./Twitch6";
-import Twotone37 from "./Twotone37";
 import TwotoneAddSquare from "./TwotoneAddSquare";
 import TwotoneAltAddSquare from "./TwotoneAltAddSquare";
 import TwotoneAltBattery from "./TwotoneAltBattery";
@@ -3028,7 +3027,6 @@ export { default as Blur } from "./Blur";
 export { default as Blur2 } from "./Blur2";
 export { default as Blur3 } from "./Blur3";
 export { default as Blur4 } from "./Blur4";
-export { default as Bold37 } from "./Bold37";
 export { default as BoldsAddSquare } from "./BoldsAddSquare";
 export { default as BoldsBattery } from "./BoldsBattery";
 export { default as BoldsBookmark } from "./BoldsBookmark";
@@ -3111,7 +3109,6 @@ export { default as BrifecaseTick } from "./BrifecaseTick";
 export { default as BrifecaseTick2 } from "./BrifecaseTick2";
 export { default as BrifecaseTimer } from "./BrifecaseTimer";
 export { default as BrifecaseTimer2 } from "./BrifecaseTimer2";
-export { default as Broken37 } from "./Broken37";
 export { default as BrokenAddSquare } from "./BrokenAddSquare";
 export { default as BrokenBarbell } from "./BrokenBarbell";
 export { default as BrokenBookmark } from "./BrokenBookmark";
@@ -3195,7 +3192,6 @@ export { default as Buildings2 } from "./Buildings2";
 export { default as Buildings22 } from "./Buildings22";
 export { default as Buliding } from "./Buliding";
 export { default as Buliding2 } from "./Buliding2";
-export { default as Bulk37 } from "./Bulk37";
 export { default as Bus } from "./Bus";
 export { default as Bus2 } from "./Bus2";
 export { default as BuyCrypto } from "./BuyCrypto";
@@ -4251,8 +4247,12 @@ export { default as Logout } from "./Logout";
 export { default as Logout1 } from "./Logout1";
 export { default as Logout12 } from "./Logout12";
 export { default as Logout2 } from "./Logout2";
-export { default as Losi } from "./Losi";
+export { default as LosiBold37 } from "./LosiBold37";
+export { default as LosiBroken37 } from "./LosiBroken37";
+export { default as LosiBulk37 } from "./LosiBulk37";
 export { default as LosiMain } from "./LosiMain";
+export { default as LosiOutline41 } from "./LosiOutline41";
+export { default as LosiTwotone37 } from "./LosiTwotone37";
 export { default as Lovely } from "./Lovely";
 export { default as Lovely2 } from "./Lovely2";
 export { default as MagicStar } from "./MagicStar";
@@ -4540,7 +4540,6 @@ export { default as OntologyOnt3 } from "./OntologyOnt3";
 export { default as OntologyOnt4 } from "./OntologyOnt4";
 export { default as OntologyOnt5 } from "./OntologyOnt5";
 export { default as OntologyOnt6 } from "./OntologyOnt6";
-export { default as Outline41 } from "./Outline41";
 export { default as Paintbucket } from "./Paintbucket";
 export { default as Paintbucket2 } from "./Paintbucket2";
 export { default as Paintbucket3 } from "./Paintbucket3";
@@ -5214,7 +5213,6 @@ export { default as Twitch3 } from "./Twitch3";
 export { default as Twitch4 } from "./Twitch4";
 export { default as Twitch5 } from "./Twitch5";
 export { default as Twitch6 } from "./Twitch6";
-export { default as Twotone37 } from "./Twotone37";
 export { default as TwotoneAddSquare } from "./TwotoneAddSquare";
 export { default as TwotoneAltAddSquare } from "./TwotoneAltAddSquare";
 export { default as TwotoneAltBattery } from "./TwotoneAltBattery";
@@ -5518,12 +5516,11 @@ export type IconComponent = ComponentType<SVGProps<SVGSVGElement>>;
 export const icons = {
   "assets/svg/Black-S": BlackS,
   "assets/svg/Losi-main": LosiMain,
-  "assets/svg/Losi": Losi,
-  "assets/svg/Property 1=bold-37": Bold37,
-  "assets/svg/Property 1=broken-37": Broken37,
-  "assets/svg/Property 1=bulk-37": Bulk37,
-  "assets/svg/Property 1=outline-41": Outline41,
-  "assets/svg/Property 1=twotone-37": Twotone37,
+  "assets/svg/Property 1=bold-37": LosiBold37,
+  "assets/svg/Property 1=broken-37": LosiBroken37,
+  "assets/svg/Property 1=bulk-37": LosiBulk37,
+  "assets/svg/Property 1=outline-41": LosiOutline41,
+  "assets/svg/Property 1=twotone-37": LosiTwotone37,
   "assets/svg/Regular-S": RegularS,
   "assets/svg/Ultralight-S": UltralightS,
   "assets/svg/bolds-add-square": BoldsAddSquare,
@@ -8343,12 +8340,11 @@ export type IconName = keyof typeof icons;
 export const iconsMeta = [
   { id: "assets/svg/Black-S", componentName: "BlackS", filePath: "assets/svg/Black-S.svg", category: "Black", tags: ["black"], name: "black s" },
   { id: "assets/svg/Losi-main", componentName: "LosiMain", filePath: "assets/svg/Losi-main.svg", category: "Losi", tags: ["losi","main"], name: "losi main" },
-  { id: "assets/svg/Losi", componentName: "Losi", filePath: "assets/svg/Losi.svg", category: "Losi", tags: ["losi"], name: "losi" },
-  { id: "assets/svg/Property 1=bold-37", componentName: "Bold37", filePath: "assets/svg/Property 1=bold-37.svg", category: "Bold37", tags: ["bold37"], name: "bold37" },
-  { id: "assets/svg/Property 1=broken-37", componentName: "Broken37", filePath: "assets/svg/Property 1=broken-37.svg", category: "Broken37", tags: ["broken37"], name: "broken37" },
-  { id: "assets/svg/Property 1=bulk-37", componentName: "Bulk37", filePath: "assets/svg/Property 1=bulk-37.svg", category: "Bulk37", tags: ["bulk37"], name: "bulk37" },
-  { id: "assets/svg/Property 1=outline-41", componentName: "Outline41", filePath: "assets/svg/Property 1=outline-41.svg", category: "Outline41", tags: ["outline41"], name: "outline41" },
-  { id: "assets/svg/Property 1=twotone-37", componentName: "Twotone37", filePath: "assets/svg/Property 1=twotone-37.svg", category: "Twotone37", tags: ["twotone37"], name: "twotone37" },
+  { id: "assets/svg/Property 1=bold-37", componentName: "LosiBold37", filePath: "assets/svg/Property 1=bold-37.svg", category: "Losi", tags: ["losi","bold"], name: "losi bold" },
+  { id: "assets/svg/Property 1=broken-37", componentName: "LosiBroken37", filePath: "assets/svg/Property 1=broken-37.svg", category: "Losi", tags: ["losi","broken"], name: "losi broken" },
+  { id: "assets/svg/Property 1=bulk-37", componentName: "LosiBulk37", filePath: "assets/svg/Property 1=bulk-37.svg", category: "Losi", tags: ["losi","bulk"], name: "losi bulk" },
+  { id: "assets/svg/Property 1=outline-41", componentName: "LosiOutline41", filePath: "assets/svg/Property 1=outline-41.svg", category: "Losi", tags: ["losi","outline"], name: "losi outline" },
+  { id: "assets/svg/Property 1=twotone-37", componentName: "LosiTwotone37", filePath: "assets/svg/Property 1=twotone-37.svg", category: "Losi", tags: ["losi","twotone"], name: "losi twotone" },
   { id: "assets/svg/Regular-S", componentName: "RegularS", filePath: "assets/svg/Regular-S.svg", category: "Regular", tags: ["regular"], name: "regular s" },
   { id: "assets/svg/Ultralight-S", componentName: "UltralightS", filePath: "assets/svg/Ultralight-S.svg", category: "Ultralight", tags: ["ultralight"], name: "ultralight s" },
   { id: "assets/svg/bolds-add-square", componentName: "BoldsAddSquare", filePath: "assets/svg/bolds-add-square.svg", category: "Bolds", tags: ["bolds","add","square"], name: "bolds add square" },

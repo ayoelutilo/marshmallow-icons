@@ -80,6 +80,15 @@ async function main() {
     const rawName = base.replace(/\.svg$/i, "");
 
     let componentName = toPascalCase(rawName);
+    
+    // Check if this is a Losi variant icon and rename accordingly
+    const losiVariantMatch = componentName.match(/^(Bold|Broken|Bulk|Twotone|Outline)(\d+)$/);
+    if (losiVariantMatch) {
+      const variant = losiVariantMatch[1];
+      const number = losiVariantMatch[2];
+      componentName = `Losi${variant}${number}`;
+    }
+    
     const normalizedKey = componentName.toLowerCase();
     
     // Handle case conflicts - use first casing we see
@@ -177,35 +186,63 @@ export default ${componentName};
       semanticName = componentName.toLowerCase();
     }
     
-    // Extract category from semantic name - use the base icon name (first significant word)
-    // Remove numbers and get the main word
-    let category = semanticName
-      .replace(/^\d+\s*/, "") // Remove leading numbers like "24 support" -> "support"
-      .split(" ")[0] || "other";
+    // Check if this is a Losi variant icon
+    const isLosiVariant = /^Losi(Bold|Broken|Bulk|Twotone|Outline)\d+$/i.test(componentName) ||
+                          /Property\s*1=(bold|broken|bulk|twotone|outline)-\d+/i.test(rawName);
     
-    // Group single-letter or very short names into "Other"
-    if (category.length <= 1) {
-      category = "Other";
-    }
-    
-    // Capitalize category for display
-    category = category.charAt(0).toUpperCase() + category.slice(1);
-    
+    let category;
     const tags = [];
     
-    // Extract style from path
-    const pathParts = relFromRepo.split("/").filter(Boolean);
-    if (pathParts.length >= 4 && pathParts[2] === "vuesax") {
-      const style = pathParts[3]; // bold, linear, outline, twotone, bulk, broken
-      if (styleTags.includes(style)) {
-        tags.push(style);
+    if (isLosiVariant) {
+      // These are Losi variants - categorize as "Losi"
+      category = "Losi";
+      
+      // Extract the variant type from component name or raw name
+      const variantMatch = componentName.match(/^Losi(Bold|Broken|Bulk|Twotone|Outline)(\d+)$/i) ||
+                          rawName.match(/Property\s*1=(bold|broken|bulk|twotone|outline)-\d+/i);
+      if (variantMatch) {
+        const variant = variantMatch[1].toLowerCase();
+        tags.push("losi", variant);
+      } else {
+        tags.push("losi");
       }
-    }
-    
-    // Add semantic name parts as tags
-    if (semanticName && semanticName.length > 1) {
-      const parts = semanticName.split(" ").filter(p => p.length > 2 && !styleTags.includes(p));
-      tags.push(...parts);
+      
+      // Update semantic name to be more descriptive
+      if (variantMatch) {
+        const variant = variantMatch[1].toLowerCase();
+        semanticName = `losi ${variant}`;
+      } else {
+        semanticName = "losi";
+      }
+    } else {
+      // Extract category from semantic name - use the base icon name (first significant word)
+      // Remove numbers and get the main word
+      category = semanticName
+        .replace(/^\d+\s*/, "") // Remove leading numbers like "24 support" -> "support"
+        .split(" ")[0] || "other";
+      
+      // Group single-letter or very short names into "Other"
+      if (category.length <= 1) {
+        category = "Other";
+      }
+      
+      // Capitalize category for display
+      category = category.charAt(0).toUpperCase() + category.slice(1);
+      
+      // Extract style from path
+      const pathParts = relFromRepo.split("/").filter(Boolean);
+      if (pathParts.length >= 4 && pathParts[2] === "vuesax") {
+        const style = pathParts[3]; // bold, linear, outline, twotone, bulk, broken
+        if (styleTags.includes(style)) {
+          tags.push(style);
+        }
+      }
+      
+      // Add semantic name parts as tags
+      if (semanticName && semanticName.length > 1) {
+        const parts = semanticName.split(" ").filter(p => p.length > 2 && !styleTags.includes(p));
+        tags.push(...parts);
+      }
     }
 
     items.push({
