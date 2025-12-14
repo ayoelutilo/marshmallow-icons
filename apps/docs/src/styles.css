@@ -46,6 +46,12 @@ code,
   margin-bottom: 18px;
 }
 
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .title h1 {
   margin: 0;
   font-size: 22px;
@@ -186,6 +192,195 @@ input[type="range"] {
 .muted {
   color: var(--muted);
   margin: 0;
+}
+
+/* Modal + color controls */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  z-index: 50;
+}
+
+.modal {
+  width: min(920px, 96vw);
+  max-height: min(86vh, 920px);
+  overflow: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--panel) 0%, var(--panel2) 100%);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.55);
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.modalTitle {
+  display: grid;
+  gap: 4px;
+}
+
+.modalClose {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.modalClose:hover {
+  border-color: rgba(124, 92, 255, 0.4);
+}
+
+.modalBody {
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.previewRow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.previewIcon {
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid var(--border);
+}
+
+.copyRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.copyBtn {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.copyBtn:hover {
+  border-color: rgba(124, 92, 255, 0.4);
+}
+
+.controlsPanel {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 14px;
+  padding: 12px;
+  display: grid;
+  gap: 12px;
+}
+
+.colorField {
+  display: grid;
+  gap: 8px;
+}
+
+.colorLabel {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.colorRow {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.colorSwatch {
+  width: 44px;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: transparent;
+  padding: 0;
+}
+
+.colorText {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  padding: 10px 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.multiHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.multiGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.multiItem {
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.miniBtn {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.miniBtn:hover {
+  border-color: rgba(124, 92, 255, 0.4);
+}
+
+.miniBtn.danger:hover {
+  border-color: rgba(255, 92, 92, 0.55);
+}
+
+.codeBlock {
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 14px;
+  padding: 12px;
+  overflow: auto;
+}
+
+.codeLine {
+  font-size: 12px;
+  line-height: 1.55;
+  white-space: pre;
 }
 
 

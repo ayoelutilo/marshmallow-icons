@@ -10,7 +10,7 @@
     "icons:build": "npm -w marshmallow-icons run build",
     "docs:dev": "npm run icons:generate && npm -w @marshmallow/uds-docs run dev",
     "docs:build": "npm run icons:generate && npm -w @marshmallow/uds-docs run build",
-    "build": "npm run icons:generate && npm -w @marshmallow/uds-docs run build",
+    "build": "cd packages/icons && npm run build && cd ../.. && npm run docs:build",
     "vercel-build": "npm run build"
   }
 }

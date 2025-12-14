@@ -233,12 +233,19 @@ export default ${componentName};
       continue;
     }
     
-    const svgAttrs = svgMatch[1].trim();
+    let svgAttrs = svgMatch[1].trim();
     let svgContent = svgMatch[2].trim();
+
+    // Convert xlink attributes to React-compatible camelCase
+    svgAttrs = svgAttrs.replace(/xmlns:xlink/g, 'xmlnsXlink');
+    svgAttrs = svgAttrs.replace(/xlink:href/g, 'xlinkHref');
     
     // Process colors to make them customizable
     const { processedContent, colorInfo } = processSvgColors(svgContent, isLosiVariant, losiVariantType);
     svgContent = processedContent;
+
+    // Convert xlink attributes in content to React-compatible camelCase
+    svgContent = svgContent.replace(/xlink:href/g, 'xlinkHref');
     
     // Build props interface
     let propsInterface = "SVGProps<SVGSVGElement>";
