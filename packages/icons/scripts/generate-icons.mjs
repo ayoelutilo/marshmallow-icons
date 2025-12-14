@@ -43,6 +43,51 @@ function posixify(p) {
   return p.split(path.sep).join("/");
 }
 
+function processSvgColors(svgContent, isLosiVariant, variantType) {
+  // Extract all unique fill and stroke colors
+  const fillMatches = svgContent.matchAll(/fill="([^"]+)"/g);
+  const strokeMatches = svgContent.matchAll(/stroke="([^"]+)"/g);
+  
+  const colors = new Set();
+  for (const match of fillMatches) {
+    if (match[1] !== "none") colors.add(match[1]);
+  }
+  for (const match of strokeMatches) {
+    if (match[1] !== "none") colors.add(match[1]);
+  }
+  
+  const uniqueColors = Array.from(colors);
+  let processedContent = svgContent;
+  let colorInfo = null;
+  
+  // Single color icon - use color prop
+  if (uniqueColors.length === 1) {
+    const color = uniqueColors[0];
+    processedContent = processedContent.replace(new RegExp(`fill="${color}"`, 'g'), 'fill={color || "currentColor"}');
+    processedContent = processedContent.replace(new RegExp(`stroke="${color}"`, 'g'), 'stroke={color || "currentColor"}');
+    colorInfo = { type: 'single', prop: 'color', originalColors: [color] };
+  }
+  // Duotone icon - use primaryColor and secondaryColor props
+  else if (uniqueColors.length === 2) {
+    const [primary, secondary] = uniqueColors;
+    processedContent = processedContent.replace(new RegExp(`fill="${primary}"`, 'g'), 'fill={primaryColor || "currentColor"}');
+    processedContent = processedContent.replace(new RegExp(`stroke="${primary}"`, 'g'), 'stroke={primaryColor || "currentColor"}');
+    processedContent = processedContent.replace(new RegExp(`fill="${secondary}"`, 'g'), 'fill={secondaryColor || "currentColor"}');
+    processedContent = processedContent.replace(new RegExp(`stroke="${secondary}"`, 'g'), 'stroke={secondaryColor || "currentColor"}');
+    colorInfo = { type: 'duotone', props: ['primaryColor', 'secondaryColor'], originalColors: [primary, secondary] };
+  }
+  // Multi-color icon - use colors array prop
+  else if (uniqueColors.length > 2) {
+    uniqueColors.forEach((color, index) => {
+      processedContent = processedContent.replace(new RegExp(`fill="${color}"`, 'g'), `fill={colors?.[${index}] || "currentColor"}`);
+      processedContent = processedContent.replace(new RegExp(`stroke="${color}"`, 'g'), `stroke={colors?.[${index}] || "currentColor"}`);
+    });
+    colorInfo = { type: 'multi', prop: 'colors', originalColors: uniqueColors };
+  }
+  
+  return { processedContent, colorInfo };
+}
+
 async function walk(dir, results) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   for (const ent of entries) {
@@ -83,10 +128,23 @@ async function main() {
     
     // Check if this is a Losi variant icon and rename accordingly
     const losiVariantMatch = componentName.match(/^(Bold|Broken|Bulk|Twotone|Outline)(\d+)$/);
+    let isLosiVariant = false;
+    let losiVariantType = null;
     if (losiVariantMatch) {
       const variant = losiVariantMatch[1];
-      const number = losiVariantMatch[2];
-      componentName = `Losi${variant}${number}`;
+      componentName = `Losi${variant}`;
+      isLosiVariant = true;
+      losiVariantType = variant.toLowerCase();
+    }
+    
+    // Also check if it's a Losi or LosiMain component
+    if (componentName === "Losi" || componentName === "LosiMain" || componentName.startsWith("Losi")) {
+      isLosiVariant = true;
+      if (componentName === "LosiMain") {
+        losiVariantType = "main";
+      } else if (componentName === "Losi") {
+        losiVariantType = "default";
+      }
     }
     
     const normalizedKey = componentName.toLowerCase();
@@ -129,11 +187,31 @@ async function main() {
         console.warn(`Skipping ${svgAbsPath}: invalid SVG format - first 100 chars: ${cleanSvg.substring(0, 100)}`);
         continue;
       }
-      const svgContent = simpleMatch[1].trim();
+      let svgContent = simpleMatch[1].trim();
+      // Process colors to make them customizable
+      const { processedContent, colorInfo } = processSvgColors(svgContent, isLosiVariant, losiVariantType);
+      svgContent = processedContent;
+      
+      // Build props interface
+      let propsInterface = "SVGProps<SVGSVGElement>";
+      let propsDestructure = "props";
+      if (colorInfo) {
+        if (colorInfo.type === 'single') {
+          propsInterface = `SVGProps<SVGSVGElement> & { ${colorInfo.prop}?: string }`;
+          propsDestructure = `{ ${colorInfo.prop}, ...props }`;
+        } else if (colorInfo.type === 'duotone') {
+          propsInterface = `SVGProps<SVGSVGElement> & { ${colorInfo.props[0]}?: string; ${colorInfo.props[1]}?: string }`;
+          propsDestructure = `{ ${colorInfo.props[0]}, ${colorInfo.props[1]}, ...props }`;
+        } else if (colorInfo.type === 'multi') {
+          propsInterface = `SVGProps<SVGSVGElement> & { ${colorInfo.prop}?: string[] }`;
+          propsDestructure = `{ ${colorInfo.prop}, ...props }`;
+        }
+      }
+      
       const tsx = `import * as React from "react";
 import { SVGProps } from "react";
 
-const ${componentName} = (props: SVGProps<SVGSVGElement>) => (
+const ${componentName} = (${propsDestructure}: ${propsInterface}) => (
   <svg {...props}>
 ${svgContent.split('\n').map(line => `    ${line}`).join('\n')}
   </svg>
@@ -146,19 +224,43 @@ export default ${componentName};
       items.push({
         id: relFromRepo.replace(/\.svg$/i, ""),
         componentName,
-        filePath: relFromRepo
+        filePath: relFromRepo,
+        category: componentName.startsWith("Losi") ? "Losi" : "Other",
+        tags: componentName.startsWith("Losi") ? ["losi"] : [],
+        name: componentName.toLowerCase(),
+        colorInfo: colorInfo || null
       });
       continue;
     }
     
     const svgAttrs = svgMatch[1].trim();
-    const svgContent = svgMatch[2].trim();
+    let svgContent = svgMatch[2].trim();
+    
+    // Process colors to make them customizable
+    const { processedContent, colorInfo } = processSvgColors(svgContent, isLosiVariant, losiVariantType);
+    svgContent = processedContent;
+    
+    // Build props interface
+    let propsInterface = "SVGProps<SVGSVGElement>";
+    let propsDestructure = "props";
+    if (colorInfo) {
+      if (colorInfo.type === 'single') {
+        propsInterface = `SVGProps<SVGSVGElement> & { ${colorInfo.prop}?: string }`;
+        propsDestructure = `{ ${colorInfo.prop}, ...props }`;
+      } else if (colorInfo.type === 'duotone') {
+        propsInterface = `SVGProps<SVGSVGElement> & { ${colorInfo.props[0]}?: string; ${colorInfo.props[1]}?: string }`;
+        propsDestructure = `{ ${colorInfo.props[0]}, ${colorInfo.props[1]}, ...props }`;
+      } else if (colorInfo.type === 'multi') {
+        propsInterface = `SVGProps<SVGSVGElement> & { ${colorInfo.prop}?: string[] }`;
+        propsDestructure = `{ ${colorInfo.prop}, ...props }`;
+      }
+    }
     
     // Create React component
     const tsx = `import * as React from "react";
 import { SVGProps } from "react";
 
-const ${componentName} = (props: SVGProps<SVGSVGElement>) => (
+const ${componentName} = (${propsDestructure}: ${propsInterface}) => (
   <svg ${svgAttrs} {...props}>
 ${svgContent.split('\n').map(line => `    ${line}`).join('\n')}
   </svg>
@@ -186,19 +288,19 @@ export default ${componentName};
       semanticName = componentName.toLowerCase();
     }
     
-    // Check if this is a Losi variant icon
-    const isLosiVariant = /^Losi(Bold|Broken|Bulk|Twotone|Outline)\d+$/i.test(componentName) ||
+    // Check if this is a Losi variant icon (use the flag we determined earlier, or check again)
+    const isLosiVariantCheck = isLosiVariant || /^Losi(Bold|Broken|Bulk|Twotone|Outline)$/i.test(componentName) ||
                           /Property\s*1=(bold|broken|bulk|twotone|outline)-\d+/i.test(rawName);
     
     let category;
     const tags = [];
     
-    if (isLosiVariant) {
+    if (isLosiVariantCheck) {
       // These are Losi variants - categorize as "Losi"
       category = "Losi";
       
       // Extract the variant type from component name or raw name
-      const variantMatch = componentName.match(/^Losi(Bold|Broken|Bulk|Twotone|Outline)(\d+)$/i) ||
+      const variantMatch = componentName.match(/^Losi(Bold|Broken|Bulk|Twotone|Outline)$/i) ||
                           rawName.match(/Property\s*1=(bold|broken|bulk|twotone|outline)-\d+/i);
       if (variantMatch) {
         const variant = variantMatch[1].toLowerCase();
@@ -251,7 +353,8 @@ export default ${componentName};
       filePath: relFromRepo,
       category,
       tags: tags.filter(Boolean),
-      name: semanticName || componentName.toLowerCase()
+      name: semanticName || componentName.toLowerCase(),
+      colorInfo: colorInfo || null
     });
   }
 
@@ -301,8 +404,9 @@ export default ${componentName};
   exportLines.push("export const iconsMeta = [");
   for (const it of items) {
     const tagsStr = JSON.stringify(it.tags || []);
+    const colorInfoStr = it.colorInfo ? JSON.stringify(it.colorInfo) : "null";
     exportLines.push(
-      `  { id: "${it.id}", componentName: "${it.componentName}", filePath: "${it.filePath}", category: "${it.category || "default"}", tags: ${tagsStr}, name: "${it.name || it.componentName.toLowerCase()}" },`
+      `  { id: "${it.id}", componentName: "${it.componentName}", filePath: "${it.filePath}", category: "${it.category || "default"}", tags: ${tagsStr}, name: "${it.name || it.componentName.toLowerCase()}", colorInfo: ${colorInfoStr} },`
     );
   }
   exportLines.push("] as const;");
