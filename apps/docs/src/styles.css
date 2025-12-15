@@ -52,6 +52,24 @@ code,
   gap: 12px;
 }
 
+.logo-button {
+  background: none;
+  border: none;
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.logo-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.logo-button:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .title h1 {
   margin: 0;
   font-size: 22px;

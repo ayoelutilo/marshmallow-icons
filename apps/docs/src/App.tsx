@@ -55,6 +55,7 @@ export function App() {
   const [primaryColor, setPrimaryColor] = useState("#ffffff");
   const [secondaryColor, setSecondaryColor] = useState("#707276");
   const [multiColors, setMultiColors] = useState<string[]>(["#d9d9d9", "#ffffff", "#000000"]);
+  const [logoColor, setLogoColor] = useState("#ffffff");
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -157,7 +158,17 @@ export function App() {
       <header className="header">
         <div className="title">
           <div className="logo-row">
-            <MarshmallowLogo width={32} height={32} color="#ffffff" />
+            <button
+              className="logo-button"
+              onClick={() => {
+                const logoMeta = iconsMeta.find(m => m.id === "assets/svg/marshmallow-logo");
+                if (logoMeta) setSelected(logoMeta as IconMeta);
+              }}
+              title="Click to customize logo color"
+              type="button"
+            >
+              <MarshmallowLogo width={32} height={32} color="#ffffff" />
+            </button>
             <h1>Marshmallow UDS Icons</h1>
           </div>
           <p>Browse and preview SVG icons exported as React components.</p>
