@@ -1,0 +1,24 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="white" stroke-width="1.2" stroke-linecap="round" opacity="0.7">
+    <path d="M13 3 C13 3 13 8 13 8"/>
+    <path d="M13 18 C13 18 13 23 13 23"/>
+    <path d="M3 13 C3 13 8 13 8 13"/>
+    <path d="M18 13 C18 13 23 13 23 13"/>
+    <path d="M8 8 C10 10 10 10 13 13"/>
+    <path d="M18 8 C16 10 16 10 13 13"/>
+    <path d="M8 18 C10 16 10 16 13 13"/>
+    <path d="M18 18 C16 16 16 16 13 13"/>
+  </g>
+  <g fill="white" opacity="0.5">
+    <circle cx="13" cy="5" r="1"/>
+    <circle cx="13" cy="21" r="1"/>
+    <circle cx="5" cy="13" r="1"/>
+    <circle cx="21" cy="13" r="1"/>
+    <circle cx="8" cy="8" r="0.8"/>
+    <circle cx="18" cy="8" r="0.8"/>
+    <circle cx="8" cy="18" r="0.8"/>
+    <circle cx="18" cy="18" r="0.8"/>
+  </g>
+  <circle cx="13" cy="13" r="3" fill="white" opacity="1"/>
+</svg></contents>
+</xai:function_call">

@@ -4,6 +4,7 @@ import path from "node:path";
 
 export default defineConfig({
   plugins: [react()],
+  publicDir: path.resolve(__dirname, "public"),
   build: {
     // Output to repo root 'public' directory - Vercel has special handling for 'public'
     outDir: path.resolve(__dirname, "../../public"),

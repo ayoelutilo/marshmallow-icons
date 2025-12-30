@@ -238,6 +238,7 @@ export function App() {
         )}
       </main>
 
+
       {selected && selectedCode ? (
         <div className="modalOverlay" onMouseDown={() => setSelected(null)}>
           <div className="modal" onMouseDown={(e) => e.stopPropagation()}>

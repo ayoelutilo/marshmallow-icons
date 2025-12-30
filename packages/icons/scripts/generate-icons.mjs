@@ -225,7 +225,11 @@ export default ${componentName};
         id: relFromRepo.replace(/\.svg$/i, ""),
         componentName,
         filePath: relFromRepo,
-        category: componentName.startsWith("Losi") ? "Losi" : "Other",
+        category: componentName.startsWith("Losi")
+          ? componentName.startsWith("LosiAssistant")
+            ? "Losi - Assistant"
+            : "Losi"
+          : "Other",
         tags: componentName.startsWith("Losi") ? ["losi"] : [],
         name: componentName.toLowerCase(),
         colorInfo: colorInfo || null
@@ -303,8 +307,8 @@ export default ${componentName};
     const tags = [];
     
     if (isLosiVariantCheck) {
-      // These are Losi variants - categorize as "Losi"
-      category = "Losi";
+      // These are Losi variants - categorize as "Losi" or sub-category
+      category = componentName.startsWith("LosiAssistant") ? "Losi - Assistant" : "Losi";
       
       // Extract the variant type from component name or raw name
       const variantMatch = componentName.match(/^Losi(Bold|Broken|Bulk|Twotone|Outline)$/i) ||

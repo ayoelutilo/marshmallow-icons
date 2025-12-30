@@ -1494,11 +1494,17 @@ import Logout from "./Logout";
 import Logout1 from "./Logout1";
 import Logout12 from "./Logout12";
 import Logout2 from "./Logout2";
+import LosiAssistant from "./LosiAssistant";
+import LosiAssistantDefault from "./LosiAssistantDefault";
+import LosiAssistantStarEye from "./LosiAssistantStarEye";
+import LosiAssistantStarFace from "./LosiAssistantStarFace";
 import LosiBold from "./LosiBold";
 import LosiBroken from "./LosiBroken";
 import LosiBulk from "./LosiBulk";
 import LosiMain from "./LosiMain";
+import LosiNexus from "./LosiNexus";
 import LosiOutline from "./LosiOutline";
+import LosiSpaces from "./LosiSpaces";
 import LosiTwotone from "./LosiTwotone";
 import Lovely from "./Lovely";
 import Lovely2 from "./Lovely2";
@@ -4248,11 +4254,17 @@ export { default as Logout } from "./Logout";
 export { default as Logout1 } from "./Logout1";
 export { default as Logout12 } from "./Logout12";
 export { default as Logout2 } from "./Logout2";
+export { default as LosiAssistant } from "./LosiAssistant";
+export { default as LosiAssistantDefault } from "./LosiAssistantDefault";
+export { default as LosiAssistantStarEye } from "./LosiAssistantStarEye";
+export { default as LosiAssistantStarFace } from "./LosiAssistantStarFace";
 export { default as LosiBold } from "./LosiBold";
 export { default as LosiBroken } from "./LosiBroken";
 export { default as LosiBulk } from "./LosiBulk";
 export { default as LosiMain } from "./LosiMain";
+export { default as LosiNexus } from "./LosiNexus";
 export { default as LosiOutline } from "./LosiOutline";
+export { default as LosiSpaces } from "./LosiSpaces";
 export { default as LosiTwotone } from "./LosiTwotone";
 export { default as Lovely } from "./Lovely";
 export { default as Lovely2 } from "./Lovely2";
@@ -5517,7 +5529,13 @@ export type IconComponent = ComponentType<SVGProps<SVGSVGElement>>;
 
 export const icons = {
   "assets/svg/Black-S": BlackS,
+  "assets/svg/Losi-assistant-default": LosiAssistantDefault,
+  "assets/svg/Losi-assistant-star-eye": LosiAssistantStarEye,
+  "assets/svg/Losi-assistant-star-face": LosiAssistantStarFace,
+  "assets/svg/Losi-assistant": LosiAssistant,
   "assets/svg/Losi-main": LosiMain,
+  "assets/svg/Losi-nexus": LosiNexus,
+  "assets/svg/Losi-spaces": LosiSpaces,
   "assets/svg/Property 1=bold-37": LosiBold,
   "assets/svg/Property 1=broken-37": LosiBroken,
   "assets/svg/Property 1=bulk-37": LosiBulk,
@@ -8342,7 +8360,13 @@ export type IconName = keyof typeof icons;
 
 export const iconsMeta = [
   { id: "assets/svg/Black-S", componentName: "BlackS", filePath: "assets/svg/Black-S.svg", category: "Black", tags: ["black"], name: "black s", colorInfo: {"type":"single","prop":"color","originalColors":["black"]} },
+  { id: "assets/svg/Losi-assistant-default", componentName: "LosiAssistantDefault", filePath: "assets/svg/Losi-assistant-default.svg", category: "Losi - Assistant", tags: ["losi"], name: "losi", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
+  { id: "assets/svg/Losi-assistant-star-eye", componentName: "LosiAssistantStarEye", filePath: "assets/svg/Losi-assistant-star-eye.svg", category: "Losi - Assistant", tags: ["losi"], name: "losi", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
+  { id: "assets/svg/Losi-assistant-star-face", componentName: "LosiAssistantStarFace", filePath: "assets/svg/Losi-assistant-star-face.svg", category: "Losi - Assistant", tags: ["losi"], name: "losi", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
+  { id: "assets/svg/Losi-assistant", componentName: "LosiAssistant", filePath: "assets/svg/Losi-assistant.svg", category: "Losi - Assistant", tags: ["losi"], name: "losi", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
   { id: "assets/svg/Losi-main", componentName: "LosiMain", filePath: "assets/svg/Losi-main.svg", category: "Losi", tags: ["losi"], name: "losi", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
+  { id: "assets/svg/Losi-nexus", componentName: "LosiNexus", filePath: "assets/svg/Losi-nexus.svg", category: "Losi", tags: ["losi"], name: "losi", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
+  { id: "assets/svg/Losi-spaces", componentName: "LosiSpaces", filePath: "assets/svg/Losi-spaces.svg", category: "Losi", tags: ["losi"], name: "losi", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
   { id: "assets/svg/Property 1=bold-37", componentName: "LosiBold", filePath: "assets/svg/Property 1=bold-37.svg", category: "Losi", tags: ["losi","bold"], name: "losi bold", colorInfo: {"type":"multi","prop":"colors","originalColors":["#D9D9D9","white","black"]} },
   { id: "assets/svg/Property 1=broken-37", componentName: "LosiBroken", filePath: "assets/svg/Property 1=broken-37.svg", category: "Losi", tags: ["losi","broken"], name: "losi broken", colorInfo: {"type":"single","prop":"color","originalColors":["white"]} },
   { id: "assets/svg/Property 1=bulk-37", componentName: "LosiBulk", filePath: "assets/svg/Property 1=bulk-37.svg", category: "Losi", tags: ["losi","bulk"], name: "losi bulk", colorInfo: {"type":"duotone","props":["primaryColor","secondaryColor"],"originalColors":["white","#707276"]} },

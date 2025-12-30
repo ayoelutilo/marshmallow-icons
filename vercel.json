@@ -1,14 +1,8 @@
 {
   "version": 2,
+  "installCommand": "cd apps/docs && rm -rf node_modules package-lock.json && npm install marshmallow-icons@0.3.0",
   "buildCommand": "cd apps/docs && npm run build",
-  "outputDirectory": "apps/docs/public",
-  "installCommand": "npm install",
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "outputDirectory": "public"
 }
 
 
