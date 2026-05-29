@@ -1,0 +1,501 @@
+[
+  {
+    "id": "assets/svg/Black-S",
+    "componentName": "BlackS",
+    "filePath": "assets/svg/Black-S.svg",
+    "category": "Black",
+    "excluded": false,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [
+      "large-viewBox"
+    ],
+    "viewBox": [
+      0,
+      0,
+      69,
+      69
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 2924,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 3629,
+      "visibleRatio": 0.3937717013888889,
+      "bbox": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 95,
+        "maxY": 95,
+        "width": 96,
+        "height": 96
+      },
+      "edge": {
+        "top": 17,
+        "right": 3,
+        "bottom": 17,
+        "left": 17
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 3629,
+      "differingRatio": 0.3937717013888889,
+      "averageDiff": 270.6920572916667
+    },
+    "defaultOnDark": {
+      "differing": 3408,
+      "differingRatio": 0.3697916666666667,
+      "averageDiff": 28.457139756944443
+    },
+    "explicitOnWhite": {
+      "differing": 3629,
+      "differingRatio": 0.3937717013888889,
+      "averageDiff": 242.65342881944446
+    },
+    "explicitOnDark": {
+      "differing": 0,
+      "differingRatio": 0,
+      "averageDiff": 0.1482204861111111
+    }
+  },
+  {
+    "id": "assets/svg/Losi-main",
+    "componentName": "LosiMain",
+    "filePath": "assets/svg/Losi-main.svg",
+    "category": "Losi",
+    "excluded": true,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [],
+    "viewBox": [
+      0,
+      0,
+      26,
+      26
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 913,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 2259,
+      "visibleRatio": 0.2451171875,
+      "bbox": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 92,
+        "maxY": 93,
+        "width": 93,
+        "height": 94
+      },
+      "edge": {
+        "top": 17,
+        "right": 0,
+        "bottom": 0,
+        "left": 18
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 2259,
+      "differingRatio": 0.2451171875,
+      "averageDiff": 156.8876953125
+    },
+    "defaultOnDark": {
+      "differing": 2021,
+      "differingRatio": 0.2192925347222222,
+      "averageDiff": 16.546006944444443
+    },
+    "explicitOnWhite": {
+      "differing": 2259,
+      "differingRatio": 0.2451171875,
+      "averageDiff": 140.7294921875
+    },
+    "explicitOnDark": {
+      "differing": 0,
+      "differingRatio": 0,
+      "averageDiff": 0.1411675347222222
+    }
+  },
+  {
+    "id": "assets/svg/Regular-S",
+    "componentName": "RegularS",
+    "filePath": "assets/svg/Regular-S.svg",
+    "category": "Regular",
+    "excluded": false,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [
+      "large-viewBox"
+    ],
+    "viewBox": [
+      0,
+      0,
+      69,
+      69
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 2936,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 3313,
+      "visibleRatio": 0.3594835069444444,
+      "bbox": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 95,
+        "maxY": 95,
+        "width": 96,
+        "height": 96
+      },
+      "edge": {
+        "top": 17,
+        "right": 3,
+        "bottom": 17,
+        "left": 17
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 3313,
+      "differingRatio": 0.3594835069444444,
+      "averageDiff": 244.4970703125
+    },
+    "defaultOnDark": {
+      "differing": 3083,
+      "differingRatio": 0.3345269097222222,
+      "averageDiff": 25.71538628472222
+    },
+    "explicitOnWhite": {
+      "differing": 3313,
+      "differingRatio": 0.3594835069444444,
+      "averageDiff": 219.18977864583334
+    },
+    "explicitOnDark": {
+      "differing": 0,
+      "differingRatio": 0,
+      "averageDiff": 0.1478949652777778
+    }
+  },
+  {
+    "id": "assets/svg/Ultralight-S",
+    "componentName": "UltralightS",
+    "filePath": "assets/svg/Ultralight-S.svg",
+    "category": "Ultralight",
+    "excluded": false,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [
+      "large-viewBox"
+    ],
+    "viewBox": [
+      0,
+      0,
+      69,
+      69
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 2107,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 2700,
+      "visibleRatio": 0.29296875,
+      "bbox": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 95,
+        "maxY": 95,
+        "width": 96,
+        "height": 96
+      },
+      "edge": {
+        "top": 17,
+        "right": 3,
+        "bottom": 17,
+        "left": 17
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 2700,
+      "differingRatio": 0.29296875,
+      "averageDiff": 194.751953125
+    },
+    "defaultOnDark": {
+      "differing": 2484,
+      "differingRatio": 0.26953125,
+      "averageDiff": 20.51215277777778
+    },
+    "explicitOnWhite": {
+      "differing": 2700,
+      "differingRatio": 0.29296875,
+      "averageDiff": 174.646484375
+    },
+    "explicitOnDark": {
+      "differing": 0,
+      "differingRatio": 0,
+      "averageDiff": 0.1470269097222222
+    }
+  },
+  {
+    "id": "assets/svg/icon.symbols 1",
+    "componentName": "IconSymbols1",
+    "filePath": "assets/svg/icon.symbols 1.svg",
+    "category": "Icon",
+    "excluded": false,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [
+      "non-square-viewBox",
+      "large-viewBox"
+    ],
+    "viewBox": [
+      0,
+      0,
+      800,
+      600
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 78157,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 6912,
+      "visibleRatio": 0.75,
+      "bbox": {
+        "minX": 0,
+        "minY": 12,
+        "maxX": 95,
+        "maxY": 83,
+        "width": 96,
+        "height": 72
+      },
+      "edge": {
+        "top": 0,
+        "right": 72,
+        "bottom": 0,
+        "left": 72
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 6912,
+      "differingRatio": 0.75,
+      "averageDiff": 573.75
+    },
+    "defaultOnDark": {
+      "differing": 6912,
+      "differingRatio": 0.75,
+      "averageDiff": 60
+    },
+    "explicitOnWhite": {
+      "differing": 6912,
+      "differingRatio": 0.75,
+      "averageDiff": 509.63433159722223
+    },
+    "explicitOnDark": {
+      "differing": 238,
+      "differingRatio": 0.025824652777777776,
+      "averageDiff": 4.248914930555555
+    }
+  },
+  {
+    "id": "assets/svg/vuesax/bulk/hedera-hashgraph-(hbar)",
+    "componentName": "HederaHashgraphHbar3",
+    "filePath": "assets/svg/vuesax/bulk/hedera-hashgraph-(hbar).svg",
+    "category": "Hedera",
+    "excluded": false,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [],
+    "viewBox": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 1132,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 7337,
+      "visibleRatio": 0.7961154513888888,
+      "bbox": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 95,
+        "maxY": 95,
+        "width": 96,
+        "height": 96
+      },
+      "edge": {
+        "top": 18,
+        "right": 18,
+        "bottom": 18,
+        "left": 18
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 7337,
+      "differingRatio": 0.7961154513888888,
+      "averageDiff": 291.1214192708333
+    },
+    "defaultOnDark": {
+      "differing": 7184,
+      "differingRatio": 0.7795138888888888,
+      "averageDiff": 31.171875
+    },
+    "explicitOnWhite": {
+      "differing": 7337,
+      "differingRatio": 0.7961154513888888,
+      "averageDiff": 260.8445095486111
+    },
+    "explicitOnDark": {
+      "differing": 0,
+      "differingRatio": 0,
+      "averageDiff": 0.09461805555555555
+    }
+  },
+  {
+    "id": "assets/svg/vuesax/linear/cd",
+    "componentName": "Cd2",
+    "filePath": "assets/svg/vuesax/linear/cd.svg",
+    "category": "Cd",
+    "excluded": false,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [],
+    "viewBox": [
+      0,
+      0,
+      22,
+      22
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 763,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 2448,
+      "visibleRatio": 0.265625,
+      "bbox": {
+        "minX": 0,
+        "minY": 0,
+        "maxX": 93,
+        "maxY": 93,
+        "width": 94,
+        "height": 94
+      },
+      "edge": {
+        "top": 19,
+        "right": 0,
+        "bottom": 0,
+        "left": 19
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 2448,
+      "differingRatio": 0.265625,
+      "averageDiff": 178.37825520833334
+    },
+    "defaultOnDark": {
+      "differing": 2280,
+      "differingRatio": 0.24739583333333334,
+      "averageDiff": 18.77886284722222
+    },
+    "explicitOnWhite": {
+      "differing": 2448,
+      "differingRatio": 0.265625,
+      "averageDiff": 159.95062934027777
+    },
+    "explicitOnDark": {
+      "differing": 0,
+      "differingRatio": 0,
+      "averageDiff": 0.1242404513888889
+    }
+  },
+  {
+    "id": "assets/svg/vuesax/linear/mobile",
+    "componentName": "Mobile2",
+    "filePath": "assets/svg/vuesax/linear/mobile.svg",
+    "category": "Mobile",
+    "excluded": false,
+    "flags": [
+      "edge-touch-possible-crop"
+    ],
+    "warnings": [
+      "non-square-viewBox"
+    ],
+    "viewBox": [
+      0,
+      0,
+      18,
+      22
+    ],
+    "rootWidth": "96",
+    "rootHeight": "96",
+    "hasVisibleElements": true,
+    "markupLength": 867,
+    "alpha": {
+      "width": 96,
+      "height": 96,
+      "visible": 2636,
+      "visibleRatio": 0.2860243055555556,
+      "bbox": {
+        "minX": 8,
+        "minY": 0,
+        "maxX": 85,
+        "maxY": 93,
+        "width": 78,
+        "height": 94
+      },
+      "edge": {
+        "top": 48,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    "defaultOnWhite": {
+      "differing": 2636,
+      "differingRatio": 0.2860243055555556,
+      "averageDiff": 191.00520833333334
+    },
+    "defaultOnDark": {
+      "differing": 2412,
+      "differingRatio": 0.26171875,
+      "averageDiff": 20.089952256944443
+    },
+    "explicitOnWhite": {
+      "differing": 2636,
+      "differingRatio": 0.2860243055555556,
+      "averageDiff": 171.23708767361111
+    },
+    "explicitOnDark": {
+      "differing": 0,
+      "differingRatio": 0,
+      "averageDiff": 0.09874131944444445
+    }
+  }
+]

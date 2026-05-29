@@ -1,12 +1,12 @@
 {
   "name": "marshmallow-icons",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Marshmallow UDS SVG icons as React components",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "UNLICENSED",
   "author": "The Don't Stop Brand Inc operating as Marshmallow Studio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayoelutilo/marshmallow-icons.git"
+    "url": "git+https://github.com/ayoelutilo/marshmallow-icons.git"
   },
   "keywords": [
     "icons",
@@ -25,28 +25,46 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "./icons-catalog.json": "./dist/icons-catalog.json",
+    "./migration-map.json": "./dist/migration-map.json",
+    "./tabler-compat-map.json": "./dist/tabler-compat-map.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "marshmallow-icons": "scripts/migrate-icons.mjs",
+    "marshmallow-icons-migrate": "scripts/migrate-icons.mjs"
   },
   "files": [
-    "dist"
+    "AUDIT.md",
+    "CATALOG.md",
+    "LICENSE",
+    "README.md",
+    "TABLER_MIGRATION.md",
+    "dist",
+    "scripts/migrate-icons.mjs",
+    "package.json"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "sideEffects": false,
   "peerDependencies": {
     "react": ">=17"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
+    "@tabler/icons-react": "3.35.0",
     "@types/react": "^18.3.12",
     "react": "^18.3.1",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "generate": "node ./scripts/generate-icons.mjs",
-    "build": "npm run generate && tsup",
+    "build": "node ./scripts/build.mjs",
+    "migrate": "node ./scripts/migrate-icons.mjs",
     "prepack": "npm run build"
   }
 }
