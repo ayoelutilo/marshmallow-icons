@@ -1,8 +1,7 @@
 {
   "version": 2,
-  "installCommand": "cd apps/docs && rm -rf node_modules package-lock.json && npm install marshmallow-icons@0.3.0",
-  "buildCommand": "cd apps/docs && npm run build",
+  "installCommand": "if [ -d apps/docs ]; then npm install; else cd ../.. && npm install; fi",
+  "buildCommand": "project_dir=\"$PWD\"; if [ -d apps/docs ]; then npm run docs:build; else cd ../.. && npm run docs:build && rm -rf \"$project_dir/public\" && cp -R public \"$project_dir/public\"; fi",
   "outputDirectory": "public"
 }
-
 
